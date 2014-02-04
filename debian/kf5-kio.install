@@ -1,0 +1,10 @@
+usr/lib/*/kde5/*
+usr/lib/*/qt5/*
+usr/bin/*
+usr/share/applications/*
+usr/share/kde5/*
+usr/share/doc/kde5/HTML/en/kioslave
+usr/share/kconf_update/kcookiescfg.pl
+usr/share/kconf_update/kcookiescfg.upd
+usr/share/khtml/domain_info
+usr/share/proxyscout/proxyscout.notifyrc

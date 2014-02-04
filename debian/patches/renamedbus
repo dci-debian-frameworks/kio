@@ -1,0 +1,64 @@
+Index: kio-4.95.0/src/core/CMakeLists.txt
+===================================================================
+--- kio-4.95.0.orig/src/core/CMakeLists.txt	2014-01-29 13:02:12.957410105 +0000
++++ kio-4.95.0/src/core/CMakeLists.txt	2014-01-29 13:02:12.949410105 +0000
+@@ -105,9 +105,16 @@
+ qt5_add_dbus_interface(kiocore_SRCS org.kde.KPasswdServer.xml kpasswdserver_interface)
+ install(FILES
+    org.kde.KDirNotify.xml
++   DESTINATION ${DBUS_INTERFACES_INSTALL_DIR}
++   RENAME kf5_org.kde.KDirNotify.xml)
++install(FILES
+    org.kde.KPasswdServer.xml
++   DESTINATION ${DBUS_INTERFACES_INSTALL_DIR}
++   RENAME kf5_org.kde.KPasswdServer.xml)
++install(FILES
+    org.kde.KSlaveLauncher.xml
+-   DESTINATION ${DBUS_INTERFACES_INSTALL_DIR})
++   DESTINATION ${DBUS_INTERFACES_INSTALL_DIR}
++   RENAME kf5_org.kde.KSlaveLauncher.xml)
+ 
+ add_library(KF5KIOCore ${kiocore_SRCS})
+ generate_export_header(KF5KIOCore BASE_NAME KIOCore)
+Index: kio-4.95.0/src/ioslaves/http/kcookiejar/CMakeLists.txt
+===================================================================
+--- kio-4.95.0.orig/src/ioslaves/http/kcookiejar/CMakeLists.txt	2014-01-29 13:02:12.957410105 +0000
++++ kio-4.95.0/src/ioslaves/http/kcookiejar/CMakeLists.txt	2014-01-29 13:02:12.949410105 +0000
+@@ -50,7 +50,4 @@
+ install( FILES kcookiejar.desktop  DESTINATION  ${SERVICES_INSTALL_DIR}/kded )
+ install( FILES kcookiescfg.upd  DESTINATION  ${DATA_INSTALL_DIR}/kconf_update )
+ install( PROGRAMS kcookiescfg.pl  DESTINATION  ${DATA_INSTALL_DIR}/kconf_update )
+-install( FILES ${CMAKE_CURRENT_BINARY_DIR}/org.kde.KCookieServer.xml DESTINATION ${DBUS_INTERFACES_INSTALL_DIR} )
+-
+-
+-
++install( FILES ${CMAKE_CURRENT_BINARY_DIR}/org.kde.KCookieServer.xml DESTINATION ${DBUS_INTERFACES_INSTALL_DIR} RENAME kf5_org.kde.KCookieServer.xml)
+Index: kio-4.95.0/src/widgets/CMakeLists.txt
+===================================================================
+--- kio-4.95.0.orig/src/widgets/CMakeLists.txt	2014-01-29 13:02:12.957410105 +0000
++++ kio-4.95.0/src/widgets/CMakeLists.txt	2014-01-29 13:02:12.953410105 +0000
+@@ -164,7 +164,8 @@
+ 
+ install(FILES
+    org.kde.kio.FileUndoManager.xml
+-   DESTINATION ${DBUS_INTERFACES_INSTALL_DIR})
++   DESTINATION ${DBUS_INTERFACES_INSTALL_DIR}
++   RENAME kf5_org.kde.kio.FileUndoManager.xml)
+ 
+ install(FILES
+   pixmaploader.h
+Index: kio-4.95.0/KF5KIOConfig.cmake.in
+===================================================================
+--- kio-4.95.0.orig/KF5KIOConfig.cmake.in	2014-01-03 12:38:11.000000000 +0000
++++ kio-4.95.0/KF5KIOConfig.cmake.in	2014-01-29 13:21:22.025399146 +0000
+@@ -2,8 +2,8 @@
+ 
+ # Any changes in this ".cmake" file will be overwritten by CMake, the source is the ".cmake.in" file.
+ 
+-set(KCookieServer_DBUS_INTERFACE "${PACKAGE_PREFIX_DIR}/@DBUS_INTERFACES_INSTALL_DIR@/org.kde.KCookieServer.xml")
+-set(KSlaveLauncher_DBUS_INTERFACE "${PACKAGE_PREFIX_DIR}/@DBUS_INTERFACES_INSTALL_DIR@/org.kde.KSlaveLauncher.xml")
++set(KCookieServer_DBUS_INTERFACE "${PACKAGE_PREFIX_DIR}/@DBUS_INTERFACES_INSTALL_DIR@/kf5_org.kde.KCookieServer.xml")
++set(KSlaveLauncher_DBUS_INTERFACE "${PACKAGE_PREFIX_DIR}/@DBUS_INTERFACES_INSTALL_DIR@/kf5_org.kde.KSlaveLauncher.xml")
+ 
+ find_dependency(KF5Bookmarks "@KF5_VERSION@")
+ find_dependency(KF5Completion "@KF5_VERSION@")

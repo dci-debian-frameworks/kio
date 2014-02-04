@@ -1,0 +1,115 @@
+Source: kio
+Section: libs
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
+ extra-cmake-modules, qtbase5-dev, xauth, xvfb, openbox, libkf5dbusaddons-dev,
+ libkf5i18n-dev, libkf5kjs-dev, libkf5guiaddons-dev, libkf5configwidgets-dev,
+ libkf5auth-dev, libkf5coreaddons-dev, libkf5codecs-dev, libkf5config-dev,
+ libkf5widgetsaddons-dev, libkf5itemviews-dev, libkf5service-dev, libkf5archive-dev,
+ libkf5solid-dev, libkf5jobwidgets-dev, libkf5iconthemes-dev, libkf5windowsystem-dev,
+ libkf5crash-dev, libkf5completion-dev, kdoctools5-dev, kdoctools5,
+ libkf5textwidgets-dev, libkf5sonnet-dev, libkf5xmlgui-dev, libkf5globalaccel-dev, 
+ libkf5bookmarks-dev, libkf5notifications-dev, qtscript5-dev, libxslt1-dev, libxml2-dev,
+ zlib1g-dev, libacl1-dev, libkrb5-dev
+Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/frameworks/kio
+
+Package: kf5-kio-dev
+Section: libdevel
+Architecture: any
+Depends: kf5-kio (= ${binary:Version}), ${misc:Depends},
+ libkf5kiocore5 (= ${binary:Version}), libkf5kiofilewidgets5 (= ${binary:Version}), 
+ libkf5kiontlm5 (= ${binary:Version}), libkf5kiowidgets5 (= ${binary:Version})
+Description: Resource and network access abstraction.
+ KDE Input/Output framework provides a single API for
+ operating on files, whether local or on a remote server.
+ Additionally, KIO Slaves provide support for individual
+ protocols. Some particularly useful ones are http, ftp,
+ sftp, smb, nfs, ssh (fish), man, tar and zip.
+ .
+ Contains development files for kio.
+ 
+Package: kf5-kio
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Resource and network access abstraction.
+ KDE Input/Output framework provides a single API for
+ operating on files, whether local or on a remote server.
+ Additionally, KIO Slaves provide support for individual
+ protocols. Some particularly useful ones are http, ftp,
+ sftp, smb, nfs, ssh (fish), man, tar and zip. 
+
+Package: libkf5kiocore5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Resource and network access abstraction.
+ KDE Input/Output framework provides a single API for
+ operating on files, whether local or on a remote server.
+ Additionally, KIO Slaves provide support for individual
+ protocols. Some particularly useful ones are http, ftp,
+ sftp, smb, nfs, ssh (fish), man, tar and zip. 
+ .
+ This library contains the core classes.
+
+Package: libkf5kiofilewidgets5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Resource and network access abstraction.
+ KDE Input/Output framework provides a single API for
+ operating on files, whether local or on a remote server.
+ Additionally, KIO Slaves provide support for individual
+ protocols. Some particularly useful ones are http, ftp,
+ sftp, smb, nfs, ssh (fish), man, tar and zip. 
+ .
+ This library contains some file dialog widgets.
+
+Package: libkf5kiontlm5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Resource and network access abstraction.
+ KDE Input/Output framework provides a single API for
+ operating on files, whether local or on a remote server.
+ Additionally, KIO Slaves provide support for individual
+ protocols. Some particularly useful ones are http, ftp,
+ sftp, smb, nfs, ssh (fish), man, tar and zip. 
+ .
+ This library implements the NTLM authentication protocol
+
+Package: libkf5kiowidgets5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Resource and network access abstraction.
+ KDE Input/Output framework provides a single API for
+ operating on files, whether local or on a remote server.
+ Additionally, KIO Slaves provide support for individual
+ protocols. Some particularly useful ones are http, ftp,
+ sftp, smb, nfs, ssh (fish), man, tar and zip. 
+ .
+ This library contains some UI widgets.
+
+Package: kf5-kio-dbg
+Priority: extra
+Section: debug
+Architecture: any
+Multi-Arch: same
+Depends: kf5-kio (= ${binary:Version}), ${misc:Depends}
+Description: Resource and network access abstraction. 
+ KDE Input/Output framework provides a single API for
+ operating on files, whether local or on a remote server.
+ Additionally, KIO Slaves provide support for individual
+ protocols. Some particularly useful ones are http, ftp,
+ sftp, smb, nfs, ssh (fish), man, tar and zip.
+ .
+ This package contains debug symbols for kio.
