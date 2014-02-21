@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.96.0 amd64 i386
 libKF5KIOCore.so.4 libkf5kiocore4 #MINVER#
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -475,9 +475,9 @@ libKF5KIOCore.so.4 libkf5kiocore4 #MINVER#
  _ZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate16startTLSInternalEN10KTcpSocket10SslVersionERK17QSslConfigurationi@Base 4.96.0
  _ZN3KIO12TCPSlaveBase23selectClientCertificateEv@Base 4.96.0
  _ZN3KIO12TCPSlaveBase23verifyServerCertificateEv@Base 4.96.0
- _ZN3KIO12TCPSlaveBase4readEPcl@Base 4.96.0
- _ZN3KIO12TCPSlaveBase5writeEPKcl@Base 4.96.0
- _ZN3KIO12TCPSlaveBase8readLineEPcl@Base 4.96.0
+ (subst)_ZN3KIO12TCPSlaveBase4readEPc{ssize_t}@Base 4.96.0
+ (subst)_ZN3KIO12TCPSlaveBase5writeEPKc{ssize_t}@Base 4.96.0
+ (subst)_ZN3KIO12TCPSlaveBase8readLineEPc{ssize_t}@Base 4.96.0
  _ZN3KIO12TCPSlaveBase8startSslEv@Base 4.96.0
  _ZN3KIO12TCPSlaveBaseC1ERK10QByteArrayS3_S3_b@Base 4.96.0
  _ZN3KIO12TCPSlaveBaseC2ERK10QByteArrayS3_S3_b@Base 4.96.0
