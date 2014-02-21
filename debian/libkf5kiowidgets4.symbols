@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.96.0 amd64 i386
 libKF5KIOWidgets.so.4 libkf5kiowidgets4 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -416,7 +416,7 @@ libKF5KIOWidgets.so.4 libkf5kiowidgets4 #MINVER#
  _ZN3KIO11Integration21sslConfigFromMetaDataERKNS_8MetaDataER17QSslConfiguration@Base 4.96.0
  _ZN3KIO11Integration9CookieJar11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN3KIO11Integration9CookieJar11qt_metacastEPKc@Base 4.96.0
- _ZN3KIO11Integration9CookieJar11setWindowIdEy@Base 4.96.0
+ (subst)_ZN3KIO11Integration9CookieJar11setWindowIdE{quintptr}@Base 4.96.0
  _ZN3KIO11Integration9CookieJar16staticMetaObjectE@Base 4.96.0
  _ZN3KIO11Integration9CookieJar17setCookiesFromUrlERK5QListI14QNetworkCookieERK4QUrl@Base 4.96.0
  _ZN3KIO11Integration9CookieJar20reparseConfigurationEv@Base 4.96.0
@@ -467,7 +467,7 @@ libKF5KIOWidgets.so.4 libkf5kiowidgets4 #MINVER#
  _ZN3KIO13AccessManager15sessionMetaDataEv@Base 4.96.0
  _ZN3KIO13AccessManager16staticMetaObjectE@Base 4.96.0
  _ZN3KIO13AccessManager20AccessManagerPrivate21setMetaDataForRequestE15QNetworkRequestRNS_8MetaDataE@Base 4.96.0
- _ZN3KIO13AccessManager20setCookieJarWindowIdEy@Base 4.96.0
+ (subst)_ZN3KIO13AccessManager20setCookieJarWindowIdE{quintptr}@Base 4.96.0
  _ZN3KIO13AccessManager25setExternalContentAllowedEb@Base 4.96.0
  _ZN3KIO13AccessManager32setEmitReadyReadOnMetaDataChangeEb@Base 4.96.0
  _ZN3KIO13AccessManager9setWindowEP7QWidget@Base 4.96.0
