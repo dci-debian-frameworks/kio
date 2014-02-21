@@ -5,3 +5,7 @@ usr/lib/*/libKF5KIONTLM.so
 usr/lib/*/libKF5KIOWidgets.so
 usr/lib/*/cmake/KF5KIO/*
 usr/share/dbus-1/*
+usr/share/qt5/mkspecs/modules/qt_KIOCore.pri
+usr/share/qt5/mkspecs/modules/qt_KIOFileWidgets.pri
+usr/share/qt5/mkspecs/modules/qt_KIOWidgets.pri
+usr/share/qt5/mkspecs/modules/qt_KNTLM.pri
