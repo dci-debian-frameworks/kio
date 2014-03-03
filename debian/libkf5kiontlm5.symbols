@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5KIONTLM.so.4 libkf5kiontlm4 #MINVER#
+libKF5KIONTLM.so.5 libkf5kiontlm5 #MINVER#
  _ZN5KNTLM10lmResponseERK10QByteArrayPKh@Base 4.96.0
  _ZN5KNTLM10ntlmv2HashERK7QStringS2_S2_@Base 4.96.0
  _ZN5KNTLM12getNegotiateER10QByteArrayRK7QStringS4_j@Base 4.96.0
