@@ -26,8 +26,8 @@ Package: kf5-kio-dev
 Section: libdevel
 Architecture: any
 Depends: kf5-kio (= ${binary:Version}), ${misc:Depends},
- libkf5kiocore4 (= ${binary:Version}), libkf5kiofilewidgets4 (= ${binary:Version}), 
- libkf5kiontlm4 (= ${binary:Version}), libkf5kiowidgets4 (= ${binary:Version})
+ libkf5kiocore5 (= ${binary:Version}), libkf5kiofilewidgets4 (= ${binary:Version}), 
+ libkf5kiontlm5 (= ${binary:Version}), libkf5kiowidgets4 (= ${binary:Version})
 Description: Resource and network access abstraction.
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
@@ -48,7 +48,7 @@ Description: Resource and network access abstraction.
  protocols. Some particularly useful ones are http, ftp,
  sftp, smb, nfs, ssh (fish), man, tar and zip. 
 
-Package: libkf5kiocore4
+Package: libkf5kiocore5
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -61,7 +61,7 @@ Description: Resource and network access abstraction.
  .
  This library contains the core classes.
 
-Package: libkf5kiofilewidgets4
+Package: libkf5kiofilewidgets5
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -74,7 +74,7 @@ Description: Resource and network access abstraction.
  .
  This library contains some file dialog widgets.
 
-Package: libkf5kiontlm4
+Package: libkf5kiontlm5
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -87,7 +87,7 @@ Description: Resource and network access abstraction.
  .
  This library implements the NTLM authentication protocol
 
-Package: libkf5kiowidgets4
+Package: libkf5kiowidgets5
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
