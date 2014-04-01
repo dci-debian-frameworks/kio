@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64 i386
+# SymbolsHelper-Confirmed: 4.98.0 i386
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -500,7 +500,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO14SlaveInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN3KIO14SlaveInterface11qt_metacastEPKc@Base 4.96.0
  _ZN3KIO14SlaveInterface11redirectionERK4QUrl@Base 4.96.0
- _ZN3KIO14SlaveInterface11slaveStatusEiRK10QByteArrayRK7QStringb@Base 4.96.0
+ _ZN3KIO14SlaveInterface11slaveStatusExRK10QByteArrayRK7QStringb@Base 4.98.0
  _ZN3KIO14SlaveInterface13processedSizeEy@Base 4.96.0
  _ZN3KIO14SlaveInterface13setConnectionEPNS_10ConnectionE@Base 4.96.0
  _ZN3KIO14SlaveInterface14needSubUrlDataEv@Base 4.96.0
@@ -701,7 +701,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO5Slave6passwdEv@Base 4.96.0
  _ZN3KIO5Slave6resumeEv@Base 4.96.0
  _ZN3KIO5Slave6setJobEPNS_9SimpleJobE@Base 4.96.0
- _ZN3KIO5Slave6setPIDEi@Base 4.96.0
+ _ZN3KIO5Slave6setPIDEx@Base 4.98.0
  _ZN3KIO5Slave7isAliveEv@Base 4.96.0
  _ZN3KIO5Slave7setHostERK7QStringtS3_S3_@Base 4.96.0
  _ZN3KIO5Slave7setIdleEv@Base 4.96.0
