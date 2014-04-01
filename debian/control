@@ -12,13 +12,15 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libkf5config-dev (>= 4.98.0), libkf5widgetsaddons-dev (>= 4.98.0),
  libkf5itemviews-dev (>= 4.98.0), libkf5service-dev (>= 4.98.0),
  libkf5archive-dev (>= 4.98.0), libkf5solid-dev (>= 4.98.0),
- libkf5jobwidgets-dev (>= 4.98.0), libkf5iconthemes-dev (>= 4.98.0), libkf5windowsystem-dev (>= 4.98.0), libkf5crash-dev (>= 4.98.0),
+ libkf5jobwidgets-dev (>= 4.98.0), libkf5iconthemes-dev (>= 4.98.0), 
+ libkf5windowsystem-dev (>= 4.98.0), libkf5crash-dev (>= 4.98.0),
  libkf5completion-dev (>= 4.98.0), kdoctools-dev (>= 4.98.0),
  libkf5textwidgets-dev (>= 4.98.0), libkf5sonnet-dev (>= 4.98.0),
  libkf5xmlgui-dev (>= 4.98.0), libkf5globalaccel-dev (>= 4.98.0), 
  libkf5bookmarks-dev (>= 4.98.0), libkf5notifications-dev (>= 4.98.0),
- qtscript5-dev, libxslt1-dev, libxml2-dev, libkf5attica-dev (>= 4.98.0),
- zlib1g-dev, libacl1-dev, libkrb5-dev
+ libkf5wallet-dev (>= 4.98.0), libkf5attica-dev (>= 4.98.0),
+ zlib1g-dev, libacl1-dev, libkrb5-dev, qtscript5-dev, libxslt1-dev, 
+ libxml2-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kio
 
