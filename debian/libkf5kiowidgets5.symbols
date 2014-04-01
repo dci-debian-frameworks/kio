@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64 i386
+# SymbolsHelper-Confirmed: 4.98.0 i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -910,7 +910,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTVN3KIO13JobUiDelegateE@Base 4.96.0
  _ZTVN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTVN3KIO15FileUndoManagerE@Base 4.96.0
- getgrouplist@Base 4.96.0
  (c++)"non-virtual thunk to KBuildSycocaProgressDialog::~KBuildSycocaProgressDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KIO::JobUiDelegate::askDeleteConfirmation(QList<QUrl> const&, KIO::JobUiDelegateExtension::DeletionType, KIO::JobUiDelegateExtension::ConfirmationType)@Base" 4.96.0
  (c++)"non-virtual thunk to KIO::JobUiDelegate::askFileRename(KJob*, QString const&, QUrl const&, QUrl const&, QFlags<KIO::RenameDialog_Option>, QString&, unsigned long long, unsigned long long, QDateTime const&, QDateTime const&, QDateTime const&, QDateTime const&)@Base" 4.96.0
