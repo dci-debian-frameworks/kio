@@ -1,7 +1,11 @@
-# SymbolsHelper-Confirmed: 4.98.0 i386
+# SymbolsHelper-Confirmed: 4.99.0 amd64
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
+ _ZN10KIOPrivate13createSymlinkERK7QStringS2_NS_11SymlinkTypeE@Base 4.99.0
+ _ZN10KIOPrivate14isProcessAliveEx@Base 4.99.0
+ _ZN10KIOPrivate15changeOwnershipERK7QString7KUserId8KGroupId@Base 4.99.0
+ _ZN10KIOPrivate19sendTerminateSignalEx@Base 4.99.0
  _ZN10KSslCipher16supportedCiphersEv@Base 4.96.0
  _ZN10KSslCipherC1ERK10QSslCipher@Base 4.96.0
  _ZN10KSslCipherC1ERKS_@Base 4.96.0
@@ -869,7 +873,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO8UDSEntry5clearEv@Base 4.96.0
  _ZN3KIO8UDSEntry6insertEjRK7QString@Base 4.96.0
  _ZN3KIO8UDSEntry6insertEjx@Base 4.96.0
- _ZN3KIO8UDSEntry6removeEj@Base 4.96.0
  _ZN3KIO8UDSEntryC1ERKS0_@Base 4.96.0
  _ZN3KIO8UDSEntryC1Ev@Base 4.96.0
  _ZN3KIO8UDSEntryC2ERKS0_@Base 4.96.0
@@ -1092,10 +1095,8 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN7KSslKeyaSERKS_@Base 4.96.0
  _ZN9KFileItem15refreshMimeTypeEv@Base 4.96.0
  _ZN9KFileItem19setDelayedMimeTypesEb@Base 4.96.0
- _ZN9KFileItem4markEv@Base 4.96.0
  _ZN9KFileItem6assignERKS_@Base 4.96.0
  _ZN9KFileItem6setUrlERK4QUrl@Base 4.96.0
- _ZN9KFileItem6unmarkEv@Base 4.96.0
  _ZN9KFileItem7refreshEv@Base 4.96.0
  _ZN9KFileItem7setNameERK7QString@Base 4.96.0
  _ZN9KFileItemC1ERK4QUrlRK7QStringj@Base 4.96.0
@@ -1421,7 +1422,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZNK9KFileItem7commentEv@Base 4.96.0
  _ZNK9KFileItem8iconNameEv@Base 4.96.0
  _ZNK9KFileItem8isHiddenEv@Base 4.96.0
- _ZNK9KFileItem8isMarkedEv@Base 4.96.0
  _ZNK9KFileItem8linkDestEv@Base 4.96.0
  _ZNK9KFileItem8mimetypeEv@Base 4.96.0
  _ZNK9KFileItem8overlaysEv@Base 4.96.0

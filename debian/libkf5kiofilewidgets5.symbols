@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.99.0 amd64
 libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4.96.0
  _ZN11KFileWidget10slotCancelEv@Base 4.96.0
@@ -11,6 +11,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN11KFileWidget11qt_metacastEPKc@Base 4.96.0
  _ZN11KFileWidget11resizeEventEP12QResizeEvent@Base 4.96.0
  _ZN11KFileWidget11setStartDirERK4QUrl@Base 4.96.0
+ _ZN11KFileWidget11setViewModeEN5KFile8FileViewE@Base 4.99.0
  _ZN11KFileWidget12fileSelectedERK4QUrl@Base 4.96.0
  _ZN11KFileWidget12setSelectionERK7QString@Base 4.96.0
  _ZN11KFileWidget13filterChangedERK7QString@Base 4.96.0
@@ -515,6 +516,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZNK12KDirOperator7sortingEv@Base 4.96.0
  _ZNK12KDirOperator8isSavingEv@Base 4.96.0
  _ZNK12KDirOperator8numFilesEv@Base 4.96.0
+ _ZNK12KDirOperator8viewModeEv@Base 4.99.0
  _ZNK12KDirOperator9dirListerEv@Base 4.96.0
  _ZNK12KDirOperator9iconsZoomEv@Base 4.96.0
  _ZNK12KNewFileMenu10metaObjectEv@Base 4.96.0

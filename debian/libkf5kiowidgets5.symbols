@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.98.0 i386
+# SymbolsHelper-Confirmed: 4.99.0 amd64
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -69,6 +69,8 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN12KUrlComboBoxD0Ev@Base 4.96.0
  _ZN12KUrlComboBoxD1Ev@Base 4.96.0
  _ZN12KUrlComboBoxD2Ev@Base 4.96.0
+ _ZN12ThumbCreator18writeConfigurationEPK7QWidget@Base 4.99.0
+ _ZN12ThumbCreator25createConfigurationWidgetEv@Base 4.99.0
  _ZN12ThumbCreatorD0Ev@Base 4.96.0
  _ZN12ThumbCreatorD1Ev@Base 4.96.0
  _ZN12ThumbCreatorD2Ev@Base 4.96.0
@@ -160,8 +162,8 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN14KUrlCompletionD0Ev@Base 4.96.0
  _ZN14KUrlCompletionD1Ev@Base 4.96.0
  _ZN14KUrlCompletionD2Ev@Base 4.96.0
- _ZN14ThumbCreatorV218writeConfigurationEPK7QWidget@Base 4.96.0
- _ZN14ThumbCreatorV225createConfigurationWidgetEv@Base 4.96.0
+#MISSING: 4.99.0# _ZN14ThumbCreatorV218writeConfigurationEPK7QWidget@Base 4.96.0
+#MISSING: 4.99.0# _ZN14ThumbCreatorV225createConfigurationWidgetEv@Base 4.96.0
  _ZN14ThumbCreatorV2D0Ev@Base 4.96.0
  _ZN14ThumbCreatorV2D1Ev@Base 4.96.0
  _ZN14ThumbCreatorV2D2Ev@Base 4.96.0
@@ -804,6 +806,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZNK9KDirModel5flagsERK11QModelIndex@Base 4.96.0
  _ZNK9KDirModel5indexEiiRK11QModelIndex@Base 4.96.0
  _ZNK9KDirModel6parentERK11QModelIndex@Base 4.96.0
+ _ZNK9KDirModel7siblingEiiRK11QModelIndex@Base 4.99.0
  _ZNK9KDirModel8mimeDataERK5QListI11QModelIndexE@Base 4.96.0
  _ZNK9KDirModel8rowCountERK11QModelIndex@Base 4.96.0
  _ZNK9KDirModel9dirListerEv@Base 4.96.0
