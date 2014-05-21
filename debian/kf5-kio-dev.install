@@ -1,9 +1,9 @@
 usr/include/KF5/
+usr/lib/*/cmake/KF5KIO/*
 usr/lib/*/libKF5KIOCore.so
 usr/lib/*/libKF5KIOFileWidgets.so
 usr/lib/*/libKF5KIONTLM.so
 usr/lib/*/libKF5KIOWidgets.so
-usr/lib/*/cmake/KF5KIO/*
 usr/share/dbus-1/*
 usr/share/qt5/mkspecs/modules/qt_KIOCore.pri
 usr/share/qt5/mkspecs/modules/qt_KIOFileWidgets.pri
