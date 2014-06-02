@@ -2,6 +2,8 @@
 # -*- makefile -*-
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+libpkgs_addsubst_allLibraries = kf5-kio-dev
+include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=kf5-kio-dbg
