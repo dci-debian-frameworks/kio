@@ -2,7 +2,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kio
 Source: https://projects.kde.org/projects/frameworks/kio
 
-Files: *       
+Files: *
 Copyright: © 1998-2013 David Faure <faure@kde.org> <faure+bluesystems@kde.org>
            © 1998-2003 Stephan Kulow <coolo@kde.org>
            © 1998, 1998-, 1999-2000, 2000-, 2001-2009 Waldo Bastian <bastian@kde.org> <bastain@kde.org>
@@ -107,7 +107,7 @@ License: LGPL-2+
  .
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
- 
+
 Files: src/core/krecentdocument.cpp
        src/core/krecentdocument.h
        src/filewidgets/krecentdirs.cpp
@@ -407,7 +407,7 @@ License: LGPL-2
  Boston, MA 02110-1301, USA.
  .
  On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2". 
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
 Files: src/core/desktopexecparser.h
        src/core/hostinfo.cpp
@@ -419,7 +419,7 @@ Files: src/core/desktopexecparser.h
        src/core/ksambashare_p.h
        src/core/ksambasharedata.cpp
        src/core/ksambasharedata.h
-       src/core/ksambasharedata_p.h       
+       src/core/ksambasharedata_p.h
 Copyright: 2013 David Faure <faure@kde.org>
            2008 Roland Harnau <tau@gmx.eu>
            2009 Michael Leupold <lemma@confuego.org>
@@ -492,7 +492,7 @@ License: LGPL-any
  .
  modified in order to use the libmcrypt API by Nikos Mavroyanopoulos
  All modifications are placed under the license of libmcrypt.
- 
+
 Files: src/ioslaves/http/http_cache_cleaner.cpp
        src/ioslaves/http/kcookiejar/kcookiejar.cpp
        src/ioslaves/http/kcookiejar/kcookieserver.cpp

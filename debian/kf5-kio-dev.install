@@ -4,5 +4,5 @@ usr/lib/*/libKF5KIOCore.so
 usr/lib/*/libKF5KIOFileWidgets.so
 usr/lib/*/libKF5KIONTLM.so
 usr/lib/*/libKF5KIOWidgets.so
-usr/share/dbus-1/*
 usr/lib/*/qt5/mkspecs/modules/*
+usr/share/dbus-1/*
