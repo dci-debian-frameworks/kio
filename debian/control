@@ -55,7 +55,15 @@ Depends: kf5-kio (= ${binary:Version}), ${misc:Depends},
  libkf5kiocore5 (= ${binary:Version}),
  libkf5kiofilewidgets5 (= ${binary:Version}),
  libkf5kiontlm5 (= ${binary:Version}),
- libkf5kiowidgets5 (= ${binary:Version})
+ libkf5kiowidgets5 (= ${binary:Version}),
+ kf5bookmarks-dev,
+ kf5completion-dev,
+ kf5itemviews-dev,
+ kf5jobwidgets-dev,
+ kf5service-dev,
+ kf5solid-dev,
+ kf5xmlgui-dev,
+ qtbase5-dev
 Description: Resource and network access abstraction.
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
