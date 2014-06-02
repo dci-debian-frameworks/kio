@@ -5,7 +5,7 @@ kio (4.99.0-0ubuntu1) trusty; urgency=medium
 
   [ Scarlett Clark ]
   * Fix install paths
-  * Patch symbols 
+  * Patch symbols
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:44 +0100
 
