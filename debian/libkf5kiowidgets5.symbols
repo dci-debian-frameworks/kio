@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.99.0 amd64
+# SymbolsHelper-Confirmed: 4.100.0 amd64
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -47,6 +47,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN12KAutoUnmountD0Ev@Base 4.96.0
  _ZN12KAutoUnmountD1Ev@Base 4.96.0
  _ZN12KAutoUnmountD2Ev@Base 4.96.0
+ (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  _ZN12KUrlComboBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN12KUrlComboBox11qt_metacastEPKc@Base 4.96.0
  _ZN12KUrlComboBox11setDefaultsEv@Base 4.96.0
@@ -111,7 +112,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN14KSslInfoDialog10setSslInfoERK5QListI15QSslCertificateERK7QStringS7_S7_S7_iiRKS0_IS0_IN9KSslError5ErrorEEE@Base 4.96.0
  _ZN14KSslInfoDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN14KSslInfoDialog11qt_metacastEPKc@Base 4.96.0
- _ZN14KSslInfoDialog12launchConfigEv@Base 4.96.0
+#MISSING: 4.100.0# _ZN14KSslInfoDialog12launchConfigEv@Base 4.96.0
  _ZN14KSslInfoDialog16displayFromChainEi@Base 4.96.0
  _ZN14KSslInfoDialog16errorsFromStringERK7QString@Base 4.96.0
  _ZN14KSslInfoDialog16staticMetaObjectE@Base 4.96.0
@@ -630,6 +631,9 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZNK10KDirLister24autoErrorHandlingEnabledEv@Base 4.96.0
  _ZNK10KUriFilter11pluginNamesEv@Base 4.96.0
  _ZNK12KAutoUnmount10metaObjectEv@Base 4.96.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIxEET_PKcRKS1_@Base 4.100.0
  _ZNK12KUrlComboBox10metaObjectEv@Base 4.96.0
  _ZNK12KUrlComboBox4urlsEv@Base 4.96.0
  _ZNK12KUrlComboBox8maxItemsEv@Base 4.96.0

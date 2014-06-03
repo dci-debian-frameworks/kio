@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.99.0 amd64
+# SymbolsHelper-Confirmed: 4.100.0 amd64
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -87,6 +87,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN11KSambaShareD0Ev@Base 4.96.0
  _ZN11KSambaShareD1Ev@Base 4.96.0
  _ZN11KSambaShareD2Ev@Base 4.96.0
+ (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  _ZN12KLocalSocket11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN12KLocalSocket11qt_metacastEPKc@Base 4.96.0
  _ZN12KLocalSocket13connectToPathERK7QString6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4.96.0
@@ -873,8 +874,10 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO8UDSEntry5clearEv@Base 4.96.0
  _ZN3KIO8UDSEntry6insertEjRK7QString@Base 4.96.0
  _ZN3KIO8UDSEntry6insertEjx@Base 4.96.0
+ _ZN3KIO8UDSEntryC1ERK6stat64RK7QString@Base 4.100.0
  _ZN3KIO8UDSEntryC1ERKS0_@Base 4.96.0
  _ZN3KIO8UDSEntryC1Ev@Base 4.96.0
+ _ZN3KIO8UDSEntryC2ERK6stat64RK7QString@Base 4.100.0
  _ZN3KIO8UDSEntryC2ERKS0_@Base 4.96.0
  _ZN3KIO8UDSEntryC2Ev@Base 4.96.0
  _ZN3KIO8UDSEntryD1Ev@Base 4.96.0
@@ -1189,6 +1192,9 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZNK11KSambaShare17isDirectorySharedERK7QString@Base 4.96.0
  _ZNK11KSambaShare17sharedDirectoriesEv@Base 4.96.0
  _ZNK11KSambaShare20isShareNameAvailableERK7QString@Base 4.96.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIiEE5QListIT_EPKcRKS3_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZNK12KLocalSocket10metaObjectEv@Base 4.96.0
  _ZNK12KLocalSocket15localSocketTypeEv@Base 4.96.0
  _ZNK12KLocalSocket8peerPathEv@Base 4.96.0
