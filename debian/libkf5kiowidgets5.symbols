@@ -112,7 +112,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN14KSslInfoDialog10setSslInfoERK5QListI15QSslCertificateERK7QStringS7_S7_S7_iiRKS0_IS0_IN9KSslError5ErrorEEE@Base 4.96.0
  _ZN14KSslInfoDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN14KSslInfoDialog11qt_metacastEPKc@Base 4.96.0
-#MISSING: 4.100.0# _ZN14KSslInfoDialog12launchConfigEv@Base 4.96.0
  _ZN14KSslInfoDialog16displayFromChainEi@Base 4.96.0
  _ZN14KSslInfoDialog16errorsFromStringERK7QString@Base 4.96.0
  _ZN14KSslInfoDialog16staticMetaObjectE@Base 4.96.0

@@ -6,6 +6,7 @@ kio (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Bump depends versions
   * Patch symbols
+  * Remove MISSING i386 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:40:49 +0100
 
