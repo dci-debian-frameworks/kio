@@ -9,6 +9,10 @@ kio (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Remove MISSING i386 
   * Fix broken -dev depends 
 
+  [ Harald Sitter ]
+  * Update kf5-kio.install with new files
+    + Also contains localization as it is (currently) exclusive to kioslaves
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:40:49 +0100
 
 kio (4.99.0-0ubuntu1) trusty; urgency=medium

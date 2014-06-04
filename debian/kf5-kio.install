@@ -1,4 +1,5 @@
 etc/xdg/accept-languages.codes
+etc/xdg/kshorturifilterrc
 usr/bin/*
 usr/lib/*/libexec/*
 usr/lib/*/qt5/plugins/*
@@ -7,6 +8,6 @@ usr/share/doc/HTML/en/kioslave5
 usr/share/kf5/kcookiejar/domain_info
 usr/share/knotifications5/proxyscout.notifyrc
 usr/share/kservices5/*
-usr/share/kservicetypes5/kfileitemactionplugin.desktop
-usr/share/kservicetypes5/kpropertiesdialogplugin.desktop
-usr/share/kservicetypes5/kurifilterplugin.desktop
+usr/share/kservicetypes5/*
+# Only used in KIO slaves
+usr/share/locale/*/LC_MESSAGES/kio5.mo
