@@ -48,10 +48,10 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kio
 
-Package: kf5-kio-dev
+Package: kio-dev
 Section: libdevel
 Architecture: any
-Depends: kf5-kio (= ${binary:Version}),
+Depends: kio (= ${binary:Version}),
          libkf5bookmarks-dev,
          libkf5completion-dev,
          libkf5itemviews-dev,
@@ -65,6 +65,8 @@ Depends: kf5-kio (= ${binary:Version}),
          libkf5kiowidgets5 (= ${binary:Version}),
          qtbase5-dev,
          ${misc:Depends}
+Breaks: kf5-kio-dev
+Replaces: kf5-kio-dev
 Description: Resource and network access abstraction.
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
@@ -74,9 +76,11 @@ Description: Resource and network access abstraction.
  .
  Contains development files for kio.
 
-Package: kf5-kio
+Package: kio
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kf5-kio
+Breaks: kf5-kio
 Description: Resource and network access abstraction.
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
@@ -136,11 +140,11 @@ Description: Resource and network access abstraction.
  .
  This library contains some UI widgets.
 
-Package: kf5-kio-dbg
+Package: kio-dbg
 Priority: extra
 Section: debug
 Architecture: any
-Depends: kf5-kio (= ${binary:Version}), ${misc:Depends}
+Depends: kio (= ${binary:Version}), ${misc:Depends}
 Description: Resource and network access abstraction.
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.

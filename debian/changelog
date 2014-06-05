@@ -15,6 +15,8 @@ kio (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
   * Remove incorrect Section fields
+  * Rename kf5-kio to kio and kf5-kio-dev to kio-dev and kf5-kio-dbg to kio-dbg
+    + Breaks+Replaces the previous packages
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:40:49 +0100
 
