@@ -84,11 +84,9 @@ Description: Resource and network access abstraction.
  Additionally, KIO Slaves provide support for individual
  protocols. Some particularly useful ones are http, ftp,
  sftp, smb, nfs, ssh (fish), man, tar and zip.
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5kiocore5
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
 Description: Resource and network access abstraction.
@@ -102,7 +100,6 @@ Description: Resource and network access abstraction.
 
 Package: libkf5kiofilewidgets5
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
 Description: Resource and network access abstraction.
@@ -116,7 +113,6 @@ Description: Resource and network access abstraction.
 
 Package: libkf5kiontlm5
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
 Description: Resource and network access abstraction.
@@ -130,7 +126,6 @@ Description: Resource and network access abstraction.
 
 Package: libkf5kiowidgets5
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
 Description: Resource and network access abstraction.
