@@ -80,7 +80,7 @@ Package: kio
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kf5-kio
-Breaks: kf5-kio
+Replaces: kf5-kio
 Description: Resource and network access abstraction.
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
