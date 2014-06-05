@@ -75,7 +75,6 @@ Description: Resource and network access abstraction.
  Contains development files for kio.
 
 Package: kf5-kio
-Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Resource and network access abstraction.
