@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64
+# SymbolsHelper-Confirmed: 5.0.0 amd64
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -168,7 +168,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN14KCoreDirLister5speedEi@Base 4.96.0
  _ZN14KCoreDirLister7Private10addNewItemERK4QUrlRK9KFileItem@Base 4.96.0
  _ZN14KCoreDirLister7Private10connectJobEPN3KIO7ListJobE@Base 4.96.0
- _ZN14KCoreDirLister7Private11addNewItemsERK4QUrlRK13KFileItemList@Base 4.96.0
+ _ZN14KCoreDirLister7Private11addNewItemsERK4QUrlRK22NonMovableFileItemList@Base 5.0.0
  _ZN14KCoreDirLister7Private11emitChangesEv@Base 4.96.0
  _ZN14KCoreDirLister7Private12_k_slotSpeedEP4KJobm@Base 4.96.0
  _ZN14KCoreDirLister7Private14CachedItemsJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
