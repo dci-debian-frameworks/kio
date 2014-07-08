@@ -1,4 +1,4 @@
-kio (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+kio (5.0.0a-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * Initial stable upstream release
@@ -7,6 +7,7 @@ kio (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix install files 
   * Update watch file to stable
   * Add Vcs
+  * New upstream tarball
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:37:27 +0200
 
