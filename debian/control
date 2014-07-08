@@ -47,6 +47,8 @@ Build-Depends: cmake,
                zlib1g-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kio
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kio
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kio
 
 Package: kio-dev
 Section: libdevel
