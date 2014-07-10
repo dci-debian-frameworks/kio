@@ -2,9 +2,10 @@ kio (5.0.0a-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * Initial stable upstream release
+  * Add upstream_kurlrequester-dialog-accept-handling.diff from upstream
 
   [ Scarlett Clark ]
-  * Fix install files 
+  * Fix install files
   * Update watch file to stable
   * Add Vcs
   * New upstream tarball
