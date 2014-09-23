@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64
+# SymbolsHelper-Confirmed: 5.2.0 amd64
 libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4.96.0
  _ZN11KFileWidget10slotCancelEv@Base 4.96.0
@@ -276,7 +276,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN15KFilePlacesView7Private13adaptItemSizeEv@Base 4.96.0
  _ZN15KFilePlacesView7Private15_k_placeClickedERK11QModelIndex@Base 4.96.0
  _ZN15KFilePlacesView7Private15_k_placeEnteredERK11QModelIndex@Base 4.96.0
- _ZN15KFilePlacesView7Private15_k_trashUpdatedEP4KJob@Base 4.96.0
  _ZN15KFilePlacesView7Private15fadeCapacityBarERK11QModelIndexNS0_8FadeTypeE@Base 4.96.0
  _ZN15KFilePlacesView7Private15setCurrentIndexERK11QModelIndex@Base 4.96.0
  _ZN15KFilePlacesView7Private16updateHiddenRowsEv@Base 4.96.0
@@ -414,7 +413,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN21KFilePreviewGenerator7Private18applyCutItemEffectERK13KFileItemList@Base 4.96.0
  _ZN21KFilePreviewGenerator7Private18clearCutItemsCacheEv@Base 4.96.0
  _ZN21KFilePreviewGenerator7Private19requestSequenceIconERK11QModelIndexi@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private20decodeIsCutSelectionEPK9QMimeData@Base 4.96.0
  _ZN21KFilePreviewGenerator7Private20rowsAboutToBeRemovedERK11QModelIndexii@Base 4.96.0
  _ZN21KFilePreviewGenerator7Private22slotPreviewJobFinishedEP4KJob@Base 4.96.0
  _ZN21KFilePreviewGenerator7Private22startMimeTypeResolvingEv@Base 4.96.0

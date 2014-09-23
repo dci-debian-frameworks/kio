@@ -1,3 +1,4 @@
+# Only used in KIO slaves
 etc/xdg/accept-languages.codes
 etc/xdg/kshorturifilterrc
 usr/bin/*
@@ -9,5 +10,4 @@ usr/share/kf5/kcookiejar/domain_info
 usr/share/knotifications5/proxyscout.notifyrc
 usr/share/kservices5/*
 usr/share/kservicetypes5/*
-# Only used in KIO slaves
 usr/share/locale/*/LC_MESSAGES/kio5.mo

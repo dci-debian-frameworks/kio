@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.0 amd64
+# SymbolsHelper-Confirmed: 5.2.0 amd64
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -376,6 +376,15 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN25OrgKdeKDirNotifyInterfaceD0Ev@Base 4.96.0
  _ZN25OrgKdeKDirNotifyInterfaceD1Ev@Base 4.96.0
  _ZN25OrgKdeKDirNotifyInterfaceD2Ev@Base 4.96.0
+ _ZN3KIO10RestoreJob10slotResultEP4KJob@Base 5.2.0
+ _ZN3KIO10RestoreJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0
+ _ZN3KIO10RestoreJob11qt_metacastEPKc@Base 5.2.0
+ _ZN3KIO10RestoreJob16staticMetaObjectE@Base 5.2.0
+ _ZN3KIO10RestoreJobC1ERNS_17RestoreJobPrivateE@Base 5.2.0
+ _ZN3KIO10RestoreJobC2ERNS_17RestoreJobPrivateE@Base 5.2.0
+ _ZN3KIO10RestoreJobD0Ev@Base 5.2.0
+ _ZN3KIO10RestoreJobD1Ev@Base 5.2.0
+ _ZN3KIO10RestoreJobD2Ev@Base 5.2.0
  _ZN3KIO10SpecialJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN3KIO10SpecialJob11qt_metacastEPKc@Base 4.96.0
  _ZN3KIO10SpecialJob12setArgumentsERK10QByteArray@Base 4.96.0
@@ -385,6 +394,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO10SpecialJobD0Ev@Base 4.96.0
  _ZN3KIO10SpecialJobD1Ev@Base 4.96.0
  _ZN3KIO10SpecialJobD2Ev@Base 4.96.0
+ _ZN3KIO10emptyTrashEv@Base 5.2.0
  _ZN3KIO11FileCopyJob10slotResultEP4KJob@Base 4.96.0
  _ZN3KIO11FileCopyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN3KIO11FileCopyJob11qt_metacastEPKc@Base 4.96.0
@@ -491,6 +501,15 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO12TCPSlaveBaseD2Ev@Base 4.96.0
  _ZN3KIO12davPropPatchERK4QUrlRK12QDomDocument6QFlagsINS_7JobFlagEE@Base 4.96.0
  _ZN3KIO12mostLocalUrlERK4QUrl6QFlagsINS_7JobFlagEE@Base 4.96.0
+ _ZN3KIO13EmptyTrashJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0
+ _ZN3KIO13EmptyTrashJob11qt_metacastEPKc@Base 5.2.0
+ _ZN3KIO13EmptyTrashJob12slotFinishedEv@Base 5.2.0
+ _ZN3KIO13EmptyTrashJob16staticMetaObjectE@Base 5.2.0
+ _ZN3KIO13EmptyTrashJobC1ERNS_20EmptyTrashJobPrivateE@Base 5.2.0
+ _ZN3KIO13EmptyTrashJobC2ERNS_20EmptyTrashJobPrivateE@Base 5.2.0
+ _ZN3KIO13EmptyTrashJobD0Ev@Base 5.2.0
+ _ZN3KIO13EmptyTrashJobD1Ev@Base 5.2.0
+ _ZN3KIO13EmptyTrashJobD2Ev@Base 5.2.0
  _ZN3KIO13directorySizeERK13KFileItemList@Base 4.96.0
  _ZN3KIO13directorySizeERK4QUrl@Base 4.96.0
  _ZN3KIO13favIconForUrlERK4QUrl@Base 4.96.0
@@ -568,6 +587,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO16DirectorySizeJobD1Ev@Base 4.96.0
  _ZN3KIO16DirectorySizeJobD2Ev@Base 4.96.0
  _ZN3KIO16buildErrorStringEiRK7QString@Base 4.96.0
+ _ZN3KIO16restoreFromTrashERK5QListI4QUrlE6QFlagsINS_7JobFlagEE@Base 5.2.0
  _ZN3KIO17DesktopExecParser14executableNameERK7QString@Base 4.96.0
  _ZN3KIO17DesktopExecParser14executablePathERK7QString@Base 4.96.0
  _ZN3KIO17DesktopExecParser16hasSchemeHandlerERK4QUrl@Base 4.96.0
@@ -1284,6 +1304,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZNK23KFileItemListProperties8mimeTypeEv@Base 4.96.0
  _ZNK23KFileItemListProperties9mimeGroupEv@Base 4.96.0
  _ZNK25OrgKdeKDirNotifyInterface10metaObjectEv@Base 4.96.0
+ _ZNK3KIO10RestoreJob10metaObjectEv@Base 5.2.0
  _ZNK3KIO10SpecialJob10metaObjectEv@Base 4.96.0
  _ZNK3KIO10SpecialJob9argumentsEv@Base 4.96.0
  _ZNK3KIO11FileCopyJob10metaObjectEv@Base 4.96.0
@@ -1303,6 +1324,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZNK3KIO12TCPSlaveBase5atEndEv@Base 4.96.0
  _ZNK3KIO12TCPSlaveBase6socketEv@Base 4.96.0
  _ZNK3KIO12TCPSlaveBase9isAutoSslEv@Base 4.96.0
+ _ZNK3KIO13EmptyTrashJob10metaObjectEv@Base 5.2.0
  _ZNK3KIO14SlaveInterface10connectionEv@Base 4.96.0
  _ZNK3KIO14SlaveInterface10metaObjectEv@Base 4.96.0
  _ZNK3KIO14SlaveInterface6offsetEv@Base 4.96.0
@@ -1454,6 +1476,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTI4KACL@Base 4.96.0
  _ZTI9KNFSShare@Base 4.96.0
  _ZTIN14KCoreDirLister7Private14CachedItemsJobE@Base 4.96.0
+ _ZTIN3KIO10RestoreJobE@Base 5.2.0
  _ZTIN3KIO10SpecialJobE@Base 4.96.0
  _ZTIN3KIO11FileCopyJobE@Base 4.96.0
  _ZTIN3KIO11MimetypeJobE@Base 4.96.0
@@ -1461,6 +1484,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTIN3KIO11SlaveConfigE@Base 4.96.0
  _ZTIN3KIO11TransferJobE@Base 4.96.0
  _ZTIN3KIO12TCPSlaveBaseE@Base 4.96.0
+ _ZTIN3KIO13EmptyTrashJobE@Base 5.2.0
  _ZTIN3KIO14SlaveInterfaceE@Base 4.96.0
  _ZTIN3KIO16ConnectionServerE@Base 4.96.0
  _ZTIN3KIO16DirectorySizeJobE@Base 4.96.0
@@ -1493,6 +1517,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTS4KACL@Base 4.96.0
  _ZTS9KNFSShare@Base 4.96.0
  _ZTSN14KCoreDirLister7Private14CachedItemsJobE@Base 4.96.0
+ _ZTSN3KIO10RestoreJobE@Base 5.2.0
  _ZTSN3KIO10SpecialJobE@Base 4.96.0
  _ZTSN3KIO11FileCopyJobE@Base 4.96.0
  _ZTSN3KIO11MimetypeJobE@Base 4.96.0
@@ -1500,6 +1525,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTSN3KIO11SlaveConfigE@Base 4.96.0
  _ZTSN3KIO11TransferJobE@Base 4.96.0
  _ZTSN3KIO12TCPSlaveBaseE@Base 4.96.0
+ _ZTSN3KIO13EmptyTrashJobE@Base 5.2.0
  _ZTSN3KIO14SlaveInterfaceE@Base 4.96.0
  _ZTSN3KIO16ConnectionServerE@Base 4.96.0
  _ZTSN3KIO16DirectorySizeJobE@Base 4.96.0
@@ -1532,6 +1558,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTV4KACL@Base 4.96.0
  _ZTV9KNFSShare@Base 4.96.0
  _ZTVN14KCoreDirLister7Private14CachedItemsJobE@Base 4.96.0
+ _ZTVN3KIO10RestoreJobE@Base 5.2.0
  _ZTVN3KIO10SpecialJobE@Base 4.96.0
  _ZTVN3KIO11FileCopyJobE@Base 4.96.0
  _ZTVN3KIO11MimetypeJobE@Base 4.96.0
@@ -1539,6 +1566,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTVN3KIO11SlaveConfigE@Base 4.96.0
  _ZTVN3KIO11TransferJobE@Base 4.96.0
  _ZTVN3KIO12TCPSlaveBaseE@Base 4.96.0
+ _ZTVN3KIO13EmptyTrashJobE@Base 5.2.0
  _ZTVN3KIO14SlaveInterfaceE@Base 4.96.0
  _ZTVN3KIO16ConnectionServerE@Base 4.96.0
  _ZTVN3KIO16DirectorySizeJobE@Base 4.96.0

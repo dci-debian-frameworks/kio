@@ -1,87 +1,43 @@
-kio (5.0.0a-0ubuntu1) UNRELEASED; urgency=medium
+kio (5.2.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
-  * Initial stable upstream release
-  * Add upstream_kurlrequester-dialog-accept-handling.diff from upstream
+  * New upstream release
+  * Use pkg-kde-tools version 3 scripts
 
   [ Scarlett Clark ]
-  * Fix install files
-  * Update watch file to stable
-  * Add Vcs
-  * New upstream tarball
+  * Patch symbols - removed 2 MISSING private symbols. 
+  * Cleanup copyright + move copyright extra details to comment to silence
+    space-in-std-shortname-in-dep5-copyright lintian error. 
+  * wrap-and-sort 
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:37:27 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:45:56 +0200
 
-kio (4.100.0-0ubuntu1) utopic; urgency=medium
-
-  [ Jonathan Riddell ]
-  * New upstream beta release
-
-  [ Scarlett Clark ]
-  * Bump depends versions
-  * Patch symbols
-  * Remove MISSING i386 
-  * Fix broken -dev depends 
-
-  [ Harald Sitter ]
-  * Update kf5-kio.install with new files
-    + Also contains localization as it is (currently) exclusive to kioslaves
-  * Remove useless Pre-Depends fields used for multiarch compat in
-    releases older than trusty
-  * Remove incorrect Section fields
-  * Rename kf5-kio to kio and kf5-kio-dev to kio-dev and kf5-kio-dbg to kio-dbg
-    + Breaks+Replaces the previous packages
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:40:49 +0100
-
-kio (4.99.0-0ubuntu1) trusty; urgency=medium
-
-  [ José Manuel Santamaría Lema ]
-  * Re-add -dev package after a faulty wrap-and-sort.
-  * Install *.pri files in arch dependent path.
-  * Use ${allLibraries} for -dev package dependencies.
-
-  [ Jonathan Riddell ]
-  * New upstream beta release
-
-  [ Scarlett Clark ]
-  * Fix install paths
-  * Patch symbols
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:44 +0100
-
-kio (4.98.0-0ubuntu1) trusty; urgency=medium
-
-  * New upstream beta release
-  * Update build-depends
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:56:27 +0000
-
-kio (4.97.0-0ubuntu1) trusty; urgency=medium
-
-  [ Jonathan Riddell ]
-  * New upstream alpha release
-  * Rename library package for soname 5
-
-  [ Scarlett Clark ]
-  * Fix dev package depends 
-  * Fix not-installed 
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 12:21:29 +0000
-
-kio (4.96.0-0ubuntu1) trusty; urgency=medium
+kio (5.1.0a-0ubuntu1) utopic; urgency=medium
 
   [ Rohan Garg ]
-  * New upstream alpha release
-    - Drop all patches
+  * Make sure we add the XS-Testsuite field to debian/control
+
+  [ José Manuel Santamaría Lema ]
+  * Mark a couple of private symbols as optional in
+    libkf5kiowidgets5.symbols.
+  * Update libraries *.install paths so a soname bump doesn't go
+    unnoticed.
 
   [ Scarlett Clark ]
-  * libs changed to 4.x renamed files/entries. 
+  * New upstream release
+  * Remove upstream_kurlrequester-dialog-accept-handling.diff applied upstream.
+  * New upstream tar due to regressions.
+  * Patch symbols using batchpatch. 
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 11 Feb 2014 18:34:57 +0100
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:15:17 +0200
 
-kio (4.95.0-0ubuntu1) trusty; urgency=low
+kio (5.0.0a-0ubuntu1) utopic; urgency=medium
 
-  * Initial release
+  * Initial stable upstream release
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 20 Jan 2014 09:28:49 +0000
+  [ José Manuel Santamaría Lema ]
+  * Mark a couple of private symbols as optional in libkf5kiowidgets5.symbols
+    and clean up missing symbols from previous versions.
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 15 Jul 2014 16:11:35 +0200
+

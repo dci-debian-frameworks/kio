@@ -3,6 +3,7 @@ Upstream-Name: kio
 Source: https://projects.kde.org/projects/frameworks/kio
 
 Files: *
+       debian/*
 Copyright: © 1998-2013 David Faure <faure@kde.org> <faure+bluesystems@kde.org>
            © 1998-2003 Stephan Kulow <coolo@kde.org>
            © 1998, 1998-, 1999-2000, 2000-, 2001-2009 Waldo Bastian <bastian@kde.org> <bastain@kde.org>
@@ -89,6 +90,7 @@ Copyright: © 1998-2013 David Faure <faure@kde.org> <faure+bluesystems@kde.org>
            © 2004 Scott Wheeler <wheeler@kde.org>
            © 2001 Lubos Lunak <l.lunak@kde.org>
            © 2009 Patrick Spendrin <ps_ml@gmx.de>
+           2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -145,7 +147,7 @@ License: BSD-BY-LC-NE
 
 Files: src/widgets/getgrouplist-fake.c
 Copyright: 1991, 1993 The Regents of the University of California
-License: 2-clause BSD
+License: BSD-4-clause
  All rights reserved.
  .
  Redistribution and use in source and binary forms, with or without
@@ -424,7 +426,7 @@ Copyright: 2013 David Faure <faure@kde.org>
            2008 Roland Harnau <tau@gmx.eu>
            2009 Michael Leupold <lemma@confuego.org>
            2010 Rodrigo Belem <rclbelem@gmail.com>
-License: LGPL-2.1+ accepted by the membership of KDE e.V.
+License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
@@ -440,6 +442,7 @@ License: LGPL-2.1+ accepted by the membership of KDE e.V.
  .
  You should have received a copy of the GNU Lesser General Public
  License along with this library.  If not, see <http://www.gnu.org/licenses/>
+Comment:  or any later version accepted by the membership of KDE e.V.
 
 Files: src/widgets/kdynamicjobtracker.cpp
        src/widgets/kdynamicjobtracker_p.h
@@ -523,13 +526,12 @@ Files: autotests/kurlnavigatortest.cpp
        autotests/kurlnavigatortest.h
        src/ioslaves/http/kcookiejar/kcookiewin.h
        src/ioslaves/telnet/ktelnetservice.cpp
-       debian/*
+       src/urifilters/ikws/*
 Copyright: 2008 Peter Penz <peter.penz@gmx.at>
            1998- Waldo Bastian (bastian@kde.org)
            2000- Dawit Alemayehu (adawit@kde.org)
            2001 Malte Starostik <malte@kde.org>
            2000 Simon Hausmann <hausmann@kde.org>
-           2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64
+# SymbolsHelper-Confirmed: 5.2.0 amd64
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -91,7 +91,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN13KUrlRequester18setPlaceholderTextERK7QString@Base 4.96.0
  _ZN13KUrlRequester20KUrlRequesterPrivate16_k_slotUpdateUrlEv@Base 4.96.0
  _ZN13KUrlRequester20KUrlRequesterPrivate17_k_slotOpenDialogEv@Base 4.96.0
- _ZN13KUrlRequester20KUrlRequesterPrivate25_k_slotFileDialogFinishedEv@Base 4.96.0
+ (optional)_ZN13KUrlRequester20KUrlRequesterPrivate25_k_slotFileDialogAcceptedEv@Base 5.0.0
  _ZN13KUrlRequester20KUrlRequesterPrivate4initEv@Base 4.96.0
  _ZN13KUrlRequester21setFileDialogModalityEN2Qt14WindowModalityE@Base 4.96.0
  _ZN13KUrlRequester5clearEv@Base 4.96.0
@@ -162,8 +162,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN14KUrlCompletionD0Ev@Base 4.96.0
  _ZN14KUrlCompletionD1Ev@Base 4.96.0
  _ZN14KUrlCompletionD2Ev@Base 4.96.0
-#MISSING: 4.99.0# _ZN14ThumbCreatorV218writeConfigurationEPK7QWidget@Base 4.96.0
-#MISSING: 4.99.0# _ZN14ThumbCreatorV225createConfigurationWidgetEv@Base 4.96.0
  _ZN14ThumbCreatorV2D0Ev@Base 4.96.0
  _ZN14ThumbCreatorV2D1Ev@Base 4.96.0
  _ZN14ThumbCreatorV2D2Ev@Base 4.96.0
@@ -219,9 +217,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN16KUriFilterPlugin16staticMetaObjectE@Base 4.96.0
  _ZN16KUriFilterPluginC1ERK7QStringP7QObject@Base 4.96.0
  _ZN16KUriFilterPluginC2ERK7QStringP7QObject@Base 4.96.0
- _ZN16KUriFilterPluginD0Ev@Base 4.96.0
- _ZN16KUriFilterPluginD1Ev@Base 4.96.0
- _ZN16KUriFilterPluginD2Ev@Base 4.96.0
  _ZN17KFileItemDelegate11editorEventEP6QEventP18QAbstractItemModelRK20QStyleOptionViewItemRK11QModelIndex@Base 4.96.0
  _ZN17KFileItemDelegate11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN17KFileItemDelegate11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -482,6 +477,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN3KIO13JobUiDelegate11qt_metacastEPKc@Base 4.96.0
  _ZN3KIO13JobUiDelegate13askFileRenameEP4KJobRK7QStringRK4QUrlS8_6QFlagsINS_19RenameDialog_OptionEERS3_yyRK9QDateTimeSF_SF_SF_@Base 4.96.0
  _ZN3KIO13JobUiDelegate16staticMetaObjectE@Base 4.96.0
+ _ZN3KIO13JobUiDelegate16unregisterWindowEP7QWidget@Base 5.2.0
  _ZN3KIO13JobUiDelegate17requestMessageBoxENS_22JobUiDelegateExtension14MessageBoxTypeERK7QStringS5_S5_S5_S5_S5_S5_RKNS_8MetaDataE@Base 4.96.0
  _ZN3KIO13JobUiDelegate20updateUrlInClipboardERK4QUrlS3_@Base 4.96.0
  _ZN3KIO13JobUiDelegate21askDeleteConfirmationERK5QListI4QUrlENS_22JobUiDelegateExtension12DeletionTypeENS6_16ConfirmationTypeE@Base 4.96.0
@@ -527,6 +523,8 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN3KIO15FileUndoManagerD2Ev@Base 4.96.0
  _ZN3KIO15pasteActionTextEv@Base 4.96.0
  _ZN3KIO16canPasteMimeDataEPK9QMimeData@Base 4.96.0
+ _ZN3KIO18isClipboardDataCutEPK9QMimeData@Base 5.2.0
+ _ZN3KIO19setClipboardDataCutEP9QMimeDatab@Base 5.2.0
  _ZN3KIO5SslUi18askIgnoreSslErrorsEPK10KTcpSocketNS0_12RulesStorageE@Base 4.96.0
  _ZN3KIO5SslUi18askIgnoreSslErrorsERK15KSslErrorUiDataNS0_12RulesStorageE@Base 4.96.0
  _ZN4KRun10binaryNameERK7QStringb@Base 4.96.0
@@ -624,7 +622,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN9KDirModelD0Ev@Base 4.96.0
  _ZN9KDirModelD1Ev@Base 4.96.0
  _ZN9KDirModelD2Ev@Base 4.96.0
- _ZN9QBitArray8clearBitEi@Base 4.96.0
  _ZNK10KAutoMount10metaObjectEv@Base 4.96.0
  _ZNK10KDirLister10metaObjectEv@Base 4.96.0
  _ZNK10KDirLister24autoErrorHandlingEnabledEv@Base 4.96.0
