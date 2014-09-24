@@ -45,8 +45,8 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kio
 XS-Testsuite: autopkgtest
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kio
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kio
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kio.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kio.git
 
 Package: kio-dev
 Section: libdevel
