@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 amd64
+# SymbolsHelper-Confirmed: 5.2.0+git20140925 i386
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -634,6 +634,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO19ForwardingSlaveBaseD0Ev@Base 4.96.0
  _ZN3KIO19ForwardingSlaveBaseD1Ev@Base 4.96.0
  _ZN3KIO19ForwardingSlaveBaseD2Ev@Base 4.96.0
+ _ZN3KIO19fileSystemFreeSpaceERK4QUrl@Base 5.2.0+git20140925
  _ZN3KIO19setModificationTimeERK4QUrlRK9QDateTime@Base 4.96.0
  _ZN3KIO20JobUiDelegateFactoryC1Ev@Base 4.96.0
  _ZN3KIO20JobUiDelegateFactoryC2Ev@Base 4.96.0
@@ -641,6 +642,16 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO20JobUiDelegateFactoryD1Ev@Base 4.96.0
  _ZN3KIO20JobUiDelegateFactoryD2Ev@Base 4.96.0
  _ZN3KIO21getCacheControlStringENS_12CacheControlE@Base 4.96.0
+ _ZN3KIO22FileSystemFreeSpaceJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0+git20140925
+ _ZN3KIO22FileSystemFreeSpaceJob11qt_metacastEPKc@Base 5.2.0+git20140925
+ _ZN3KIO22FileSystemFreeSpaceJob12slotFinishedEv@Base 5.2.0+git20140925
+ _ZN3KIO22FileSystemFreeSpaceJob16staticMetaObjectE@Base 5.2.0+git20140925
+ _ZN3KIO22FileSystemFreeSpaceJob6resultEPNS_3JobEyy@Base 5.2.0+git20140925
+ _ZN3KIO22FileSystemFreeSpaceJobC1ERNS_29FileSystemFreeSpaceJobPrivateE@Base 5.2.0+git20140925
+ _ZN3KIO22FileSystemFreeSpaceJobC2ERNS_29FileSystemFreeSpaceJobPrivateE@Base 5.2.0+git20140925
+ _ZN3KIO22FileSystemFreeSpaceJobD0Ev@Base 5.2.0+git20140925
+ _ZN3KIO22FileSystemFreeSpaceJobD1Ev@Base 5.2.0+git20140925
+ _ZN3KIO22FileSystemFreeSpaceJobD2Ev@Base 5.2.0+git20140925
  _ZN3KIO22JobUiDelegateExtension20updateUrlInClipboardERK4QUrlS3_@Base 4.96.0
  _ZN3KIO22JobUiDelegateExtension22createClipboardUpdaterEPNS_3JobENS0_20ClipboardUpdaterModeE@Base 4.96.0
  _ZN3KIO22JobUiDelegateExtensionC1Ev@Base 4.96.0
@@ -1342,6 +1353,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZNK3KIO19ForwardingSlaveBase12processedUrlEv@Base 4.96.0
  _ZNK3KIO19ForwardingSlaveBase12requestedUrlEv@Base 4.96.0
  _ZNK3KIO19ForwardingSlaveBase15prepareUDSEntryERNS_8UDSEntryEb@Base 4.96.0
+ _ZNK3KIO22FileSystemFreeSpaceJob10metaObjectEv@Base 5.2.0+git20140925
  _ZNK3KIO3Job10metaObjectEv@Base 4.96.0
  _ZNK3KIO3Job11errorStringEv@Base 4.96.0
  _ZNK3KIO3Job16outgoingMetaDataEv@Base 4.96.0
@@ -1491,6 +1503,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTIN3KIO17StoredTransferJobE@Base 4.96.0
  _ZTIN3KIO19ForwardingSlaveBaseE@Base 4.96.0
  _ZTIN3KIO20JobUiDelegateFactoryE@Base 4.96.0
+ _ZTIN3KIO22FileSystemFreeSpaceJobE@Base 5.2.0+git20140925
  _ZTIN3KIO22JobUiDelegateExtensionE@Base 4.96.0
  _ZTIN3KIO3JobE@Base 4.96.0
  _ZTIN3KIO5SlaveE@Base 4.96.0
@@ -1532,6 +1545,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTSN3KIO17StoredTransferJobE@Base 4.96.0
  _ZTSN3KIO19ForwardingSlaveBaseE@Base 4.96.0
  _ZTSN3KIO20JobUiDelegateFactoryE@Base 4.96.0
+ _ZTSN3KIO22FileSystemFreeSpaceJobE@Base 5.2.0+git20140925
  _ZTSN3KIO22JobUiDelegateExtensionE@Base 4.96.0
  _ZTSN3KIO3JobE@Base 4.96.0
  _ZTSN3KIO5SlaveE@Base 4.96.0
@@ -1573,6 +1587,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTVN3KIO17StoredTransferJobE@Base 4.96.0
  _ZTVN3KIO19ForwardingSlaveBaseE@Base 4.96.0
  _ZTVN3KIO20JobUiDelegateFactoryE@Base 4.96.0
+ _ZTVN3KIO22FileSystemFreeSpaceJobE@Base 5.2.0+git20140925
  _ZTVN3KIO22JobUiDelegateExtensionE@Base 4.96.0
  _ZTVN3KIO3JobE@Base 4.96.0
  _ZTVN3KIO5SlaveE@Base 4.96.0
