@@ -77,6 +77,8 @@ Description: Resource and network access abstraction.
 Package: kio
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kio-extras (<< 4:5.0.95+git20141003.1250~)
+Replaces: kio-extras (<< 4:5.0.95+git20141003.1250~)
 Description: Resource and network access abstraction.
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
