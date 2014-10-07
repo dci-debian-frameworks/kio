@@ -1,9 +1,14 @@
-kio (5.3.0-0ubuntu1) UNRELEASED; urgency=medium
+kio (5.3.0-0ubuntu1) utopic; urgency=medium
 
-  * New upstream snapshot, required by Plasma 5.1
+  [ Jonathan Riddell ]
   * New upstream release
+  * kio Breaks/replaces old kio-extras for moved kio-trash
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 06 Oct 2014 11:33:06 +0100
+  [ Scarlett Clark ]
+  * Uncomment files triggered by list-missing to install file.
+  * Add new files triggered by list-missing to install file
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Oct 2014 11:14:47 +0100
 
 kio (5.2.0-0ubuntu1) utopic; urgency=medium
 
