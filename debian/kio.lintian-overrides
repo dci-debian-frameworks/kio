@@ -1,0 +1,3 @@
+kio: binary-without-manpage usr/bin/kmailservice5
+kio: binary-without-manpage usr/bin/ktelnetservice5
+kio: binary-without-manpage usr/bin/ktrash5
