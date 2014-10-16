@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0+git20140925 i386
+# SymbolsHelper-Confirmed: 5.3.0+git20141016.0314 amd64 i386
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -779,6 +779,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO6DavJobD2Ev@Base 4.96.0
  _ZN3KIO6copyAsERK4QUrlS2_6QFlagsINS_7JobFlagEE@Base 4.96.0
  _ZN3KIO6linkAsERK4QUrlS2_6QFlagsINS_7JobFlagEE@Base 4.96.0
+ _ZN3KIO6mkpathERK4QUrlS2_6QFlagsINS_7JobFlagEE@Base 5.3.0+git20141016.0314
  _ZN3KIO6moveAsERK4QUrlS2_6QFlagsINS_7JobFlagEE@Base 4.96.0
  _ZN3KIO6numberEy@Base 4.96.0
  _ZN3KIO6renameERK4QUrlS2_6QFlagsINS_7JobFlagEE@Base 4.96.0
@@ -941,6 +942,16 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO9IdleSlaveD0Ev@Base 4.96.0
  _ZN3KIO9IdleSlaveD1Ev@Base 4.96.0
  _ZN3KIO9IdleSlaveD2Ev@Base 4.96.0
+ _ZN3KIO9MkpathJob10slotResultEP4KJob@Base 5.3.0+git20141016.0314
+ _ZN3KIO9MkpathJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0+git20141016.0314
+ _ZN3KIO9MkpathJob11qt_metacastEPKc@Base 5.3.0+git20141016.0314
+ _ZN3KIO9MkpathJob16directoryCreatedERK4QUrl@Base 5.3.0+git20141016.0314
+ _ZN3KIO9MkpathJob16staticMetaObjectE@Base 5.3.0+git20141016.0314
+ _ZN3KIO9MkpathJobC1ERNS_16MkpathJobPrivateE@Base 5.3.0+git20141016.0314
+ _ZN3KIO9MkpathJobC2ERNS_16MkpathJobPrivateE@Base 5.3.0+git20141016.0314
+ _ZN3KIO9MkpathJobD0Ev@Base 5.3.0+git20141016.0314
+ _ZN3KIO9MkpathJobD1Ev@Base 5.3.0+git20141016.0314
+ _ZN3KIO9MkpathJobD2Ev@Base 5.3.0+git20141016.0314
  _ZN3KIO9Scheduler10disconnectEPK7QObjectPKcS3_S5_@Base 4.96.0
  _ZN3KIO9Scheduler10slaveErrorEPNS_5SlaveEiRK7QString@Base 4.96.0
  _ZN3KIO9Scheduler11jobFinishedEPNS_9SimpleJobEPNS_5SlaveE@Base 4.96.0
@@ -1396,6 +1407,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZNK3KIO9IdleSlave5matchERK7QStringS3_b@Base 4.96.0
  _ZNK3KIO9IdleSlave6onHoldERK4QUrl@Base 4.96.0
  _ZNK3KIO9IdleSlave8protocolEv@Base 4.96.0
+ _ZNK3KIO9MkpathJob10metaObjectEv@Base 5.3.0+git20141016.0314
  _ZNK3KIO9Scheduler10metaObjectEv@Base 4.96.0
  _ZNK3KIO9SimpleJob10metaObjectEv@Base 4.96.0
  _ZNK3KIO9SimpleJob28isRedirectionHandlingEnabledEv@Base 4.96.0
@@ -1516,6 +1528,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTIN3KIO8MkdirJobE@Base 4.96.0
  _ZTIN3KIO9DeleteJobE@Base 4.96.0
  _ZTIN3KIO9IdleSlaveE@Base 4.96.0
+ _ZTIN3KIO9MkpathJobE@Base 5.3.0+git20141016.0314
  _ZTIN3KIO9SchedulerE@Base 4.96.0
  _ZTIN3KIO9SimpleJobE@Base 4.96.0
  _ZTIN3KIO9SlaveBaseE@Base 4.96.0
@@ -1558,6 +1571,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTSN3KIO8MkdirJobE@Base 4.96.0
  _ZTSN3KIO9DeleteJobE@Base 4.96.0
  _ZTSN3KIO9IdleSlaveE@Base 4.96.0
+ _ZTSN3KIO9MkpathJobE@Base 5.3.0+git20141016.0314
  _ZTSN3KIO9SchedulerE@Base 4.96.0
  _ZTSN3KIO9SimpleJobE@Base 4.96.0
  _ZTSN3KIO9SlaveBaseE@Base 4.96.0
@@ -1600,6 +1614,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTVN3KIO8MkdirJobE@Base 4.96.0
  _ZTVN3KIO9DeleteJobE@Base 4.96.0
  _ZTVN3KIO9IdleSlaveE@Base 4.96.0
+ _ZTVN3KIO9MkpathJobE@Base 5.3.0+git20141016.0314
  _ZTVN3KIO9SchedulerE@Base 4.96.0
  _ZTVN3KIO9SimpleJobE@Base 4.96.0
  _ZTVN3KIO9SlaveBaseE@Base 4.96.0
