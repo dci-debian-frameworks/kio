@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 amd64
+# SymbolsHelper-Confirmed: 5.3.0+git20141027.0924 amd64 i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -521,6 +521,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN3KIO15FileUndoManagerD0Ev@Base 4.96.0
  _ZN3KIO15FileUndoManagerD1Ev@Base 4.96.0
  _ZN3KIO15FileUndoManagerD2Ev@Base 4.96.0
+ _ZN3KIO15pasteActionTextEPK9QMimeDataPbRK9KFileItem@Base 5.3.0+git20141027.0924
  _ZN3KIO15pasteActionTextEv@Base 4.96.0
  _ZN3KIO16canPasteMimeDataEPK9QMimeData@Base 4.96.0
  _ZN3KIO18isClipboardDataCutEPK9QMimeData@Base 5.2.0
