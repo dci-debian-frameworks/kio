@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0+git20141027.0924 amd64 i386
+# SymbolsHelper-Confirmed: 5.3.0+git20141029.0314 amd64 i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -533,8 +533,11 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN4KRun10runCommandERK7QStringS2_S2_P7QWidgetRK10QByteArray@Base 4.96.0
  _ZN4KRun10runCommandERK7QStringS2_S2_P7QWidgetRK10QByteArrayS2_@Base 4.96.0
  _ZN4KRun10shellQuoteER7QString@Base 4.96.0
+ _ZN4KRun11KRunPrivate10showPromptEv@Base 5.3.0+git20141029.0314
  _ZN4KRun11KRunPrivate10startTimerEv@Base 4.96.0
  _ZN4KRun11KRunPrivate13runExecutableERK7QString@Base 4.96.0
+ _ZN4KRun11KRunPrivate14isPromptNeededEv@Base 5.3.0+git20141029.0314
+ _ZN4KRun11KRunPrivate16onDialogFinishedEib@Base 5.3.0+git20141029.0314
  _ZN4KRun11KRunPrivate4initERK4QUrlP7QWidgetbRK10QByteArray@Base 4.96.0
  _ZN4KRun11KRunPrivateC1EPS_@Base 4.96.0
  _ZN4KRun11KRunPrivateC2EPS_@Base 4.96.0
