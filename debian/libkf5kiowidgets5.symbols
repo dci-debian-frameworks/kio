@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0+git20141029.0314 amd64 i386
+# SymbolsHelper-Confirmed: 5.3.0+git20141031.0315 amd64 i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -567,6 +567,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN4KRun21displayOpenWithDialogERK5QListI4QUrlEP7QWidgetbRK7QStringRK10QByteArray@Base 4.96.0
  _ZN4KRun23setInitializeNextActionEb@Base 4.96.0
  _ZN4KRun24setEnableExternalBrowserEb@Base 4.96.0
+ _ZN4KRun28setShowScriptExecutionPromptEb@Base 5.3.0+git20141031.0315
  _ZN4KRun3jobEv@Base 4.96.0
  _ZN4KRun3runERK7QStringRK5QListI4QUrlEP7QWidgetS2_S2_RK10QByteArray@Base 4.96.0
  _ZN4KRun3runERK8KServiceRK5QListI4QUrlEP7QWidgetbRK7QStringRK10QByteArray@Base 4.96.0
