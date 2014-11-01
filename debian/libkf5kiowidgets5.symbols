@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0+git20141031.0315 amd64 i386
+# SymbolsHelper-Confirmed: 5.3.0+git20141101.0339 amd64 i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -526,8 +526,20 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN3KIO16canPasteMimeDataEPK9QMimeData@Base 4.96.0
  _ZN3KIO18isClipboardDataCutEPK9QMimeData@Base 5.2.0
  _ZN3KIO19setClipboardDataCutEP9QMimeDatab@Base 5.2.0
+ _ZN3KIO4dropEPK9QMimeDataRK4QUrl6QFlagsINS_7JobFlagEE@Base 5.3.0+git20141101.0339
  _ZN3KIO5SslUi18askIgnoreSslErrorsEPK10KTcpSocketNS0_12RulesStorageE@Base 4.96.0
  _ZN3KIO5SslUi18askIgnoreSslErrorsERK15KSslErrorUiDataNS0_12RulesStorageE@Base 4.96.0
+ _ZN3KIO5pasteEPK9QMimeDataRK4QUrl6QFlagsINS_7JobFlagEE@Base 5.3.0+git20141101.0339
+ _ZN3KIO8PasteJob10slotResultEP4KJob@Base 5.3.0+git20141101.0339
+ _ZN3KIO8PasteJob11itemCreatedERK4QUrl@Base 5.3.0+git20141101.0339
+ _ZN3KIO8PasteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0+git20141101.0339
+ _ZN3KIO8PasteJob11qt_metacastEPKc@Base 5.3.0+git20141101.0339
+ _ZN3KIO8PasteJob16staticMetaObjectE@Base 5.3.0+git20141101.0339
+ _ZN3KIO8PasteJobC1ERNS_15PasteJobPrivateE@Base 5.3.0+git20141101.0339
+ _ZN3KIO8PasteJobC2ERNS_15PasteJobPrivateE@Base 5.3.0+git20141101.0339
+ _ZN3KIO8PasteJobD0Ev@Base 5.3.0+git20141101.0339
+ _ZN3KIO8PasteJobD1Ev@Base 5.3.0+git20141101.0339
+ _ZN3KIO8PasteJobD2Ev@Base 5.3.0+git20141101.0339
  _ZN4KRun10binaryNameERK7QStringb@Base 4.96.0
  _ZN4KRun10runCommandERK7QStringP7QWidgetS2_@Base 4.96.0
  _ZN4KRun10runCommandERK7QStringS2_S2_P7QWidgetRK10QByteArray@Base 4.96.0
@@ -785,6 +797,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZNK3KIO15FileUndoManager13undoAvailableEv@Base 4.96.0
  _ZNK3KIO15FileUndoManager26currentCommandSerialNumberEv@Base 4.96.0
  _ZNK3KIO15FileUndoManager8undoTextEv@Base 4.96.0
+ _ZNK3KIO8PasteJob10metaObjectEv@Base 5.3.0+git20141101.0339
  _ZNK4KRun10autoDeleteEv@Base 4.96.0
  _ZNK4KRun10doScanFileEv@Base 4.96.0
  _ZNK4KRun10metaObjectEv@Base 4.96.0
@@ -850,6 +863,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTIN3KIO13JobUiDelegateE@Base 4.96.0
  _ZTIN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTIN3KIO15FileUndoManagerE@Base 4.96.0
+ _ZTIN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
  _ZTS10KAutoMount@Base 4.96.0
  _ZTS10KDirLister@Base 4.96.0
  _ZTS12KAutoUnmount@Base 4.96.0
@@ -884,6 +898,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTSN3KIO13JobUiDelegateE@Base 4.96.0
  _ZTSN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTSN3KIO15FileUndoManagerE@Base 4.96.0
+ _ZTSN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
  _ZTV10KAutoMount@Base 4.96.0
  _ZTV10KDirLister@Base 4.96.0
  _ZTV12KAutoUnmount@Base 4.96.0
@@ -918,6 +933,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTVN3KIO13JobUiDelegateE@Base 4.96.0
  _ZTVN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTVN3KIO15FileUndoManagerE@Base 4.96.0
+ _ZTVN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
  (c++)"non-virtual thunk to KBuildSycocaProgressDialog::~KBuildSycocaProgressDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KIO::JobUiDelegate::askDeleteConfirmation(QList<QUrl> const&, KIO::JobUiDelegateExtension::DeletionType, KIO::JobUiDelegateExtension::ConfirmationType)@Base" 4.96.0
  (c++)"non-virtual thunk to KIO::JobUiDelegate::askFileRename(KJob*, QString const&, QUrl const&, QUrl const&, QFlags<KIO::RenameDialog_Option>, QString&, unsigned long long, unsigned long long, QDateTime const&, QDateTime const&, QDateTime const&, QDateTime const&)@Base" 4.96.0
