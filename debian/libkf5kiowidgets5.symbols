@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0+git20141101.0339 amd64 i386
+# SymbolsHelper-Confirmed: 5.3.0+git20141103.0339-0ubuntu0 amd64 i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -526,7 +526,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN3KIO16canPasteMimeDataEPK9QMimeData@Base 4.96.0
  _ZN3KIO18isClipboardDataCutEPK9QMimeData@Base 5.2.0
  _ZN3KIO19setClipboardDataCutEP9QMimeDatab@Base 5.2.0
- _ZN3KIO4dropEPK9QMimeDataRK4QUrl6QFlagsINS_7JobFlagEE@Base 5.3.0+git20141101.0339
  _ZN3KIO5SslUi18askIgnoreSslErrorsEPK10KTcpSocketNS0_12RulesStorageE@Base 4.96.0
  _ZN3KIO5SslUi18askIgnoreSslErrorsERK15KSslErrorUiDataNS0_12RulesStorageE@Base 4.96.0
  _ZN3KIO5pasteEPK9QMimeDataRK4QUrl6QFlagsINS_7JobFlagEE@Base 5.3.0+git20141101.0339
