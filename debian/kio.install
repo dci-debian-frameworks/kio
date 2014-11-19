@@ -12,8 +12,4 @@ usr/share/kservices5/*
 usr/share/kservicetypes5/*
 usr/share/locale/*/LC_MESSAGES/kio5.mo
 usr/share/man/*/man8/kcookiejar5.8
-usr/share/man/pt_BR/man8/kcookiejar5.8
-usr/share/man/uk/man8/kcookiejar5.8
-usr/share/man/nl/man8/kcookiejar5.8
-usr/share/man/sv/man8/kcookiejar5.8
 usr/share/man/man8/kcookiejar5.8
