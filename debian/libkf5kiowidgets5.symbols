@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0+git20141103.0339-0ubuntu0 amd64 i386
+# SymbolsHelper-Confirmed: 5.4.0+git20141203.0249+15.04 amd64 i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -308,6 +308,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN18KUrlPixmapProviderD1Ev@Base 4.96.0
  _ZN18KUrlPixmapProviderD2Ev@Base 4.96.0
  _ZN19KDesktopFileActions14executeServiceERK5QListI4QUrlERK14KServiceAction@Base 4.96.0
+ _ZN19KDesktopFileActions14runWithStartupERK4QUrlbRK10QByteArray@Base 5.4.0+git20141203.0249+15.04
  _ZN19KDesktopFileActions15builtinServicesERK4QUrl@Base 4.96.0
  _ZN19KDesktopFileActions19userDefinedServicesERK7QStringRK12KDesktopFilebRK5QListI4QUrlE@Base 4.96.0
  _ZN19KDesktopFileActions19userDefinedServicesERK7QStringb@Base 4.96.0
