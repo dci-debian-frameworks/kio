@@ -1,4 +1,4 @@
-kio (5.5.0-0ubuntu1) UNRELEASED; urgency=medium
+kio (5.5.0-0ubuntu1) vivid; urgency=medium
 
   [ Rohan Garg ]
   * Make sure man pages don't get installed twice
@@ -6,7 +6,7 @@ kio (5.5.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 11 Dec 2014 14:07:06 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 12:21:32 +0100
 
 kio (5.4.0-0ubuntu1) vivid; urgency=medium
 
