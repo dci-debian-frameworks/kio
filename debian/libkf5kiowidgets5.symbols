@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0+git20141203.0249+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.5.0+git20141226.0011+15.04 amd64 i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -525,11 +525,32 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN3KIO15pasteActionTextEPK9QMimeDataPbRK9KFileItem@Base 5.3.0+git20141027.0924
  _ZN3KIO15pasteActionTextEv@Base 4.96.0
  _ZN3KIO16canPasteMimeDataEPK9QMimeData@Base 4.96.0
+ _ZN3KIO18DndPopupMenuPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO18DndPopupMenuPlugin11qt_metacastEPKc@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO18DndPopupMenuPlugin16staticMetaObjectE@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO18DndPopupMenuPluginC1EP7QObject@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO18DndPopupMenuPluginC2EP7QObject@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO18DndPopupMenuPluginD0Ev@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO18DndPopupMenuPluginD1Ev@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO18DndPopupMenuPluginD2Ev@Base 5.5.0+git20141226.0011+15.04
  _ZN3KIO18isClipboardDataCutEPK9QMimeData@Base 5.2.0
  _ZN3KIO19setClipboardDataCutEP9QMimeDatab@Base 5.2.0
+ _ZN3KIO4dropEPK10QDropEventRK4QUrl6QFlagsINS_7JobFlagEE@Base 5.5.0+git20141226.0011+15.04
  _ZN3KIO5SslUi18askIgnoreSslErrorsEPK10KTcpSocketNS0_12RulesStorageE@Base 4.96.0
  _ZN3KIO5SslUi18askIgnoreSslErrorsERK15KSslErrorUiDataNS0_12RulesStorageE@Base 4.96.0
  _ZN3KIO5pasteEPK9QMimeDataRK4QUrl6QFlagsINS_7JobFlagEE@Base 5.3.0+git20141101.0339
+ _ZN3KIO7DropJob10slotResultEP4KJob@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO7DropJob11itemCreatedERK4QUrl@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO7DropJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO7DropJob11qt_metacastEPKc@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO7DropJob16staticMetaObjectE@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO7DropJob20popupMenuAboutToShowERK23KFileItemListProperties@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO7DropJob21setApplicationActionsERK5QListIP7QActionE@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO7DropJobC1ERNS_14DropJobPrivateE@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO7DropJobC2ERNS_14DropJobPrivateE@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO7DropJobD0Ev@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO7DropJobD1Ev@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO7DropJobD2Ev@Base 5.5.0+git20141226.0011+15.04
  _ZN3KIO8PasteJob10slotResultEP4KJob@Base 5.3.0+git20141101.0339
  _ZN3KIO8PasteJob11itemCreatedERK4QUrl@Base 5.3.0+git20141101.0339
  _ZN3KIO8PasteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0+git20141101.0339
@@ -797,6 +818,8 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZNK3KIO15FileUndoManager13undoAvailableEv@Base 4.96.0
  _ZNK3KIO15FileUndoManager26currentCommandSerialNumberEv@Base 4.96.0
  _ZNK3KIO15FileUndoManager8undoTextEv@Base 4.96.0
+ _ZNK3KIO18DndPopupMenuPlugin10metaObjectEv@Base 5.5.0+git20141226.0011+15.04
+ _ZNK3KIO7DropJob10metaObjectEv@Base 5.5.0+git20141226.0011+15.04
  _ZNK3KIO8PasteJob10metaObjectEv@Base 5.3.0+git20141101.0339
  _ZNK4KRun10autoDeleteEv@Base 4.96.0
  _ZNK4KRun10doScanFileEv@Base 4.96.0
@@ -863,6 +886,8 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTIN3KIO13JobUiDelegateE@Base 4.96.0
  _ZTIN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTIN3KIO15FileUndoManagerE@Base 4.96.0
+ _ZTIN3KIO18DndPopupMenuPluginE@Base 5.5.0+git20141226.0011+15.04
+ _ZTIN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTIN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
  _ZTS10KAutoMount@Base 4.96.0
  _ZTS10KDirLister@Base 4.96.0
@@ -898,6 +923,8 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTSN3KIO13JobUiDelegateE@Base 4.96.0
  _ZTSN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTSN3KIO15FileUndoManagerE@Base 4.96.0
+ _ZTSN3KIO18DndPopupMenuPluginE@Base 5.5.0+git20141226.0011+15.04
+ _ZTSN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTSN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
  _ZTV10KAutoMount@Base 4.96.0
  _ZTV10KDirLister@Base 4.96.0
@@ -933,6 +960,8 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTVN3KIO13JobUiDelegateE@Base 4.96.0
  _ZTVN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTVN3KIO15FileUndoManagerE@Base 4.96.0
+ _ZTVN3KIO18DndPopupMenuPluginE@Base 5.5.0+git20141226.0011+15.04
+ _ZTVN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTVN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
  (c++)"non-virtual thunk to KBuildSycocaProgressDialog::~KBuildSycocaProgressDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KIO::JobUiDelegate::askDeleteConfirmation(QList<QUrl> const&, KIO::JobUiDelegateExtension::DeletionType, KIO::JobUiDelegateExtension::ConfirmationType)@Base" 4.96.0
