@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0+git20141220.0153+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.5.0+git20141229.0049+15.04 amd64 i386
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -907,6 +907,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO8UDSEntry5clearEv@Base 4.96.0
  _ZN3KIO8UDSEntry6insertEjRK7QString@Base 4.96.0
  _ZN3KIO8UDSEntry6insertEjx@Base 4.96.0
+ _ZN3KIO8UDSEntry7reserveEi@Base 5.5.0+git20141229.0049+15.04
  _ZN3KIO8UDSEntryC1ERK6stat64RK7QString@Base 4.100.0
  _ZN3KIO8UDSEntryC1ERKS0_@Base 4.96.0
  _ZN3KIO8UDSEntryC1Ev@Base 4.96.0
