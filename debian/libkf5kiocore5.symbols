@@ -181,7 +181,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN14KCoreDirLister7Private14CachedItemsJobD0Ev@Base 4.96.0
  _ZN14KCoreDirLister7Private14CachedItemsJobD1Ev@Base 4.96.0
  _ZN14KCoreDirLister7Private14CachedItemsJobD2Ev@Base 4.96.0
- _ZN14KCoreDirLister7Private14FilterSettingsaSERKS1_@Base 5.6.0+git20150109.0818+15.04
  _ZN14KCoreDirLister7Private14_k_slotPercentEP4KJobm@Base 4.96.0
  _ZN14KCoreDirLister7Private14addRefreshItemERK4QUrlRK9KFileItemS6_@Base 4.96.0
  _ZN14KCoreDirLister7Private16_k_slotTotalSizeEP4KJoby@Base 4.96.0
