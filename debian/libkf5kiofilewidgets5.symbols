@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 amd64
+# SymbolsHelper-Confirmed: 5.6.0+git20150116.0016+15.04 amd64 i386
 libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4.96.0
  _ZN11KFileWidget10slotCancelEv@Base 4.96.0
@@ -254,6 +254,18 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN13KUrlNavigatorD0Ev@Base 4.96.0
  _ZN13KUrlNavigatorD1Ev@Base 4.96.0
  _ZN13KUrlNavigatorD2Ev@Base 4.96.0
+ _ZN15KFileCopyToMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.6.0+git20150116.0016+15.04
+ _ZN15KFileCopyToMenu11qt_metacastEPKc@Base 5.6.0+git20150116.0016+15.04
+ _ZN15KFileCopyToMenu11setReadOnlyEb@Base 5.6.0+git20150116.0016+15.04
+ _ZN15KFileCopyToMenu16staticMetaObjectE@Base 5.6.0+git20150116.0016+15.04
+ _ZN15KFileCopyToMenu27setAutoErrorHandlingEnabledEb@Base 5.6.0+git20150116.0016+15.04
+ _ZN15KFileCopyToMenu5errorEiRK7QString@Base 5.6.0+git20150116.0016+15.04
+ _ZN15KFileCopyToMenu7setUrlsERK5QListI4QUrlE@Base 5.6.0+git20150116.0016+15.04
+ _ZN15KFileCopyToMenuC1EP7QWidget@Base 5.6.0+git20150116.0016+15.04
+ _ZN15KFileCopyToMenuC2EP7QWidget@Base 5.6.0+git20150116.0016+15.04
+ _ZN15KFileCopyToMenuD0Ev@Base 5.6.0+git20150116.0016+15.04
+ _ZN15KFileCopyToMenuD1Ev@Base 5.6.0+git20150116.0016+15.04
+ _ZN15KFileCopyToMenuD2Ev@Base 5.6.0+git20150116.0016+15.04
  _ZN15KFilePlacesView10paintEventEP11QPaintEvent@Base 4.96.0
  _ZN15KFilePlacesView10setShowAllEb@Base 4.96.0
  _ZN15KFilePlacesView10urlChangedERK4QUrl@Base 4.96.0
@@ -547,6 +559,8 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZNK13KUrlNavigator7Private9buttonUrlEi@Base 4.96.0
  _ZNK13KUrlNavigator7homeUrlEv@Base 4.96.0
  _ZNK13KUrlNavigator8isActiveEv@Base 4.96.0
+ _ZNK15KFileCopyToMenu10metaObjectEv@Base 5.6.0+git20150116.0016+15.04
+ _ZNK15KFileCopyToMenu12addActionsToEP5QMenu@Base 5.6.0+git20150116.0016+15.04
  _ZNK15KFilePlacesView10metaObjectEv@Base 4.96.0
  _ZNK15KFilePlacesView20isDropOnPlaceEnabledEv@Base 4.96.0
  _ZNK15KFilePlacesView24isAutoResizeItemsEnabledEv@Base 4.96.0
@@ -612,6 +626,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZTI12KDirOperator@Base 4.96.0
  _ZTI12KNewFileMenu@Base 4.96.0
  _ZTI13KUrlNavigator@Base 4.96.0
+ _ZTI15KFileCopyToMenu@Base 5.6.0+git20150116.0016+15.04
  _ZTI15KFilePlacesView@Base 4.96.0
  _ZTI16KFileFilterCombo@Base 4.96.0
  _ZTI16KFileMetaPreview@Base 4.96.0
@@ -628,6 +643,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZTS12KDirOperator@Base 4.96.0
  _ZTS12KNewFileMenu@Base 4.96.0
  _ZTS13KUrlNavigator@Base 4.96.0
+ _ZTS15KFileCopyToMenu@Base 5.6.0+git20150116.0016+15.04
  _ZTS15KFilePlacesView@Base 4.96.0
  _ZTS16KFileFilterCombo@Base 4.96.0
  _ZTS16KFileMetaPreview@Base 4.96.0
@@ -644,6 +660,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZTV12KDirOperator@Base 4.96.0
  _ZTV12KNewFileMenu@Base 4.96.0
  _ZTV13KUrlNavigator@Base 4.96.0
+ _ZTV15KFileCopyToMenu@Base 5.6.0+git20150116.0016+15.04
  _ZTV15KFilePlacesView@Base 4.96.0
  _ZTV16KFileFilterCombo@Base 4.96.0
  _ZTV16KFileMetaPreview@Base 4.96.0
