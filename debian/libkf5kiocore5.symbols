@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0+git20150114.1541+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.6.0+git20150118 amd64
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -488,7 +488,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO12TCPSlaveBase13connectToHostERK7QStringtPS1_@Base 4.96.0
  _ZN3KIO12TCPSlaveBase15waitForResponseEi@Base 4.96.0
  _ZN3KIO12TCPSlaveBase18disconnectFromHostEv@Base 4.96.0
- _ZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate16startTLSInternalEN10KTcpSocket10SslVersionERK17QSslConfigurationi@Base 4.96.0
+ _ZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate16startTLSInternalEN10KTcpSocket10SslVersionEi@Base 5.6.0+git20150118
  _ZN3KIO12TCPSlaveBase23selectClientCertificateEv@Base 4.96.0
  _ZN3KIO12TCPSlaveBase23verifyServerCertificateEv@Base 4.96.0
  (subst)_ZN3KIO12TCPSlaveBase4readEPc{ssize_t}@Base 4.96.0
