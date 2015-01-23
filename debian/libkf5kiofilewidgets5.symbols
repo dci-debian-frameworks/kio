@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0+git20150116.0016+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.6.0+git20150123.0038+15.04 amd64 i386
 libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4.96.0
  _ZN11KFileWidget10slotCancelEv@Base 4.96.0
@@ -235,11 +235,13 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN13KUrlNavigator7Private15openContextMenuEv@Base 4.96.0
  _ZN13KUrlNavigator7Private17slotReturnPressedEv@Base 4.96.0
  _ZN13KUrlNavigator7Private18slotPathBoxChangedERK7QString@Base 4.96.0
+ _ZN13KUrlNavigator7Private19applyUncommittedUrlEv@Base 5.6.0+git20150123.0038+15.04
  _ZN13KUrlNavigator7Private19slotProtocolChangedERK7QString@Base 4.96.0
  _ZN13KUrlNavigator7Private20openPathSelectorMenuEv@Base 4.96.0
  _ZN13KUrlNavigator7Private22switchToBreadcrumbModeEv@Base 4.96.0
  _ZN13KUrlNavigator7Private22updateButtonVisibilityEv@Base 4.96.0
  _ZN13KUrlNavigator7Private26slotNavigatorButtonClickedERK4QUrlN2Qt11MouseButtonE@Base 4.96.0
+ _ZN13KUrlNavigator7Private31slotToggleEditableButtonPressedEv@Base 5.6.0+git20150123.0038+15.04
  _ZN13KUrlNavigator7Private8dropUrlsERK4QUrlP10QDropEvent@Base 4.96.0
  _ZN13KUrlNavigator7PrivateC1EPS_P16KFilePlacesModel@Base 4.96.0
  _ZN13KUrlNavigator7PrivateC2EPS_P16KFilePlacesModel@Base 4.96.0
