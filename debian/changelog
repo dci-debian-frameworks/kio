@@ -1,4 +1,4 @@
-kio (5.6.0-1~) UNRELEASED; urgency=medium
+kio (5.6.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
   * Add acc autopkgtests.
@@ -9,7 +9,7 @@ kio (5.6.0-1~) UNRELEASED; urgency=medium
   * Update watch file.
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jan 2015 15:00:49 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Jan 2015 15:12:37 +0100
 
 kio (5.6.0-0ubuntu1) vivid; urgency=medium
 
