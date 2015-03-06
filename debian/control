@@ -3,38 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake (>= 2.8.12),
-               debhelper (>= 9),
-               extra-cmake-modules (>= 1.7.0),
-               kdoctools-dev (>= 5.7.0),
-               libacl1-dev,
-               libkf5archive-dev (>= 5.7.0),
-               libkf5bookmarks-dev (>= 5.7.0),
-               libkf5codecs-dev (>= 5.7.0),
-               libkf5completion-dev (>= 5.7.0),
-               libkf5config-dev (>= 5.7.0),
-               libkf5configwidgets-dev (>= 5.7.0),
-               libkf5coreaddons-dev (>= 5.7.0),
-               libkf5dbusaddons-dev (>= 5.7.0),
-               libkf5i18n-dev (>= 5.7.0),
-               libkf5iconthemes-dev (>= 5.7.0),
-               libkf5itemviews-dev (>= 5.7.0),
-               libkf5jobwidgets-dev (>= 5.7.0),
-               libkf5notifications-dev (>= 5.7.0),
-               libkf5service-dev (>= 5.7.0),
-               libkf5solid-dev (>= 5.7.0),
-               libkf5wallet-dev (>= 5.7.0),
-               libkf5widgetsaddons-dev (>= 5.7.0),
-               libkf5windowsystem-dev (>= 5.7.0),
-               libkf5xmlgui-dev (>= 5.7.0),
-               libkrb5-dev,
-               libqt5x11extras5-dev,
-               libxml2-dev,
-               libxslt1-dev,
-               pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.2.0),
-               qtscript5-dev,
-               zlib1g-dev
+Build-Depends: cmake (>= 2.8.12), debhelper (>= 9), extra-cmake-modules (>= 1.7.0), kdoctools-dev (>= 5.7.0), libacl1-dev, libkf5archive-dev (>= 5.7.0), libkf5bookmarks-dev (>= 5.7.0), libkf5codecs-dev (>= 5.7.0), libkf5completion-dev (>= 5.7.0), libkf5config-dev (>= 5.7.0), libkf5configwidgets-dev (>= 5.7.0), libkf5coreaddons-dev (>= 5.7.0), libkf5dbusaddons-dev (>= 5.7.0), libkf5i18n-dev (>= 5.7.0), libkf5iconthemes-dev (>= 5.7.0), libkf5itemviews-dev (>= 5.7.0), libkf5jobwidgets-dev (>= 5.7.0), libkf5notifications-dev (>= 5.7.0), libkf5service-dev (>= 5.7.0), libkf5solid-dev (>= 5.7.0), libkf5wallet-dev (>= 5.7.0), libkf5widgetsaddons-dev (>= 5.7.0), libkf5windowsystem-dev (>= 5.7.0), libkf5xmlgui-dev (>= 5.7.0), libkrb5-dev, libqt5x11extras5-dev (>= 5.2.0~), libxml2-dev, libxslt1-dev, pkg-kde-tools (>= 0.15.15ubuntu1~), qtbase5-dev (>= 5.2.0), qtscript5-dev (>= 5.2.0~), zlib1g-dev, libkf5textwidgets-dev (>= 5.7.0~)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kio
 XS-Testsuite: autopkgtest
