@@ -1,6 +1,7 @@
 kio (5.7.0-1) experimental; urgency=medium
 
   * New upstream release (5.7.0).
+  * New patch: return_on_ACCESS_DENIED
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Mar 2015 22:57:43 +0100
 
