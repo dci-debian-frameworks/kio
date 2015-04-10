@@ -1,3 +1,9 @@
+kio (5.9.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Apr 2015 10:58:37 -0700
+
 kio (5.8.0-0ubuntu2) vivid; urgency=medium
 
   * Add kubuntu_kdelibs4-docs-path.diff to search in kdelibs4 path
