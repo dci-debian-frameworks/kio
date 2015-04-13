@@ -1,8 +1,8 @@
-kio (5.9.0-0ubuntu1) UNRELEASED; urgency=medium
+kio (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Apr 2015 10:58:37 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:28:24 +0200
 
 kio (5.8.0-0ubuntu2) vivid; urgency=medium
 
