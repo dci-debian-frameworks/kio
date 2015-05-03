@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0+git20150101.0309+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.9.0+git20150503.0133 amd64 i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -248,6 +248,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN17KPropertiesDialog10canDisplayERK13KFileItemList@Base 4.96.0
  _ZN17KPropertiesDialog10showDialogERK13KFileItemListP7QWidgetb@Base 4.96.0
  _ZN17KPropertiesDialog10showDialogERK4QUrlP7QWidgetb@Base 4.96.0
+ _ZN17KPropertiesDialog10showDialogERK5QListI4QUrlEP7QWidgetb@Base 5.9.0+git20150503.0133
  _ZN17KPropertiesDialog10showDialogERK9KFileItemP7QWidgetb@Base 4.96.0
  _ZN17KPropertiesDialog10slotCancelEv@Base 4.96.0
  _ZN17KPropertiesDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -272,11 +273,13 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN17KPropertiesDialogC1ERK13KFileItemListP7QWidget@Base 4.96.0
  _ZN17KPropertiesDialogC1ERK4QUrlP7QWidget@Base 4.96.0
  _ZN17KPropertiesDialogC1ERK4QUrlS2_RK7QStringP7QWidget@Base 4.96.0
+ _ZN17KPropertiesDialogC1ERK5QListI4QUrlEP7QWidget@Base 5.9.0+git20150503.0133
  _ZN17KPropertiesDialogC1ERK7QStringP7QWidget@Base 4.96.0
  _ZN17KPropertiesDialogC1ERK9KFileItemP7QWidget@Base 4.96.0
  _ZN17KPropertiesDialogC2ERK13KFileItemListP7QWidget@Base 4.96.0
  _ZN17KPropertiesDialogC2ERK4QUrlP7QWidget@Base 4.96.0
  _ZN17KPropertiesDialogC2ERK4QUrlS2_RK7QStringP7QWidget@Base 4.96.0
+ _ZN17KPropertiesDialogC2ERK5QListI4QUrlEP7QWidget@Base 5.9.0+git20150503.0133
  _ZN17KPropertiesDialogC2ERK7QStringP7QWidget@Base 4.96.0
  _ZN17KPropertiesDialogC2ERK9KFileItemP7QWidget@Base 4.96.0
  _ZN17KPropertiesDialogD0Ev@Base 4.96.0
