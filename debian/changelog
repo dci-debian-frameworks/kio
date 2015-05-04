@@ -1,3 +1,12 @@
+kio (5.9.0-0ubuntu1.1) vivid; urgency=medium
+
+  * Add upstream patch
+    upstream_Remove-bookmarks-syncing-from-KFilePlacesModel-and-u.patch
+    to remove faulty bookmarks syncing from places and use a single config for
+    places instead. LP: #1422469
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 04 May 2015 10:56:34 +0200
+
 kio (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
