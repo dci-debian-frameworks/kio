@@ -29,12 +29,12 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5windowsystem-dev (>= 5.10.0~),
                libkf5xmlgui-dev (>= 5.10.0~),
                libkrb5-dev,
-               libqt5x11extras5-dev (>= 5.2.0~),
+               libqt5x11extras5-dev (>= 5.4),
                libxml2-dev,
                libxslt1-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.2.0),
-               qtscript5-dev (>= 5.2.0~),
+               qtbase5-dev (>= 5.4),
+               qtscript5-dev (>= 5.4),
                zlib1g-dev
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kio
@@ -57,7 +57,7 @@ Depends: kio (= ${binary:Version}),
          libkf5service-dev (>= 5.10.0~),
          libkf5solid-dev (>= 5.10.0~),
          libkf5xmlgui-dev (>= 5.10.0~),
-         qtbase5-dev (>= 5.2.0),
+         qtbase5-dev (>= 5.4),
          ${misc:Depends}
 Description: Resource and network access abstraction.
  KDE Input/Output framework provides a single API for
