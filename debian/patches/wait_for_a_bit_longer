@@ -1,0 +1,13 @@
+Index: kio/autotests/kdirlistertest.cpp
+===================================================================
+--- kio.orig/autotests/kdirlistertest.cpp	2015-03-21 09:18:41.971555395 +0100
++++ kio/autotests/kdirlistertest.cpp	2015-03-21 10:10:55.278685823 +0100
+@@ -1113,7 +1113,7 @@
+     QVERIFY(QDir().rmdir(path + "abc"));
+ 
+     // This should trigger an update.
+-    QVERIFY(spyCompleted.wait(1000));
++    QVERIFY(spyCompleted.wait(2000));
+     QVERIFY(m_dirLister.isFinished());
+     QCOMPARE(m_items.count(), 0);
+     QCOMPARE(m_dirLister.spyItemsDeleted.count(), 1);

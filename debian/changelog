@@ -25,6 +25,23 @@ kio (5.8.0-0ubuntu1) vivid; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:38:15 +0100
 
+kio (5.8.0-1) experimental; urgency=medium
+
+  * New upstream release (5.8.0).
+  * Update symbols files.
+  * New patch: wait_for_a_bit_longer
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:38:41 +0100
+
+kio (5.7.0-1) experimental; urgency=medium
+
+  * New upstream release (5.7.0).
+  * New patch: return_on_ACCESS_DENIED
+  * New patch: report_error_removing_dirs
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Mar 2015 22:57:43 +0100
+
 kio (5.7.0-0ubuntu2) vivid; urgency=medium
 
   * Make sure autopkgtest pulls in own binary packages as Depends
@@ -38,6 +55,19 @@ kio (5.7.0-0ubuntu1) vivid; urgency=medium
   * New upstream release
 
  -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:52:44 +0100
+
+kio (5.6.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Add acc autopkgtests.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update install files.
+  * Update watch file.
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Jan 2015 15:12:37 +0100
 
 kio (5.6.0-0ubuntu1) vivid; urgency=medium
 

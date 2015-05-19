@@ -1,0 +1,14 @@
+Index: kio/src/ioslaves/file/file_unix.cpp
+===================================================================
+--- kio.orig/src/ioslaves/file/file_unix.cpp	2015-03-08 11:28:41.178350636 +0100
++++ kio/src/ioslaves/file/file_unix.cpp	2015-03-13 00:19:05.571690751 +0100
+@@ -535,8 +535,8 @@
+             } else {
+                 // qDebug() << "could not rmdir " << perror;
+                 error(KIO::ERR_CANNOT_RMDIR, path);
+-                return;
+             }
++            return;
+         }
+     }
+ 
