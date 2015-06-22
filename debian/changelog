@@ -1,3 +1,11 @@
+kio (5.11.0-0ubuntu1) wily; urgency=medium
+
+  * New upstream release, uploaded to pass failing tests
+  * Add kubuntu_build-with-kf5.10.diff
+  * Add kubuntu_failing-tests.diff to skip the remaining fails
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Jun 2015 21:37:16 +0200
+
 kio (5.10.0-0ubuntu2) wily; urgency=medium
 
   * Rebuild due to test server failures
