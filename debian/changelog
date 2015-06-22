@@ -1,3 +1,9 @@
+kio (5.10.0-0ubuntu2) wily; urgency=medium
+
+  * Rebuild due to test server failures
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Jun 2015 12:49:20 +0200
+
 kio (5.10.0-0ubuntu1) wily; urgency=medium
 
   [ Maximiliano Curia ]
