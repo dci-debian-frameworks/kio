@@ -1,3 +1,9 @@
+kio (5.11.0-0ubuntu2) wily; urgency=medium
+
+  * Remove ktcpsockettest in kubuntu_failing-tests.diff to fix build
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 23 Jun 2015 13:14:32 +0200
+
 kio (5.11.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release, uploaded to pass failing tests

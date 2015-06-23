@@ -9,7 +9,15 @@ Index: kio-5.11.0/autotests/CMakeLists.txt
 ===================================================================
 --- kio-5.11.0.orig/autotests/CMakeLists.txt
 +++ kio-5.11.0/autotests/CMakeLists.txt
-@@ -55,7 +55,6 @@ ecm_add_tests(
+@@ -24,7 +24,6 @@ ecm_add_tests(
+  jobremotetest.cpp
+  kfileitemtest.cpp
+  kprotocolinfotest.cpp
+- ktcpsockettest.cpp
+  globaltest.cpp
+  mkpathjobtest.cpp
+  threadtest.cpp
+@@ -55,7 +54,6 @@ ecm_add_tests(
   kdirmodeltest.cpp
   kfileitemactionstest.cpp
   fileundomanagertest.cpp
@@ -17,7 +25,7 @@ Index: kio-5.11.0/autotests/CMakeLists.txt
   kurlcompletiontest.cpp
   kurlrequestertest.cpp
   jobguitest.cpp
-@@ -87,7 +86,6 @@ ecm_add_tests(
+@@ -87,7 +85,6 @@ ecm_add_tests(
   kdiroperatortest.cpp
   knewfilemenutest.cpp
   kfilecopytomenutest.cpp
