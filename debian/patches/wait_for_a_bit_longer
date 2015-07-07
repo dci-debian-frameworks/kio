@@ -1,8 +1,8 @@
 Index: kio/autotests/kdirlistertest.cpp
 ===================================================================
---- kio.orig/autotests/kdirlistertest.cpp	2015-03-21 09:18:41.971555395 +0100
-+++ kio/autotests/kdirlistertest.cpp	2015-03-21 10:10:55.278685823 +0100
-@@ -1113,7 +1113,7 @@
+--- kio.orig/autotests/kdirlistertest.cpp	2015-07-07 10:51:37.441998136 +0200
++++ kio/autotests/kdirlistertest.cpp	2015-07-07 10:51:37.437998295 +0200
+@@ -1149,7 +1149,7 @@
      QVERIFY(QDir().rmdir(path + "abc"));
  
      // This should trigger an update.
