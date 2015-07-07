@@ -908,10 +908,12 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO8UDSEntry6insertEjRK7QString@Base 4.96.0
  _ZN3KIO8UDSEntry6insertEjx@Base 4.96.0
  _ZN3KIO8UDSEntry7reserveEi@Base 5.5.0+git20141229.0049+15.04
- _ZN3KIO8UDSEntryC1ERK6stat64RK7QString@Base 4.100.0
+ (arch=!kfreebsd-any)_ZN3KIO8UDSEntryC1ERK6stat64RK7QString@Base 4.100.0
+ (arch=kfreebsd-any)_ZN3KIO8UDSEntryC1ERK4statRK7QString@Base 5.11.0
  _ZN3KIO8UDSEntryC1ERKS0_@Base 4.96.0
  _ZN3KIO8UDSEntryC1Ev@Base 4.96.0
- _ZN3KIO8UDSEntryC2ERK6stat64RK7QString@Base 4.100.0
+ (arch=!kfreebsd-any)_ZN3KIO8UDSEntryC2ERK6stat64RK7QString@Base 4.100.0
+ (arch=kfreebsd-any)_ZN3KIO8UDSEntryC2ERK4statRK7QString@Base 5.11.0
  _ZN3KIO8UDSEntryC2ERKS0_@Base 4.96.0
  _ZN3KIO8UDSEntryC2Ev@Base 4.96.0
  _ZN3KIO8UDSEntryD1Ev@Base 4.96.0
@@ -1122,11 +1124,13 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN4KACL6setACLERK7QString@Base 4.96.0
  _ZN4KACLC1ERK7QString@Base 4.96.0
  _ZN4KACLC1ERKS_@Base 4.96.0
- _ZN4KACLC1Ej@Base 4.96.0
+ (arch=!kfreebsd-any)_ZN4KACLC1Ej@Base 4.96.0
+ (arch=kfreebsd-any)_ZN4KACLC1Et@Base 5.11.0
  _ZN4KACLC1Ev@Base 4.96.0
  _ZN4KACLC2ERK7QString@Base 4.96.0
  _ZN4KACLC2ERKS_@Base 4.96.0
- _ZN4KACLC2Ej@Base 4.96.0
+ (arch=!kfreebsd-any)_ZN4KACLC2Ej@Base 4.96.0
+ (arch=kfreebsd-any)_ZN4KACLC2Et@Base 5.11.0
  _ZN4KACLC2Ev@Base 4.96.0
  _ZN4KACLD0Ev@Base 4.96.0
  _ZN4KACLD1Ev@Base 4.96.0
@@ -1148,15 +1152,19 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN9KFileItem7refreshEv@Base 4.96.0
  _ZN9KFileItem7setNameERK7QString@Base 4.96.0
  _ZN9KFileItem9setHiddenEv@Base 5.5.0+git20150102.0011+15.04
- _ZN9KFileItemC1ERK4QUrlRK7QStringj@Base 4.96.0
+ (arch=!kfreebsd-any)_ZN9KFileItemC1ERK4QUrlRK7QStringj@Base 4.96.0
+ (arch=kfreebsd-any)_ZN9KFileItemC1ERK4QUrlRK7QStringt@Base 5.11.0
  _ZN9KFileItemC1ERKN3KIO8UDSEntryERK4QUrlbb@Base 4.96.0
  _ZN9KFileItemC1ERKS_@Base 4.96.0
- _ZN9KFileItemC1EjjRK4QUrlb@Base 4.96.0
+ (arch=!kfreebsd-any)_ZN9KFileItemC1EjjRK4QUrlb@Base 4.96.0
+ (arch=kfreebsd-any)_ZN9KFileItemC1EttRK4QUrlb@Base 5.11.0
  _ZN9KFileItemC1Ev@Base 4.96.0
- _ZN9KFileItemC2ERK4QUrlRK7QStringj@Base 4.96.0
+ (arch=!kfreebsd-any)_ZN9KFileItemC2ERK4QUrlRK7QStringj@Base 4.96.0
+ (arch=kfreebsd-any)_ZN9KFileItemC2ERK4QUrlRK7QStringt@Base 5.11.0
  _ZN9KFileItemC2ERKN3KIO8UDSEntryERK4QUrlbb@Base 4.96.0
  _ZN9KFileItemC2ERKS_@Base 4.96.0
- _ZN9KFileItemC2EjjRK4QUrlb@Base 4.96.0
+ (arch=!kfreebsd-any)_ZN9KFileItemC2EjjRK4QUrlb@Base 4.96.0
+ (arch=kfreebsd-any)_ZN9KFileItemC2EttRK4QUrlb@Base 5.11.0
  _ZN9KFileItemC2Ev@Base 4.96.0
  _ZN9KFileItemD1Ev@Base 4.96.0
  _ZN9KFileItemD2Ev@Base 4.96.0

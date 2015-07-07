@@ -2,6 +2,7 @@ kio (5.11.0-2~) UNRELEASED; urgency=medium
 
   * Refresh patch.
   * New patch: fix_freebsd_build.
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 07 Jul 2015 10:58:07 +0200
 
