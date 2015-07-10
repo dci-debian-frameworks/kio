@@ -1,8 +1,17 @@
 kio (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Fix merge, remove unused broken backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:13:45 -0700
+
+kio (5.11.0-1) unstable; urgency=medium
+
+  * New upstream release (5.10.0).
+  * Update symbols files.
+  * New upstream release (5.11.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 29 Jun 2015 09:42:03 +0200
 
 kio (5.11.0-0ubuntu2) wily; urgency=medium
 
