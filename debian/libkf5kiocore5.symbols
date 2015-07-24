@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.10.0 amd64
+# SymbolsHelper-Confirmed: 5.12.0 amd64
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -178,10 +178,10 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN14KCoreDirLister7Private14CachedItemsJob6doKillEv@Base 4.96.0
  _ZN14KCoreDirLister7Private14CachedItemsJobC1EPS_RK4QUrlb@Base 4.96.0
  _ZN14KCoreDirLister7Private14CachedItemsJobC2EPS_RK4QUrlb@Base 4.96.0
- _ZN14KCoreDirLister7Private14CachedItemsJobD0Ev@Base 4.96.0
- _ZN14KCoreDirLister7Private14CachedItemsJobD1Ev@Base 4.96.0
- _ZN14KCoreDirLister7Private14CachedItemsJobD2Ev@Base 4.96.0
- _ZN14KCoreDirLister7Private14FilterSettingsaSERKS1_@Base 5.10.0
+ (optional)_ZN14KCoreDirLister7Private14CachedItemsJobD0Ev@Base 4.96.0
+ (optional)_ZN14KCoreDirLister7Private14CachedItemsJobD1Ev@Base 4.96.0
+ (optional)_ZN14KCoreDirLister7Private14CachedItemsJobD2Ev@Base 4.96.0
+ (optional)_ZN14KCoreDirLister7Private14FilterSettingsaSERKS1_@Base 5.10.0
  _ZN14KCoreDirLister7Private14_k_slotPercentEP4KJobm@Base 4.96.0
  _ZN14KCoreDirLister7Private14addRefreshItemERK4QUrlRK9KFileItemS6_@Base 4.96.0
  _ZN14KCoreDirLister7Private16_k_slotTotalSizeEP4KJoby@Base 4.96.0
@@ -775,9 +775,9 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO6DavJob8slotDataERK10QByteArray@Base 4.96.0
  _ZN3KIO6DavJobC1ERNS_13DavJobPrivateEiRK7QString@Base 4.96.0
  _ZN3KIO6DavJobC2ERNS_13DavJobPrivateEiRK7QString@Base 4.96.0
- _ZN3KIO6DavJobD0Ev@Base 4.96.0
- _ZN3KIO6DavJobD1Ev@Base 4.96.0
- _ZN3KIO6DavJobD2Ev@Base 4.96.0
+ (optional)_ZN3KIO6DavJobD0Ev@Base 4.96.0
+ (optional)_ZN3KIO6DavJobD1Ev@Base 4.96.0
+ (optional)_ZN3KIO6DavJobD2Ev@Base 4.96.0
  _ZN3KIO6copyAsERK4QUrlS2_6QFlagsINS_7JobFlagEE@Base 4.96.0
  _ZN3KIO6linkAsERK4QUrlS2_6QFlagsINS_7JobFlagEE@Base 4.96.0
  _ZN3KIO6mkpathERK4QUrlS2_6QFlagsINS_7JobFlagEE@Base 5.3.0+git20141016.0314
