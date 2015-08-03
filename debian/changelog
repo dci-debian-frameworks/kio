@@ -1,4 +1,4 @@
-kio (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kio (5.12.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -9,7 +9,7 @@ kio (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update symbols file: mark as optional the symbols gone after
     building with GCC 5
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:13:45 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:32:13 +0200
 
 kio (5.11.0-1) unstable; urgency=medium
 
