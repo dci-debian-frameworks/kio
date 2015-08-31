@@ -1,6 +1,7 @@
 kio (5.13.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.13.0).
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 17:07:29 +0200
 
