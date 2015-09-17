@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.0 amd64
+# SymbolsHelper-Confirmed: 5.14.0+git20150917.0908 amd64 i386
 libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4.96.0
  _ZN11KFileWidget10slotCancelEv@Base 4.96.0
@@ -477,9 +477,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN3KIO18DefaultViewAdapter7connectEN20KAbstractViewAdapter6SignalEP7QObjectPKc@Base 4.96.0
  _ZN3KIO18DefaultViewAdapterC1EP17QAbstractItemViewP7QObject@Base 4.96.0
  _ZN3KIO18DefaultViewAdapterC2EP17QAbstractItemViewP7QObject@Base 4.96.0
- (optional)_ZN3KIO18DefaultViewAdapterD0Ev@Base 4.96.0
- (optional)_ZN3KIO18DefaultViewAdapterD1Ev@Base 4.96.0
- (optional)_ZN3KIO18DefaultViewAdapterD2Ev@Base 4.96.0
  _ZNK11KFileWidget10metaObjectEv@Base 4.96.0
  _ZNK11KFileWidget11selectedUrlEv@Base 4.96.0
  _ZNK11KFileWidget12cancelButtonEv@Base 4.96.0
