@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.13.0 amd64
+# SymbolsHelper-Confirmed: 5.14.0 amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -300,9 +300,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN18KUrlComboRequester16staticMetaObjectE@Base 4.96.0
  _ZN18KUrlComboRequesterC1EP7QWidget@Base 4.96.0
  _ZN18KUrlComboRequesterC2EP7QWidget@Base 4.96.0
- (optional=gccinternal)_ZN18KUrlComboRequesterD0Ev@Base 4.96.0
- (optional=gccinternal)_ZN18KUrlComboRequesterD1Ev@Base 4.96.0
- (optional=gccinternal)_ZN18KUrlComboRequesterD2Ev@Base 4.96.0
  _ZN18KUrlPixmapProvider12virtual_hookEiPv@Base 4.96.0
  _ZN18KUrlPixmapProvider9pixmapForERK7QStringi@Base 4.96.0
  _ZN18KUrlPixmapProviderC1Ev@Base 4.96.0
@@ -983,6 +980,5 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  (c++)"non-virtual thunk to KSslInfoDialog::~KSslInfoDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KUrlComboBox::setCompletionObject(KCompletion*, bool)@Base" 4.96.0
  (c++)"non-virtual thunk to KUrlComboBox::~KUrlComboBox()@Base" 4.96.0
- (optional=gccinternal|c++)"non-virtual thunk to KUrlComboRequester::~KUrlComboRequester()@Base" 4.96.0
  (c++)"non-virtual thunk to KUrlRequester::~KUrlRequester()@Base" 4.96.0
  (c++)"non-virtual thunk to KUrlRequesterDialog::~KUrlRequesterDialog()@Base" 4.96.0

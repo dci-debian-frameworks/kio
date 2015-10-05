@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.13.0 amd64
+# SymbolsHelper-Confirmed: 5.14.0 amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x
 libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4.96.0
  _ZN11KFileWidget10slotCancelEv@Base 4.96.0
@@ -43,6 +43,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN11KRecentDirs3addERK7QStringS2_@Base 4.96.0
  _ZN11KRecentDirs3dirERK7QString@Base 4.96.0
  _ZN11KRecentDirs4listERK7QString@Base 4.96.0
+ (optional=templinst|arch=armel hppa powerpc)_ZN12KConfigGroup10writeEntryIiEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 5.14.0
  _ZN12KDirOperator10completionERK7QString@Base 4.96.0
  _ZN12KDirOperator10createViewEP7QWidgetN5KFile8FileViewE@Base 4.96.0
  _ZN12KDirOperator10readConfigERK12KConfigGroup@Base 4.96.0
@@ -477,9 +478,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN3KIO18DefaultViewAdapter7connectEN20KAbstractViewAdapter6SignalEP7QObjectPKc@Base 4.96.0
  _ZN3KIO18DefaultViewAdapterC1EP17QAbstractItemViewP7QObject@Base 4.96.0
  _ZN3KIO18DefaultViewAdapterC2EP17QAbstractItemViewP7QObject@Base 4.96.0
- (optional=gccinternal)_ZN3KIO18DefaultViewAdapterD0Ev@Base 4.96.0
- (optional=gccinternal)_ZN3KIO18DefaultViewAdapterD1Ev@Base 4.96.0
- (optional=gccinternal)_ZN3KIO18DefaultViewAdapterD2Ev@Base 4.96.0
  _ZNK11KFileWidget10metaObjectEv@Base 4.96.0
  _ZNK11KFileWidget11selectedUrlEv@Base 4.96.0
  _ZNK11KFileWidget12cancelButtonEv@Base 4.96.0
