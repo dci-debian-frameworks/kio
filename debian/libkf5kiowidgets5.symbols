@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0+git20150917.0908 amd64 i386
+# SymbolsHelper-Confirmed: 5.15.0+git20151012.1353+15.10 amd64 i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -535,6 +535,18 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN3KIO18DndPopupMenuPluginD2Ev@Base 5.5.0+git20141226.0011+15.04
  _ZN3KIO18isClipboardDataCutEPK9QMimeData@Base 5.2.0
  _ZN3KIO19setClipboardDataCutEP9QMimeDatab@Base 5.2.0
+ _ZN3KIO31KUriFilterSearchProviderActions11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.15.0+git20151012.1353+15.10
+ _ZN3KIO31KUriFilterSearchProviderActions11qt_metacastEPKc@Base 5.15.0+git20151012.1353+15.10
+ _ZN3KIO31KUriFilterSearchProviderActions15setSelectedTextERK7QString@Base 5.15.0+git20151012.1353+15.10
+ _ZN3KIO31KUriFilterSearchProviderActions16staticMetaObjectE@Base 5.15.0+git20151012.1353+15.10
+ _ZN3KIO31KUriFilterSearchProviderActions21addWebShortcutsToMenuEP5QMenu@Base 5.15.0+git20151012.1353+15.10
+ _ZN3KIO31KUriFilterSearchProviderActions25slotConfigureWebShortcutsEv@Base 5.15.0+git20151012.1353+15.10
+ _ZN3KIO31KUriFilterSearchProviderActions27slotHandleWebShortcutActionEP7QAction@Base 5.15.0+git20151012.1353+15.10
+ _ZN3KIO31KUriFilterSearchProviderActionsC1EP7QObject@Base 5.15.0+git20151012.1353+15.10
+ _ZN3KIO31KUriFilterSearchProviderActionsC2EP7QObject@Base 5.15.0+git20151012.1353+15.10
+ _ZN3KIO31KUriFilterSearchProviderActionsD0Ev@Base 5.15.0+git20151012.1353+15.10
+ _ZN3KIO31KUriFilterSearchProviderActionsD1Ev@Base 5.15.0+git20151012.1353+15.10
+ _ZN3KIO31KUriFilterSearchProviderActionsD2Ev@Base 5.15.0+git20151012.1353+15.10
  _ZN3KIO4dropEPK10QDropEventRK4QUrl6QFlagsINS_7JobFlagEE@Base 5.5.0+git20141226.0011+15.04
  _ZN3KIO5SslUi18askIgnoreSslErrorsEPK10KTcpSocketNS0_12RulesStorageE@Base 4.96.0
  _ZN3KIO5SslUi18askIgnoreSslErrorsERK15KSslErrorUiDataNS0_12RulesStorageE@Base 4.96.0
@@ -820,6 +832,8 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZNK3KIO15FileUndoManager26currentCommandSerialNumberEv@Base 4.96.0
  _ZNK3KIO15FileUndoManager8undoTextEv@Base 4.96.0
  _ZNK3KIO18DndPopupMenuPlugin10metaObjectEv@Base 5.5.0+git20141226.0011+15.04
+ _ZNK3KIO31KUriFilterSearchProviderActions10metaObjectEv@Base 5.15.0+git20151012.1353+15.10
+ _ZNK3KIO31KUriFilterSearchProviderActions12selectedTextEv@Base 5.15.0+git20151012.1353+15.10
  _ZNK3KIO7DropJob10metaObjectEv@Base 5.5.0+git20141226.0011+15.04
  _ZNK3KIO8PasteJob10metaObjectEv@Base 5.3.0+git20141101.0339
  _ZNK4KRun10autoDeleteEv@Base 4.96.0
@@ -888,6 +902,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTIN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTIN3KIO15FileUndoManagerE@Base 4.96.0
  _ZTIN3KIO18DndPopupMenuPluginE@Base 5.5.0+git20141226.0011+15.04
+ _ZTIN3KIO31KUriFilterSearchProviderActionsE@Base 5.15.0+git20151012.1353+15.10
  _ZTIN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTIN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
  _ZTS10KAutoMount@Base 4.96.0
@@ -925,6 +940,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTSN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTSN3KIO15FileUndoManagerE@Base 4.96.0
  _ZTSN3KIO18DndPopupMenuPluginE@Base 5.5.0+git20141226.0011+15.04
+ _ZTSN3KIO31KUriFilterSearchProviderActionsE@Base 5.15.0+git20151012.1353+15.10
  _ZTSN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTSN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
  _ZTV10KAutoMount@Base 4.96.0
@@ -962,6 +978,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTVN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTVN3KIO15FileUndoManagerE@Base 4.96.0
  _ZTVN3KIO18DndPopupMenuPluginE@Base 5.5.0+git20141226.0011+15.04
+ _ZTVN3KIO31KUriFilterSearchProviderActionsE@Base 5.15.0+git20151012.1353+15.10
  _ZTVN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTVN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
  (c++)"non-virtual thunk to KBuildSycocaProgressDialog::~KBuildSycocaProgressDialog()@Base" 4.96.0
