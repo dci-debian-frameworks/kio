@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.0+git20151012.1353+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 5.15.0+git20151019.1413+15.10 amd64 i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -285,6 +285,15 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN17KPropertiesDialogD0Ev@Base 4.96.0
  _ZN17KPropertiesDialogD1Ev@Base 4.96.0
  _ZN17KPropertiesDialogD2Ev@Base 4.96.0
+ _ZN18KOverlayIconPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.15.0+git20151019.1413+15.10
+ _ZN18KOverlayIconPlugin11qt_metacastEPKc@Base 5.15.0+git20151019.1413+15.10
+ _ZN18KOverlayIconPlugin15overlaysChangedERK4QUrlRK11QStringList@Base 5.15.0+git20151019.1413+15.10
+ _ZN18KOverlayIconPlugin16staticMetaObjectE@Base 5.15.0+git20151019.1413+15.10
+ _ZN18KOverlayIconPluginC1EP7QObject@Base 5.15.0+git20151019.1413+15.10
+ _ZN18KOverlayIconPluginC2EP7QObject@Base 5.15.0+git20151019.1413+15.10
+ _ZN18KOverlayIconPluginD0Ev@Base 5.15.0+git20151019.1413+15.10
+ _ZN18KOverlayIconPluginD1Ev@Base 5.15.0+git20151019.1413+15.10
+ _ZN18KOverlayIconPluginD2Ev@Base 5.15.0+git20151019.1413+15.10
  _ZN18KSslCertificateBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN18KSslCertificateBox11qt_metacastEPKc@Base 4.96.0
  _ZN18KSslCertificateBox14setCertificateERK15QSslCertificateNS_16CertificatePartyE@Base 4.96.0
@@ -792,6 +801,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZNK17KPropertiesDialog11defaultNameEv@Base 4.96.0
  _ZNK17KPropertiesDialog3urlEv@Base 4.96.0
  _ZNK17KPropertiesDialog5itemsEv@Base 4.96.0
+ _ZNK18KOverlayIconPlugin10metaObjectEv@Base 5.15.0+git20151019.1413+15.10
  _ZNK18KSslCertificateBox10metaObjectEv@Base 4.96.0
  _ZNK18KUrlComboRequester10metaObjectEv@Base 4.96.0
  _ZNK19KUrlRequesterDialog10metaObjectEv@Base 4.96.0
@@ -882,6 +892,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTI16KUriFilterPlugin@Base 4.96.0
  _ZTI17KFileItemDelegate@Base 4.96.0
  _ZTI17KPropertiesDialog@Base 4.96.0
+ _ZTI18KOverlayIconPlugin@Base 5.15.0+git20151019.1413+15.10
  _ZTI18KSslCertificateBox@Base 4.96.0
  _ZTI18KUrlComboRequester@Base 4.96.0
  _ZTI18KUrlPixmapProvider@Base 4.96.0
@@ -920,6 +931,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTS16KUriFilterPlugin@Base 4.96.0
  _ZTS17KFileItemDelegate@Base 4.96.0
  _ZTS17KPropertiesDialog@Base 4.96.0
+ _ZTS18KOverlayIconPlugin@Base 5.15.0+git20151019.1413+15.10
  _ZTS18KSslCertificateBox@Base 4.96.0
  _ZTS18KUrlComboRequester@Base 4.96.0
  _ZTS18KUrlPixmapProvider@Base 4.96.0
@@ -958,6 +970,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTV16KUriFilterPlugin@Base 4.96.0
  _ZTV17KFileItemDelegate@Base 4.96.0
  _ZTV17KPropertiesDialog@Base 4.96.0
+ _ZTV18KOverlayIconPlugin@Base 5.15.0+git20151019.1413+15.10
  _ZTV18KSslCertificateBox@Base 4.96.0
  _ZTV18KUrlComboRequester@Base 4.96.0
  _ZTV18KUrlPixmapProvider@Base 4.96.0
