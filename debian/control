@@ -73,10 +73,10 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kio-extras (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6),
         kio-extras-data (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6),
-        libkonq5-templates (<= 4:15.08.2)
+        libkonq5-templates (<< 4:15.12 )
 Replaces: kio-extras (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6),
           kio-extras-data (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6),
-          libkonq5-templates (<= 4:15.08.2)
+          libkonq5-templates (<< 4:15.12)
 Description: Resource and network access abstraction.
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
