@@ -13,9 +13,9 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
      QStringList search;
  
      // assemble the local search paths
--    QStringList localDoc = QStandardPaths::locateAll(QStandardPaths::GenericDataLocation, "doc/HTML", QStandardPaths::LocateDirectory);
+-    const QStringList localDoc = QStandardPaths::locateAll(QStandardPaths::GenericDataLocation, "doc/HTML", QStandardPaths::LocateDirectory);
 +    QStringList localDoc = QStandardPaths::locateAll(QStandardPaths::GenericDataLocation, "doc/HTML", QStandardPaths::LocateDirectory);
 +    localDoc << QStandardPaths::locateAll(QStandardPaths::GenericDataLocation, "doc/kde/HTML", QStandardPaths::LocateDirectory);
  
      QStringList langs = QLocale().uiLanguages();
-     langs.append("en");
+     langs.append(QStringLiteral("en"));
