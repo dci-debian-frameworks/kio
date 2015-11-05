@@ -5,6 +5,7 @@ usr/bin/kcookiejar5
 usr/bin/kmailservice5
 usr/bin/ktelnetservice5
 usr/bin/ktrash5
+usr/bin/protocoltojson
 usr/lib/*/libexec/kf5/kio_http_cache_cleaner
 usr/lib/*/libexec/kf5/kiod5
 usr/lib/*/libexec/kf5/kioexec
