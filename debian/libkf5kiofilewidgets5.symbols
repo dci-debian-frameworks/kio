@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0 amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 5.16.0 amd64
 libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4.96.0
  _ZN11KFileWidget10slotCancelEv@Base 4.96.0
@@ -496,6 +496,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZNK11KFileWidget7baseUrlEv@Base 4.96.0
  _ZNK11KFileWidget7toolBarEv@Base 4.96.0
  _ZNK11KFileWidget8okButtonEv@Base 4.96.0
+ _ZNK11KFileWidget8sizeHintEv@Base 5.16.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZNK12KDirOperator10isSelectedERK9KFileItem@Base 4.96.0
