@@ -1,6 +1,7 @@
 kio (5.16.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.16.0).
+  * Refresh patches.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Nov 2015 11:48:27 +0100
 
