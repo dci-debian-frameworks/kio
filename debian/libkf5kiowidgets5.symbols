@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.0+git20151105.2133+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 5.16.0 amd64
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -285,15 +285,15 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN17KPropertiesDialogD0Ev@Base 4.96.0
  _ZN17KPropertiesDialogD1Ev@Base 4.96.0
  _ZN17KPropertiesDialogD2Ev@Base 4.96.0
- _ZN18KOverlayIconPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.15.0+git20151019.1413+15.10
- _ZN18KOverlayIconPlugin11qt_metacastEPKc@Base 5.15.0+git20151019.1413+15.10
- _ZN18KOverlayIconPlugin15overlaysChangedERK4QUrlRK11QStringList@Base 5.15.0+git20151019.1413+15.10
- _ZN18KOverlayIconPlugin16staticMetaObjectE@Base 5.15.0+git20151019.1413+15.10
- _ZN18KOverlayIconPluginC1EP7QObject@Base 5.15.0+git20151019.1413+15.10
- _ZN18KOverlayIconPluginC2EP7QObject@Base 5.15.0+git20151019.1413+15.10
- _ZN18KOverlayIconPluginD0Ev@Base 5.15.0+git20151019.1413+15.10
- _ZN18KOverlayIconPluginD1Ev@Base 5.15.0+git20151019.1413+15.10
- _ZN18KOverlayIconPluginD2Ev@Base 5.15.0+git20151019.1413+15.10
+ _ZN18KOverlayIconPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.16.0
+ _ZN18KOverlayIconPlugin11qt_metacastEPKc@Base 5.16.0
+ _ZN18KOverlayIconPlugin15overlaysChangedERK4QUrlRK11QStringList@Base 5.16.0
+ _ZN18KOverlayIconPlugin16staticMetaObjectE@Base 5.16.0
+ _ZN18KOverlayIconPluginC1EP7QObject@Base 5.16.0
+ _ZN18KOverlayIconPluginC2EP7QObject@Base 5.16.0
+ _ZN18KOverlayIconPluginD0Ev@Base 5.16.0
+ _ZN18KOverlayIconPluginD1Ev@Base 5.16.0
+ _ZN18KOverlayIconPluginD2Ev@Base 5.16.0
  _ZN18KSslCertificateBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN18KSslCertificateBox11qt_metacastEPKc@Base 4.96.0
  _ZN18KSslCertificateBox14setCertificateERK15QSslCertificateNS_16CertificatePartyE@Base 4.96.0
@@ -544,18 +544,18 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN3KIO18DndPopupMenuPluginD2Ev@Base 5.5.0+git20141226.0011+15.04
  _ZN3KIO18isClipboardDataCutEPK9QMimeData@Base 5.2.0
  _ZN3KIO19setClipboardDataCutEP9QMimeDatab@Base 5.2.0
- _ZN3KIO31KUriFilterSearchProviderActions11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.15.0+git20151012.1353+15.10
- _ZN3KIO31KUriFilterSearchProviderActions11qt_metacastEPKc@Base 5.15.0+git20151012.1353+15.10
- _ZN3KIO31KUriFilterSearchProviderActions15setSelectedTextERK7QString@Base 5.15.0+git20151012.1353+15.10
- _ZN3KIO31KUriFilterSearchProviderActions16staticMetaObjectE@Base 5.15.0+git20151012.1353+15.10
- _ZN3KIO31KUriFilterSearchProviderActions21addWebShortcutsToMenuEP5QMenu@Base 5.15.0+git20151012.1353+15.10
- _ZN3KIO31KUriFilterSearchProviderActions25slotConfigureWebShortcutsEv@Base 5.15.0+git20151012.1353+15.10
- _ZN3KIO31KUriFilterSearchProviderActions27slotHandleWebShortcutActionEP7QAction@Base 5.15.0+git20151012.1353+15.10
- _ZN3KIO31KUriFilterSearchProviderActionsC1EP7QObject@Base 5.15.0+git20151012.1353+15.10
- _ZN3KIO31KUriFilterSearchProviderActionsC2EP7QObject@Base 5.15.0+git20151012.1353+15.10
- _ZN3KIO31KUriFilterSearchProviderActionsD0Ev@Base 5.15.0+git20151012.1353+15.10
- _ZN3KIO31KUriFilterSearchProviderActionsD1Ev@Base 5.15.0+git20151012.1353+15.10
- _ZN3KIO31KUriFilterSearchProviderActionsD2Ev@Base 5.15.0+git20151012.1353+15.10
+ _ZN3KIO31KUriFilterSearchProviderActions11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.16.0
+ _ZN3KIO31KUriFilterSearchProviderActions11qt_metacastEPKc@Base 5.16.0
+ _ZN3KIO31KUriFilterSearchProviderActions15setSelectedTextERK7QString@Base 5.16.0
+ _ZN3KIO31KUriFilterSearchProviderActions16staticMetaObjectE@Base 5.16.0
+ _ZN3KIO31KUriFilterSearchProviderActions21addWebShortcutsToMenuEP5QMenu@Base 5.16.0
+ _ZN3KIO31KUriFilterSearchProviderActions25slotConfigureWebShortcutsEv@Base 5.16.0
+ _ZN3KIO31KUriFilterSearchProviderActions27slotHandleWebShortcutActionEP7QAction@Base 5.16.0
+ _ZN3KIO31KUriFilterSearchProviderActionsC1EP7QObject@Base 5.16.0
+ _ZN3KIO31KUriFilterSearchProviderActionsC2EP7QObject@Base 5.16.0
+ _ZN3KIO31KUriFilterSearchProviderActionsD0Ev@Base 5.16.0
+ _ZN3KIO31KUriFilterSearchProviderActionsD1Ev@Base 5.16.0
+ _ZN3KIO31KUriFilterSearchProviderActionsD2Ev@Base 5.16.0
  _ZN3KIO4dropEPK10QDropEventRK4QUrl6QFlagsINS_7JobFlagEE@Base 5.5.0+git20141226.0011+15.04
  _ZN3KIO5SslUi18askIgnoreSslErrorsEPK10KTcpSocketNS0_12RulesStorageE@Base 4.96.0
  _ZN3KIO5SslUi18askIgnoreSslErrorsERK15KSslErrorUiDataNS0_12RulesStorageE@Base 4.96.0
@@ -801,7 +801,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZNK17KPropertiesDialog11defaultNameEv@Base 4.96.0
  _ZNK17KPropertiesDialog3urlEv@Base 4.96.0
  _ZNK17KPropertiesDialog5itemsEv@Base 4.96.0
- _ZNK18KOverlayIconPlugin10metaObjectEv@Base 5.15.0+git20151019.1413+15.10
+ _ZNK18KOverlayIconPlugin10metaObjectEv@Base 5.16.0
  _ZNK18KSslCertificateBox10metaObjectEv@Base 4.96.0
  _ZNK18KUrlComboRequester10metaObjectEv@Base 4.96.0
  _ZNK19KUrlRequesterDialog10metaObjectEv@Base 4.96.0
@@ -842,8 +842,8 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZNK3KIO15FileUndoManager26currentCommandSerialNumberEv@Base 4.96.0
  _ZNK3KIO15FileUndoManager8undoTextEv@Base 4.96.0
  _ZNK3KIO18DndPopupMenuPlugin10metaObjectEv@Base 5.5.0+git20141226.0011+15.04
- _ZNK3KIO31KUriFilterSearchProviderActions10metaObjectEv@Base 5.15.0+git20151012.1353+15.10
- _ZNK3KIO31KUriFilterSearchProviderActions12selectedTextEv@Base 5.15.0+git20151012.1353+15.10
+ _ZNK3KIO31KUriFilterSearchProviderActions10metaObjectEv@Base 5.16.0
+ _ZNK3KIO31KUriFilterSearchProviderActions12selectedTextEv@Base 5.16.0
  _ZNK3KIO7DropJob10metaObjectEv@Base 5.5.0+git20141226.0011+15.04
  _ZNK3KIO8PasteJob10metaObjectEv@Base 5.3.0+git20141101.0339
  _ZNK4KRun10autoDeleteEv@Base 4.96.0
@@ -892,7 +892,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTI16KUriFilterPlugin@Base 4.96.0
  _ZTI17KFileItemDelegate@Base 4.96.0
  _ZTI17KPropertiesDialog@Base 4.96.0
- _ZTI18KOverlayIconPlugin@Base 5.15.0+git20151019.1413+15.10
+ _ZTI18KOverlayIconPlugin@Base 5.16.0
  _ZTI18KSslCertificateBox@Base 4.96.0
  _ZTI18KUrlComboRequester@Base 4.96.0
  _ZTI18KUrlPixmapProvider@Base 4.96.0
@@ -913,7 +913,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTIN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTIN3KIO15FileUndoManagerE@Base 4.96.0
  _ZTIN3KIO18DndPopupMenuPluginE@Base 5.5.0+git20141226.0011+15.04
- _ZTIN3KIO31KUriFilterSearchProviderActionsE@Base 5.15.0+git20151012.1353+15.10
+ _ZTIN3KIO31KUriFilterSearchProviderActionsE@Base 5.16.0
  _ZTIN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTIN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
  _ZTS10KAutoMount@Base 4.96.0
@@ -931,7 +931,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTS16KUriFilterPlugin@Base 4.96.0
  _ZTS17KFileItemDelegate@Base 4.96.0
  _ZTS17KPropertiesDialog@Base 4.96.0
- _ZTS18KOverlayIconPlugin@Base 5.15.0+git20151019.1413+15.10
+ _ZTS18KOverlayIconPlugin@Base 5.16.0
  _ZTS18KSslCertificateBox@Base 4.96.0
  _ZTS18KUrlComboRequester@Base 4.96.0
  _ZTS18KUrlPixmapProvider@Base 4.96.0
@@ -952,7 +952,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTSN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTSN3KIO15FileUndoManagerE@Base 4.96.0
  _ZTSN3KIO18DndPopupMenuPluginE@Base 5.5.0+git20141226.0011+15.04
- _ZTSN3KIO31KUriFilterSearchProviderActionsE@Base 5.15.0+git20151012.1353+15.10
+ _ZTSN3KIO31KUriFilterSearchProviderActionsE@Base 5.16.0
  _ZTSN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTSN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
  _ZTV10KAutoMount@Base 4.96.0
@@ -970,7 +970,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTV16KUriFilterPlugin@Base 4.96.0
  _ZTV17KFileItemDelegate@Base 4.96.0
  _ZTV17KPropertiesDialog@Base 4.96.0
- _ZTV18KOverlayIconPlugin@Base 5.15.0+git20151019.1413+15.10
+ _ZTV18KOverlayIconPlugin@Base 5.16.0
  _ZTV18KSslCertificateBox@Base 4.96.0
  _ZTV18KUrlComboRequester@Base 4.96.0
  _ZTV18KUrlPixmapProvider@Base 4.96.0
@@ -991,10 +991,10 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTVN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTVN3KIO15FileUndoManagerE@Base 4.96.0
  _ZTVN3KIO18DndPopupMenuPluginE@Base 5.5.0+git20141226.0011+15.04
- _ZTVN3KIO31KUriFilterSearchProviderActionsE@Base 5.15.0+git20151012.1353+15.10
+ _ZTVN3KIO31KUriFilterSearchProviderActionsE@Base 5.16.0
  _ZTVN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTVN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
- _ZZZNK13KUrlRequester20KUrlRequesterPrivate11kToQFiltersERK7QStringENKUlvE_clEvE15qstring_literal@Base 5.15.0+git20151105.2133+15.10
+ _ZZZNK13KUrlRequester20KUrlRequesterPrivate11kToQFiltersERK7QStringENKUlvE_clEvE15qstring_literal@Base 5.16.0
  (c++)"non-virtual thunk to KBuildSycocaProgressDialog::~KBuildSycocaProgressDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KIO::JobUiDelegate::askDeleteConfirmation(QList<QUrl> const&, KIO::JobUiDelegateExtension::DeletionType, KIO::JobUiDelegateExtension::ConfirmationType)@Base" 4.96.0
  (c++)"non-virtual thunk to KIO::JobUiDelegate::askFileRename(KJob*, QString const&, QUrl const&, QUrl const&, QFlags<KIO::RenameDialog_Option>, QString&, unsigned long long, unsigned long long, QDateTime const&, QDateTime const&, QDateTime const&, QDateTime const&)@Base" 4.96.0
