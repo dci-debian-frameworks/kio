@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.16.0 amd64
+# SymbolsHelper-Confirmed: 5.16.0 amd64 armel hppa powerpc
 libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4.96.0
  _ZN11KFileWidget10slotCancelEv@Base 4.96.0
@@ -43,7 +43,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN11KRecentDirs3addERK7QStringS2_@Base 4.96.0
  _ZN11KRecentDirs3dirERK7QString@Base 4.96.0
  _ZN11KRecentDirs4listERK7QString@Base 4.96.0
- (optional=templinst|arch=armel hppa powerpc)_ZN12KConfigGroup10writeEntryIiEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 5.14.0
  _ZN12KDirOperator10completionERK7QString@Base 4.96.0
  _ZN12KDirOperator10createViewEP7QWidgetN5KFile8FileViewE@Base 4.96.0
  _ZN12KDirOperator10readConfigERK12KConfigGroup@Base 4.96.0
