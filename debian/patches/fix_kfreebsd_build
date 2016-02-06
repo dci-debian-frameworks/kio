@@ -1,7 +1,7 @@
-Index: kio/src/widgets/kpropertiesdialog.cpp
-===================================================================
---- kio.orig/src/widgets/kpropertiesdialog.cpp	2015-06-29 00:13:31.825361483 +0200
-+++ kio/src/widgets/kpropertiesdialog.cpp	2015-07-07 10:56:53.101498107 +0200
+diff --git src/widgets/kpropertiesdialog.cpp b/src/widgets/kpropertiesdialog.cpp
+index 0ff5062..217da11 100644
+--- src/widgets/kpropertiesdialog.cpp
++++ b/src/widgets/kpropertiesdialog.cpp
 @@ -75,6 +75,10 @@
  #if HAVE_POSIX_ACL
  extern "C" {
@@ -13,7 +13,7 @@ Index: kio/src/widgets/kpropertiesdialog.cpp
  }
  #endif
  
-@@ -1915,7 +1919,7 @@
+@@ -1915,7 +1919,7 @@ KFilePermissionsPropsPlugin::KFilePermissionsPropsPlugin(KPropertiesDialog *_pro
  static bool fileSystemSupportsACL(const QByteArray &path)
  {
      bool fileSystemSupportsACLs = false;

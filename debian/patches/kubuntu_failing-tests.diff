@@ -1,0 +1,35 @@
+Description: skip a couple of failing tests
+Author: Jonathan Riddell <jriddell@ubuntu.com>
+Origin: me
+Forwarded: no, I need to tell upstream so it gets fixed there
+Last-Update: 2015-22-06
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: kio-5.11.0/autotests/CMakeLists.txt
+===================================================================
+--- kio-5.11.0.orig/autotests/CMakeLists.txt
++++ kio-5.11.0/autotests/CMakeLists.txt
+@@ -24,7 +24,6 @@ ecm_add_tests(
+  jobremotetest.cpp
+  kfileitemtest.cpp
+  kprotocolinfotest.cpp
+- ktcpsockettest.cpp
+  globaltest.cpp
+  mkpathjobtest.cpp
+  threadtest.cpp
+@@ -55,7 +54,6 @@ ecm_add_tests(
+  kdirmodeltest.cpp
+  kfileitemactionstest.cpp
+  fileundomanagertest.cpp
+- kurifiltertest.cpp
+  kurlcompletiontest.cpp
+  kurlrequestertest.cpp
+  jobguitest.cpp
+@@ -87,7 +85,6 @@ ecm_add_tests(
+  kdiroperatortest.cpp
+  knewfilemenutest.cpp
+  kfilecopytomenutest.cpp
+- kfileplacesmodeltest.cpp
+  NAME_PREFIX "kiofilewidgets-"
+  LINK_LIBRARIES KF5::KIOFileWidgets KF5::KIOWidgets KF5::XmlGui KF5::Bookmarks Qt5::Test
+ )

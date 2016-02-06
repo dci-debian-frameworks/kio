@@ -10,7 +10,7 @@ Build-Depends: cmake (>= 2.8.12),
                libacl1-dev,
                libkf5archive-dev (>= 5.18.0~),
                libkf5bookmarks-dev (>= 5.18.0~),
-               libkf5codecs-dev (>= 5.7.0),
+               libkf5codecs-dev (>= 5.18.0~),
                libkf5completion-dev (>= 5.18.0~),
                libkf5config-dev (>= 5.18.0~),
                libkf5configwidgets-dev (>= 5.18.0~),
@@ -69,11 +69,12 @@ Description: Resource and network access abstraction.
 
 Package: kio
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kinit, ${misc:Depends}, ${shlibs:Depends}
 Breaks: kio-extras (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6),
         kio-extras-data (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6)
 Replaces: kio-extras (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6),
-          kio-extras-data (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6)
+          kio-extras-data (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6),
+          libkonq5-templates (<< 4:15.12)
 Description: Resource and network access abstraction.
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
@@ -95,6 +96,33 @@ Description: Resource and network access abstraction.
  This library contains the core classes.
 
 Package: libkf5kiofilewidgets5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
+Description: Resource and network access abstraction.
+ KDE Input/Output framework provides a single API for
+ operating on files, whether local or on a remote server.
+ Additionally, KIO Slaves provide support for individual
+ protocols. Some particularly useful ones are http, ftp,
+ sftp, smb, nfs, ssh (fish), man, tar and zip.
+ .
+ This library contains some file dialog widgets.
+
+Package: libkf5kiogui5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
+Description: Resource and network access abstraction.
+ KDE Input/Output framework provides a single API for
+ operating on files, whether local or on a remote server.
+ Additionally, KIO Slaves provide support for individual
+ protocols. Some particularly useful ones are http, ftp,
+ sftp, smb, nfs, ssh (fish), man, tar and zip.
+ .
+ This library contains some file dialog widgets.
+
+Package: libkf5kiogui5-dev
+Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same

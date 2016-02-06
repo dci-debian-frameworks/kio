@@ -6,6 +6,23 @@ kio (5.18.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:31 +0100
 
+kio (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release Xenial
+
+  [ Philip Muškovac ]
+  * New upstream release
+
+  [ Clive Johnston ]
+  * Updating install file
+  * Updating symbols
+  * Adding new lib - libkf5kiogui5
+  * Adding new dev package for libkf5kiogui5
+  * Adding Section: libdevel to libkf5kiogui5-dev   
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:03:49 +0100
+
 kio (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
@@ -22,12 +39,41 @@ kio (5.15.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:46 +0200
 
+kio (5.15.0-0ubuntu3) xenial; urgency=medium
+
+  * Fix autopackagetests by adding allow-stderr to the requirements.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 03 Nov 2015 15:34:40 +0100
+
+kio (5.15.0-0ubuntu2) wily; urgency=medium
+
+  * KIO uses klauncher at runtime. Make package depend on kinit.
+    LP: #1504526
+
+ -- Harald Sitter <sitter@kde.org>  Fri, 09 Oct 2015 15:03:24 +0200
+
+kio (5.15.0-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:50:59 +0100
+
 kio (5.14.0-1) unstable; urgency=medium
 
   * New upstream release (5.14.0).
   * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:49:53 +0200
+
+kio (5.14.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:20:41 +0100
 
 kio (5.13.0-1) unstable; urgency=medium
 
@@ -36,11 +82,30 @@ kio (5.13.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 20:14:18 +0200
 
+kio (5.13.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:14:20 +0200
+
 kio (5.12.0-1) unstable; urgency=medium
 
   * New upstream release (5.12.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:44:03 +0200
+
+kio (5.12.0-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * Fix merge, remove unused broken backport.
+  * Vivid backport. 
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols file: mark as optional the symbols gone after
+    building with GCC 5
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:32:13 +0200
 
 kio (5.11.0-2) unstable; urgency=medium
 
@@ -58,11 +123,51 @@ kio (5.11.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 29 Jun 2015 09:42:03 +0200
 
+kio (5.11.0-0ubuntu2) wily; urgency=medium
+
+  * Remove ktcpsockettest in kubuntu_failing-tests.diff to fix build
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 23 Jun 2015 13:14:32 +0200
+
+kio (5.11.0-0ubuntu1) wily; urgency=medium
+
+  * New upstream release, uploaded to pass failing tests
+  * Add kubuntu_build-with-kf5.10.diff
+  * Add kubuntu_failing-tests.diff to skip the remaining fails
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Jun 2015 21:37:16 +0200
+
+kio (5.10.0-0ubuntu2) wily; urgency=medium
+
+  * Rebuild due to test server failures
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Jun 2015 12:49:20 +0200
+
+kio (5.10.0-0ubuntu1) wily; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.10.0).
+  * Update symbols files.
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 20:51:46 +0200
+
 kio (5.9.0-1) experimental; urgency=medium
 
   * New upstream release (5.9.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:26:19 +0200
+
+kio (5.9.0-0ubuntu1.1) vivid; urgency=medium
+
+  * Add upstream patch
+    upstream_Remove-bookmarks-syncing-from-KFilePlacesModel-and-u.patch
+    to remove faulty bookmarks syncing from places and use a single config for
+    places instead. LP: #1422469
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 04 May 2015 10:56:34 +0200
 
 kio (5.9.0-0ubuntu1) vivid; urgency=medium
 
@@ -90,6 +195,15 @@ kio (5.8.0-0ubuntu1) vivid; urgency=medium
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:38:15 +0100
+
+kio (5.8.0-1) experimental; urgency=medium
+
+  * New upstream release (5.8.0).
+  * Update symbols files.
+  * New patch: wait_for_a_bit_longer
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:38:41 +0100
 
 kio (5.7.0-1) experimental; urgency=medium
 
