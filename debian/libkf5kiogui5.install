@@ -1,7 +1,3 @@
-usr/include/KF5/KIOGui/KIO/FavIconRequestJob
-usr/include/KF5/KIOGui/kio/faviconrequestjob.h
-usr/include/KF5/KIOGui/kiogui_export.h
-usr/lib/x86_64-linux-gnu/libKF5KIOGui.so
-usr/lib/x86_64-linux-gnu/libKF5KIOGui.so.5
-usr/lib/x86_64-linux-gnu/libKF5KIOGui.so.5.19.0
-usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_KIOGui.pri
+usr/lib/*/libKF5KIOGui.so.5
+usr/lib/*/libKF5KIOGui.so.5.19.0
+
