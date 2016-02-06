@@ -122,6 +122,7 @@ Description: Resource and network access abstraction.
  This library contains some file dialog widgets.
 
 Package: libkf5kiogui5-dev
+Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
