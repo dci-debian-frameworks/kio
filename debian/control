@@ -95,7 +95,8 @@ Description: Resource and network access abstraction.
  .
  This library contains the core classes.
 
-Package: libkf5kiofilewidgets5
+
+Package: libkf5kiogui5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
