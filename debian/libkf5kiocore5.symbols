@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.16.0 amd64
+# SymbolsHelper-Confirmed: 5.18.0+git20160206.0509+16.04 amd64 i386
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -507,6 +507,21 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO13EmptyTrashJobD0Ev@Base 5.2.0
  _ZN3KIO13EmptyTrashJobD1Ev@Base 5.2.0
  _ZN3KIO13EmptyTrashJobD2Ev@Base 5.2.0
+ _ZN3KIO13FavIconsCache10iconForUrlERK4QUrl@Base 5.18.0+git20160206.0509+16.04
+ _ZN3KIO13FavIconsCache11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.18.0+git20160206.0509+16.04
+ _ZN3KIO13FavIconsCache11qt_metacastEPKc@Base 5.18.0+git20160206.0509+16.04
+ _ZN3KIO13FavIconsCache13iconUrlForUrlERK4QUrl@Base 5.18.0+git20160206.0509+16.04
+ _ZN3KIO13FavIconsCache13setIconForUrlERK4QUrlS3_@Base 5.18.0+git20160206.0509+16.04
+ _ZN3KIO13FavIconsCache16staticMetaObjectE@Base 5.18.0+git20160206.0509+16.04
+ _ZN3KIO13FavIconsCache17addFailedDownloadERK4QUrl@Base 5.18.0+git20160206.0509+16.04
+ _ZN3KIO13FavIconsCache17ensureCacheExistsEv@Base 5.18.0+git20160206.0509+16.04
+ _ZN3KIO13FavIconsCache20removeFailedDownloadERK4QUrl@Base 5.18.0+git20160206.0509+16.04
+ _ZN3KIO13FavIconsCache8instanceEv@Base 5.18.0+git20160206.0509+16.04
+ _ZN3KIO13FavIconsCacheC1Ev@Base 5.18.0+git20160206.0509+16.04
+ _ZN3KIO13FavIconsCacheC2Ev@Base 5.18.0+git20160206.0509+16.04
+ _ZN3KIO13FavIconsCacheD0Ev@Base 5.18.0+git20160206.0509+16.04
+ _ZN3KIO13FavIconsCacheD1Ev@Base 5.18.0+git20160206.0509+16.04
+ _ZN3KIO13FavIconsCacheD2Ev@Base 5.18.0+git20160206.0509+16.04
  _ZN3KIO13directorySizeERK13KFileItemList@Base 4.96.0
  _ZN3KIO13directorySizeERK4QUrl@Base 4.96.0
  _ZN3KIO13favIconForUrlERK4QUrl@Base 4.96.0
@@ -1352,6 +1367,9 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZNK3KIO12TCPSlaveBase6socketEv@Base 4.96.0
  _ZNK3KIO12TCPSlaveBase9isAutoSslEv@Base 4.96.0
  _ZNK3KIO13EmptyTrashJob10metaObjectEv@Base 5.2.0
+ _ZNK3KIO13FavIconsCache10metaObjectEv@Base 5.18.0+git20160206.0509+16.04
+ _ZNK3KIO13FavIconsCache16isFailedDownloadERK4QUrl@Base 5.18.0+git20160206.0509+16.04
+ _ZNK3KIO13FavIconsCache19cachePathForIconUrlERK4QUrl@Base 5.18.0+git20160206.0509+16.04
  _ZNK3KIO14SlaveInterface10connectionEv@Base 4.96.0
  _ZNK3KIO14SlaveInterface10metaObjectEv@Base 4.96.0
  _ZNK3KIO14SlaveInterface6offsetEv@Base 4.96.0
@@ -1515,6 +1533,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTIN3KIO11TransferJobE@Base 4.96.0
  _ZTIN3KIO12TCPSlaveBaseE@Base 4.96.0
  _ZTIN3KIO13EmptyTrashJobE@Base 5.2.0
+ _ZTIN3KIO13FavIconsCacheE@Base 5.18.0+git20160206.0509+16.04
  _ZTIN3KIO14SlaveInterfaceE@Base 4.96.0
  _ZTIN3KIO16ConnectionServerE@Base 4.96.0
  _ZTIN3KIO16DirectorySizeJobE@Base 4.96.0
@@ -1558,6 +1577,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTSN3KIO11TransferJobE@Base 4.96.0
  _ZTSN3KIO12TCPSlaveBaseE@Base 4.96.0
  _ZTSN3KIO13EmptyTrashJobE@Base 5.2.0
+ _ZTSN3KIO13FavIconsCacheE@Base 5.18.0+git20160206.0509+16.04
  _ZTSN3KIO14SlaveInterfaceE@Base 4.96.0
  _ZTSN3KIO16ConnectionServerE@Base 4.96.0
  _ZTSN3KIO16DirectorySizeJobE@Base 4.96.0
@@ -1601,6 +1621,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTVN3KIO11TransferJobE@Base 4.96.0
  _ZTVN3KIO12TCPSlaveBaseE@Base 4.96.0
  _ZTVN3KIO13EmptyTrashJobE@Base 5.2.0
+ _ZTVN3KIO13FavIconsCacheE@Base 5.18.0+git20160206.0509+16.04
  _ZTVN3KIO14SlaveInterfaceE@Base 4.96.0
  _ZTVN3KIO16ConnectionServerE@Base 4.96.0
  _ZTVN3KIO16DirectorySizeJobE@Base 4.96.0
