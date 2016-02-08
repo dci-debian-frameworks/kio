@@ -1,7 +1,7 @@
 Index: kio/src/core/copyjob.cpp
 ===================================================================
---- kio.orig/src/core/copyjob.cpp	2015-03-13 20:28:14.051523378 +0100
-+++ kio/src/core/copyjob.cpp	2015-03-13 20:29:19.672816282 +0100
+--- kio.orig/src/core/copyjob.cpp	2016-02-08 12:10:19.904863055 +0100
++++ kio/src/core/copyjob.cpp	2016-02-08 12:10:19.904863055 +0100
 @@ -146,6 +146,7 @@
          , m_bOverwriteAllFiles(false)
          , m_bOverwriteAllDirs(false)
@@ -19,7 +19,7 @@ Index: kio/src/core/copyjob.cpp
  
      QTimer *m_reportTimer;
  
-@@ -1690,6 +1693,10 @@
+@@ -1704,6 +1707,10 @@
          --m_processedFiles; // undo the "start at 1" hack
          slotReport(); // display final numbers, important if progress dialog stays up
  
@@ -30,7 +30,7 @@ Index: kio/src/core/copyjob.cpp
          q->emitResult();
      }
  }
-@@ -1759,12 +1766,14 @@
+@@ -1773,12 +1780,14 @@
  void CopyJobPrivate::slotResultDeletingDirs(KJob *job)
  {
      Q_Q(CopyJob);
