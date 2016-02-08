@@ -1,0 +1,40 @@
+commit 47eaa299c6282a91298661f0d9258ca56a274e5c
+Author: David Faure <faure@kde.org>
+Date:   Mon Feb 8 09:03:10 2016 +0100
+
+    autotest: fix ctest not exiting when running favicontest.
+    
+    ctest starts favicontest, which starts kio_http, which started kio_http_cache_cleaner,
+    and then ctest would wait for all of these programs to exit. But kio_http_cache_cleaner
+    does not exit, so ctest would time out after 2 minutes.
+    
+    My solution is to disable the use of kio_http_cache_cleaner for the unittest.
+    
+    Change-Id: I127c2201bc72c3b73298e7b40debb654781c9d2e
+
+diff --git a/autotests/favicontest.cpp b/autotests/favicontest.cpp
+index bddd5c2..1b2b012 100644
+--- a/autotests/favicontest.cpp
++++ b/autotests/favicontest.cpp
+@@ -79,6 +79,8 @@ void FavIconTest::initTestCase()
+ 
+     // To avoid a runtime dependency on klauncher
+     qputenv("KDE_FORK_SLAVES", "yes");
++    // To let ctest exist, we shouldn't start kio_http_cache_cleaner
++    qputenv("KIO_DISABLE_CACHE_CLEANER", "yes");
+ 
+     if (!checkNetworkAccess()) {
+         QSKIP("no network access", SkipAll);
+diff --git a/src/ioslaves/http/http.cpp b/src/ioslaves/http/http.cpp
+index a84129f..e1013c8 100644
+--- a/src/ioslaves/http/http.cpp
++++ b/src/ioslaves/http/http.cpp
+@@ -4993,6 +4993,8 @@ void HTTPProtocol::cacheFileClose()
+ void HTTPProtocol::sendCacheCleanerCommand(const QByteArray &command)
+ {
+     qCDebug(KIO_HTTP);
++    if (!qEnvironmentVariableIsEmpty("KIO_DISABLE_CACHE_CLEANER")) // for autotests
++        return;
+     Q_ASSERT(command.size() == BinaryCacheFileHeader::size + s_hashedUrlNibbles + sizeof(quint32));
+     if (m_cacheCleanerConnection.state() != QLocalSocket::ConnectedState) {
+         QString socketFileName = QStandardPaths::writableLocation(QStandardPaths::RuntimeLocation) + QLatin1Char('/') + QLatin1String("kio_http_cache_cleaner");
