@@ -4,6 +4,7 @@ kio (5.19.0-1~) UNRELEASED; urgency=medium
   * Add upstream patch: upstream_autotest__fix_ctest.patch
   * Add upstream patch: upstream_fix_wrong_path.patch
   * Add upstream patch: upstream_kioslavetest_fix_crash.patch
+  * Add new library libkf5kiogui.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 06 Feb 2016 19:03:37 +0100
 
