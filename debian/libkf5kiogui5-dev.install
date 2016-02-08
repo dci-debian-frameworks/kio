@@ -1,5 +1,0 @@
-usr/include/KF5/KIOGui/KIO/FavIconRequestJob
-usr/include/KF5/KIOGui/kio/faviconrequestjob.h
-usr/include/KF5/KIOGui/kiogui_export.h
-usr/lib/*/libKF5KIOGui.so
-usr/lib/*/qt5/mkspecs/modules/qt_KIOGui.pri

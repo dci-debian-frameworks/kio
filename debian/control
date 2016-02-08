@@ -121,20 +121,6 @@ Description: Resource and network access abstraction.
  .
  This library contains some file dialog widgets.
 
-Package: libkf5kiogui5-dev
-Section: libdevel
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Multi-Arch: same
-Description: Resource and network access abstraction.
- KDE Input/Output framework provides a single API for
- operating on files, whether local or on a remote server.
- Additionally, KIO Slaves provide support for individual
- protocols. Some particularly useful ones are http, ftp,
- sftp, smb, nfs, ssh (fish), man, tar and zip.
- .
- This library contains some file dialog widgets.
-
 Package: libkf5kiontlm5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}

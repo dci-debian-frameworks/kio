@@ -1,12 +1,4 @@
-kio (5.18.0-1) experimental; urgency=medium
-
-  * New upstream release (5.17.0).
-  * Update symbols files from buildds logs (5.16.0-1).
-  * New upstream release (5.18.0).
-
- -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:31 +0100
-
-kio (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
+kio (5.18.0-1ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release Xenial
@@ -18,10 +10,16 @@ kio (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
   * Updating install file
   * Updating symbols
   * Adding new lib - libkf5kiogui5
-  * Adding new dev package for libkf5kiogui5
-  * Adding Section: libdevel to libkf5kiogui5-dev   
 
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:03:49 +0100
+ -- Clive Johnston <clivejo@aol.com>  Mon, 08 Feb 2016 15:11:59 +0000
+
+kio (5.18.0-1) experimental; urgency=medium
+
+  * New upstream release (5.17.0).
+  * Update symbols files from buildds logs (5.16.0-1).
+  * New upstream release (5.18.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:31 +0100
 
 kio (5.16.0-1) unstable; urgency=medium
 
