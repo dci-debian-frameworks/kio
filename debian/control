@@ -56,7 +56,7 @@ Depends: kio (= ${binary:Version}),
          libkf5kiowidgets5 (= ${binary:Version}),
          libkf5service-dev (>= 5.18.0~),
          libkf5solid-dev (>= 5.18.0~),
-         libkf5xmlgui-dev (>= 5.18.0~),
+         libkf5xmlgui-dev (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          ${misc:Depends}
 Description: Resource and network access abstraction.
