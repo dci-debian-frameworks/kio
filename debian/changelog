@@ -1,4 +1,4 @@
-kio (5.19.0-1~1) UNRELEASED; urgency=medium
+kio (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
   * Add upstream patch: upstream_autotest__fix_ctest.patch
@@ -7,7 +7,7 @@ kio (5.19.0-1~1) UNRELEASED; urgency=medium
   * Add new library libkf5kiogui.
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 08 Feb 2016 16:22:00 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:35 +0100
 
 kio (5.18.0-1) experimental; urgency=medium
 
