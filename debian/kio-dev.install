@@ -1,8 +1,6 @@
 usr/include/KF5/KIOCore/
 usr/include/KF5/KIOFileWidgets/
-usr/include/KF5/KIOGui/KIO/FavIconRequestJob
-usr/include/KF5/KIOGui/kio/faviconrequestjob.h
-usr/include/KF5/KIOGui/kiogui_export.h
+usr/include/KF5/KIOGui/
 usr/include/KF5/KIOWidgets/
 usr/include/KF5/kio/
 usr/include/KF5/kio_version.h

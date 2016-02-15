@@ -7,9 +7,12 @@ kio (5.18.0-1ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
 
   [ Clive Johnston ]
-  * Updating install file
-  * Updating symbols
-  * Adding new lib - libkf5kiogui5
+  * Merged with Debian
+    - Add upstream patch: upstream_autotest__fix_ctest.patch
+    - Add upstream patch: upstream_fix_wrong_path.patch
+    - Add upstream patch: upstream_kioslavetest_fix_crash.patch
+    - Add new library libkf5kiogui.
+    - Update symbols files.
 
  -- Clive Johnston <clivejo@aol.com>  Mon, 08 Feb 2016 15:11:59 +0000
 

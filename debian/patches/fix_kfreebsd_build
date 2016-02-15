@@ -1,0 +1,24 @@
+Index: kio/src/widgets/kpropertiesdialog.cpp
+===================================================================
+--- kio.orig/src/widgets/kpropertiesdialog.cpp	2016-02-08 12:10:30.544431744 +0100
++++ kio/src/widgets/kpropertiesdialog.cpp	2016-02-08 12:10:30.540431907 +0100
+@@ -76,6 +76,10 @@
+ extern "C" {
+ #  include <errno.h>
+ #  include <sys/xattr.h>
++#  if defined(Q_OS_FREEBSD) || defined(__FreeBSD_kernel__)
++#     include <sys/vfs.h>
++#     include <sys/mount.h>
++#  endif
+ }
+ #endif
+ 
+@@ -1915,7 +1919,7 @@
+ static bool fileSystemSupportsACL(const QByteArray &path)
+ {
+     bool fileSystemSupportsACLs = false;
+-#ifdef Q_OS_FREEBSD
++#if defined(Q_OS_FREEBSD) || defined(__FreeBSD_kernel__)
+     struct statfs buf;
+     fileSystemSupportsACLs = (statfs(path.data(), &buf) == 0) && (buf.f_flags & MNT_ACLS);
+ #else

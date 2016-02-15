@@ -1,0 +1,26 @@
+commit 15dc16141df44b4a8291a07383bd63d9154807f2
+Author: David Faure <faure@kde.org>
+Date:   Mon Feb 8 09:04:48 2016 +0100
+
+    Fix wrong path -> QUrl conversion in URL combo history (e.g. file dialog)
+    
+    Change-Id: I52ce97e28dc8a947ddd2ef9fdfefd875cf1d1ca7
+
+diff --git a/src/widgets/kurlcombobox.cpp b/src/widgets/kurlcombobox.cpp
+index dfe5d68..8eb3fbe 100644
+--- a/src/widgets/kurlcombobox.cpp
++++ b/src/widgets/kurlcombobox.cpp
+@@ -224,7 +224,12 @@ void KUrlComboBox::setUrls(const QStringList &_urls, OverLoadResolving remove)
+             ++it;
+             continue;
+         }
+-        QUrl u(*it);
++        QUrl u;
++        if (QDir::isAbsolutePath(*it)) {
++            u = QUrl::fromLocalFile(*it);
++        } else {
++            u.setUrl(*it);
++        }
+ 
+         // Don't restore if file doesn't exist anymore
+         if (u.isLocalFile() && !QFile::exists(u.toLocalFile())) {

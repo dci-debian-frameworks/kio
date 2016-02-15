@@ -1,0 +1,21 @@
+commit 8d016d2950778168a9deb90bd51a1d78f91e7705
+Author: David Faure <faure@kde.org>
+Date:   Mon Feb 8 09:05:26 2016 +0100
+
+    kioslavetest: fix crash
+    
+    Change-Id: Ie28859307a4d8a698464c779752745c5f32e2220
+
+diff --git a/tests/kioslavetest.cpp b/tests/kioslavetest.cpp
+index 619d0b6..33dfb86 100644
+--- a/tests/kioslavetest.cpp
++++ b/tests/kioslavetest.cpp
+@@ -314,7 +314,7 @@ void KioslaveTest::startJob()
+ void KioslaveTest::slotResult(KJob *_job)
+ {
+     if (_job->error()) {
+-        job->uiDelegate()->showErrorMessage();
++        _job->uiDelegate()->showErrorMessage();
+     } else if (selectedOperation == Stat) {
+         UDSEntry entry = ((KIO::StatJob *)_job)->statResult();
+         printUDSEntry(entry);
