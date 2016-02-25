@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.16.0 amd64
+# SymbolsHelper-Confirmed: 5.18.0+git20160225.0749+16.04 amd64 i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -437,7 +437,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN3KIO11filePreviewERK13KFileItemListiiiibbPK11QStringList@Base 4.96.0
  _ZN3KIO11filePreviewERK5QListI4QUrlEiiiibbPK11QStringList@Base 4.96.0
  _ZN3KIO12RenameDialog10newDestUrlEv@Base 4.96.0
- _ZN3KIO12RenameDialog11createLabelEP7QWidgetRK7QStringb@Base 4.96.0
  _ZN3KIO12RenameDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN3KIO12RenameDialog11qt_metacastEPKc@Base 4.96.0
  _ZN3KIO12RenameDialog11showSrcIconERK9KFileItem@Base 4.96.0
@@ -456,7 +455,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN3KIO12RenameDialog16resumeAllPressedEv@Base 4.96.0
  _ZN3KIO12RenameDialog16staticMetaObjectE@Base 4.96.0
  _ZN3KIO12RenameDialog18enableRenameButtonERK7QString@Base 4.96.0
- _ZN3KIO12RenameDialog19createSqueezedLabelEP7QWidgetRK7QString@Base 4.96.0
  _ZN3KIO12RenameDialog19overwriteAllPressedEv@Base 4.96.0
  _ZN3KIO12RenameDialog21createContainerLayoutEP7QWidgetRK9KFileItemP6QLabel@Base 4.96.0
  _ZN3KIO12RenameDialog21suggestNewNamePressedEv@Base 4.96.0
