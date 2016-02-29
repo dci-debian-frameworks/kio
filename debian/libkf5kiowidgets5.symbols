@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.18.0+git20160225.0749+16.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.19.0+git20160229.0651+16.04 amd64 i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -992,6 +992,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTVN3KIO31KUriFilterSearchProviderActionsE@Base 5.16.0
  _ZTVN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTVN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
+ _ZZZN15KMimeTypeTrader16preferredServiceERK7QStringS2_Ed_NKUlvE_clEvE15qstring_literal@Base 5.19.0+git20160229.0651+16.04
  _ZZZNK13KUrlRequester20KUrlRequesterPrivate11kToQFiltersERK7QStringENKUlvE_clEvE15qstring_literal@Base 5.16.0
  (c++)"non-virtual thunk to KBuildSycocaProgressDialog::~KBuildSycocaProgressDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KIO::JobUiDelegate::askDeleteConfirmation(QList<QUrl> const&, KIO::JobUiDelegateExtension::DeletionType, KIO::JobUiDelegateExtension::ConfirmationType)@Base" 4.96.0

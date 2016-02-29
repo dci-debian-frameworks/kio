@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.18.0+git20160225.0749+16.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.19.0+git20160229.0651+16.04 amd64 i386
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -1664,6 +1664,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZTVN3KIO9SchedulerE@Base 4.96.0
  _ZTVN3KIO9SimpleJobE@Base 4.96.0
  _ZTVN3KIO9SlaveBaseE@Base 4.96.0
+ _ZZZN15KMimeTypeTrader16preferredServiceERK7QStringS2_Ed_NKUlvE_clEvE15qstring_literal@Base 5.19.0+git20160229.0651+16.04
  _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate14setSslMetaDataEvENKUlvE0_clEvE15qstring_literal@Base 5.16.0
  _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate14setSslMetaDataEvENKUlvE1_clEvE15qstring_literal@Base 5.16.0
  _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate14setSslMetaDataEvENKUlvE2_clEvE15qstring_literal@Base 5.16.0
