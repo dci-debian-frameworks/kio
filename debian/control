@@ -39,7 +39,7 @@ Build-Depends: cmake (>= 2.8.12),
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kio
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kio.git
-Vcs-Git: https://anonscm.debian.org/pkg-kde/frameworks/kio.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kio.git
 
 Package: kio-dev
 Section: libdevel
