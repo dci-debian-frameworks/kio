@@ -1,6 +1,7 @@
 kio (5.19.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Refreshing symbols
+  * Refreshing kubuntu_kdelibs4-docs-path.diff
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 25 Feb 2016 17:23:06 +0000
 
