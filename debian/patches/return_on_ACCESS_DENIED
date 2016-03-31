@@ -1,8 +1,17 @@
-Index: kio/src/ioslaves/file/file_unix.cpp
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 31 Mar 2016 15:38:43 +0200
+Subject: return_on_ACCESS_DENIED
+
 ===================================================================
---- kio.orig/src/ioslaves/file/file_unix.cpp	2015-10-06 16:18:18.604960597 +0200
-+++ kio/src/ioslaves/file/file_unix.cpp	2015-10-06 16:18:18.600960758 +0200
-@@ -536,8 +536,8 @@
+---
+ src/ioslaves/file/file_unix.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/ioslaves/file/file_unix.cpp b/src/ioslaves/file/file_unix.cpp
+index f2b67ce..d901a63 100644
+--- a/src/ioslaves/file/file_unix.cpp
++++ b/src/ioslaves/file/file_unix.cpp
+@@ -536,8 +536,8 @@ void FileProtocol::del(const QUrl &url, bool isfile)
              } else {
                  // qDebug() << "could not rmdir " << perror;
                  error(KIO::ERR_CANNOT_RMDIR, path);

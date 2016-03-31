@@ -1,8 +1,17 @@
-Index: kio/src/ioslaves/help/kio_help.cpp
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 31 Mar 2016 15:38:43 +0200
+Subject: kubuntu_kdelibs4-docs-path
+
 ===================================================================
---- kio.orig/src/ioslaves/help/kio_help.cpp	2015-11-19 14:33:04.080944405 +0100
-+++ kio/src/ioslaves/help/kio_help.cpp	2015-11-19 14:36:35.272354243 +0100
-@@ -49,7 +49,8 @@
+---
+ src/ioslaves/help/kio_help.cpp | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/src/ioslaves/help/kio_help.cpp b/src/ioslaves/help/kio_help.cpp
+index f79c801..8fdeb2f 100644
+--- a/src/ioslaves/help/kio_help.cpp
++++ b/src/ioslaves/help/kio_help.cpp
+@@ -50,7 +50,8 @@ QString HelpProtocol::langLookup(const QString &fname)
      QStringList search;
  
      // assemble the local search paths
