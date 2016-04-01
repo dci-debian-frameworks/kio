@@ -1,6 +1,6 @@
-kio (5.20.0-1~1.gbp6674ef) UNRELEASED; urgency=medium
+kio (5.20.0-1~2.gbp9348ea) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6674ef597633e1c2ea7ac83dfc051ded4d1ef370 **
+  ** SNAPSHOT build @9348ea4be3ab48fdae295693e767bfe28fe593e0 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -13,8 +13,9 @@ kio (5.20.0-1~1.gbp6674ef) UNRELEASED; urgency=medium
   * Refresh patches
 
   [ Maximiliano Curia ]
+  * Update acc test script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 31 Mar 2016 15:38:53 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:03:18 +0200
 
 kio (5.19.0-1) experimental; urgency=medium
 
