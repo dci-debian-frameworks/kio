@@ -1,3 +1,21 @@
+kio (5.20.0-1~1.gbp6674ef) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @6674ef597633e1c2ea7ac83dfc051ded4d1ef370 **
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 31 Mar 2016 15:38:53 +0200
+
 kio (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
