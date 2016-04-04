@@ -7,11 +7,9 @@ Reviewed-by: Jonathan Riddell
 Last-Update: 2015-03-01
 ---
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
-Index: kio/src/ioslaves/help/kio_help.cpp
-===================================================================
---- kio.orig/src/ioslaves/help/kio_help.cpp
-+++ kio/src/ioslaves/help/kio_help.cpp
-@@ -50,7 +50,8 @@ QString HelpProtocol::langLookup(const Q
+--- kio/src/ioslaves/help/kio_help.cpp	2015-03-07 15:45:21.000000000 +0100
++++ kio/src/ioslaves/help/kio_help.cpp	2015-04-02 17:15:39.687828131 +0200
+@@ -49,7 +49,8 @@
      QStringList search;
  
      // assemble the local search paths
@@ -19,5 +17,5 @@ Index: kio/src/ioslaves/help/kio_help.cpp
 +    QStringList localDoc = QStandardPaths::locateAll(QStandardPaths::GenericDataLocation, QStringLiteral("doc/HTML"), QStandardPaths::LocateDirectory);
 +    localDoc << QStandardPaths::locateAll(QStandardPaths::GenericDataLocation,QStringLiteral("doc/kde/HTML"), QStandardPaths::LocateDirectory);
  
-     QStringList langs = KLocalizedString::languages();
+     QStringList langs = QLocale().uiLanguages();
      langs.append(QStringLiteral("en"));
