@@ -1,8 +1,17 @@
-Index: kio/autotests/kdirlistertest.cpp
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 31 Mar 2016 15:38:43 +0200
+Subject: wait_for_a_bit_longer
+
 ===================================================================
---- kio.orig/autotests/kdirlistertest.cpp	2016-02-08 12:10:26.216607188 +0100
-+++ kio/autotests/kdirlistertest.cpp	2016-02-08 12:10:26.212607350 +0100
-@@ -1178,7 +1178,7 @@
+---
+ autotests/kdirlistertest.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/autotests/kdirlistertest.cpp b/autotests/kdirlistertest.cpp
+index 15e9e52..63550e1 100644
+--- a/autotests/kdirlistertest.cpp
++++ b/autotests/kdirlistertest.cpp
+@@ -1178,7 +1178,7 @@ void KDirListerTest::testRemoveWatchedDirectory()
      QVERIFY(QDir().rmdir(path + "abc"));
  
      // This should trigger an update.

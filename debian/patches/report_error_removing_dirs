@@ -1,8 +1,17 @@
-Index: kio/src/core/copyjob.cpp
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 31 Mar 2016 15:38:43 +0200
+Subject: report_error_removing_dirs
+
 ===================================================================
---- kio.orig/src/core/copyjob.cpp	2016-02-08 12:10:19.904863055 +0100
-+++ kio/src/core/copyjob.cpp	2016-02-08 12:10:19.904863055 +0100
-@@ -146,6 +146,7 @@
+---
+ src/core/copyjob.cpp | 17 +++++++++++++----
+ 1 file changed, 13 insertions(+), 4 deletions(-)
+
+diff --git a/src/core/copyjob.cpp b/src/core/copyjob.cpp
+index f6849fc..6b36cc6 100644
+--- a/src/core/copyjob.cpp
++++ b/src/core/copyjob.cpp
+@@ -146,6 +146,7 @@ public:
          , m_bOverwriteAllFiles(false)
          , m_bOverwriteAllDirs(false)
          , m_conflictError(0)
@@ -10,7 +19,7 @@ Index: kio/src/core/copyjob.cpp
          , m_reportTimer(0)
      {
      }
-@@ -200,6 +201,8 @@
+@@ -200,6 +201,8 @@ public:
      bool m_bOverwriteAllFiles;
      bool m_bOverwriteAllDirs;
      int m_conflictError;
@@ -19,7 +28,7 @@ Index: kio/src/core/copyjob.cpp
  
      QTimer *m_reportTimer;
  
-@@ -1704,6 +1707,10 @@
+@@ -1704,6 +1707,10 @@ void CopyJobPrivate::setNextDirAttribute()
          --m_processedFiles; // undo the "start at 1" hack
          slotReport(); // display final numbers, important if progress dialog stays up
  
@@ -30,7 +39,7 @@ Index: kio/src/core/copyjob.cpp
          q->emitResult();
      }
  }
-@@ -1773,12 +1780,14 @@
+@@ -1773,12 +1780,14 @@ void CopyJobPrivate::slotTotalSize(KJob *, qulonglong size)
  void CopyJobPrivate::slotResultDeletingDirs(KJob *job)
  {
      Q_Q(CopyJob);

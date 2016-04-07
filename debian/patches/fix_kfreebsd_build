@@ -1,7 +1,16 @@
-Index: kio/src/widgets/kpropertiesdialog.cpp
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 31 Mar 2016 15:38:43 +0200
+Subject: fix_kfreebsd_build
+
 ===================================================================
---- kio.orig/src/widgets/kpropertiesdialog.cpp	2016-02-08 12:10:30.544431744 +0100
-+++ kio/src/widgets/kpropertiesdialog.cpp	2016-02-08 12:10:30.540431907 +0100
+---
+ src/widgets/kpropertiesdialog.cpp | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/src/widgets/kpropertiesdialog.cpp b/src/widgets/kpropertiesdialog.cpp
+index 59e189f..4f7d891 100644
+--- a/src/widgets/kpropertiesdialog.cpp
++++ b/src/widgets/kpropertiesdialog.cpp
 @@ -76,6 +76,10 @@
  extern "C" {
  #  include <errno.h>
@@ -13,7 +22,7 @@ Index: kio/src/widgets/kpropertiesdialog.cpp
  }
  #endif
  
-@@ -1915,7 +1919,7 @@
+@@ -1915,7 +1919,7 @@ KFilePermissionsPropsPlugin::KFilePermissionsPropsPlugin(KPropertiesDialog *_pro
  static bool fileSystemSupportsACL(const QByteArray &path)
  {
      bool fileSystemSupportsACLs = false;

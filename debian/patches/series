@@ -3,6 +3,3 @@ report_error_removing_dirs
 wait_for_a_bit_longer
 kubuntu_kdelibs4-docs-path.diff
 fix_kfreebsd_build
-upstream_autotest__fix_ctest.patch
-upstream_fix_wrong_path.patch
-upstream_kioslavetest_fix_crash.patch
