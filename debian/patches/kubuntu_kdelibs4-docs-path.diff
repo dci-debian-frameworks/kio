@@ -7,11 +7,11 @@ Subject: kubuntu_kdelibs4-docs-path
  src/ioslaves/help/kio_help.cpp | 3 ++-
  1 file changed, 2 insertions(+), 1 deletion(-)
 
-diff --git a/src/ioslaves/help/kio_help.cpp b/src/ioslaves/help/kio_help.cpp
-index f79c801..8fdeb2f 100644
---- a/src/ioslaves/help/kio_help.cpp
-+++ b/src/ioslaves/help/kio_help.cpp
-@@ -50,7 +50,8 @@ QString HelpProtocol::langLookup(const QString &fname)
+Index: repo/src/ioslaves/help/kio_help.cpp
+===================================================================
+--- repo.orig/src/ioslaves/help/kio_help.cpp	2016-04-10 12:13:47.395842484 +0200
++++ repo/src/ioslaves/help/kio_help.cpp	2016-04-10 12:13:47.391842642 +0200
+@@ -50,7 +50,8 @@
      QStringList search;
  
      // assemble the local search paths
@@ -19,5 +19,5 @@ index f79c801..8fdeb2f 100644
 +    QStringList localDoc = QStandardPaths::locateAll(QStandardPaths::GenericDataLocation, QStringLiteral("doc/HTML"), QStandardPaths::LocateDirectory);
 +    localDoc << QStandardPaths::locateAll(QStandardPaths::GenericDataLocation,QStringLiteral("doc/kde/HTML"), QStandardPaths::LocateDirectory);
  
-     QStringList langs = QLocale().uiLanguages();
+     QStringList langs = KLocalizedString::languages();
      langs.append(QStringLiteral("en"));
