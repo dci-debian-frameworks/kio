@@ -1,6 +1,6 @@
-kio (5.21.0-1~1.gbp6f5a9b) UNRELEASED; urgency=medium
+kio (5.21.0-1~2.gbp977938) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6f5a9b8a434d9f9e6796f3b69e4efc5419aed197 **
+  ** SNAPSHOT build @977938bbc447971b50c150fe1abbc60300b59704 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
@@ -30,7 +30,10 @@ kio (5.21.0-1~1.gbp6f5a9b) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 11:41:09 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 10 Apr 2016 12:19:26 +0200
 
 kio (5.19.0-1) experimental; urgency=medium
 
