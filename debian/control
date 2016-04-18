@@ -147,3 +147,17 @@ Description: Resource and network access abstraction.
  sftp, smb, nfs, ssh (fish), man, tar and zip.
  .
  This library contains some UI widgets.
+
+Package: kio-dbg
+Priority: extra
+Section: debug
+Architecture: any
+Depends: kio (= ${binary:Version}), ${misc:Depends}
+Description: Resource and network access abstraction.
+ KDE Input/Output framework provides a single API for
+ operating on files, whether local or on a remote server.
+ Additionally, KIO Slaves provide support for individual
+ protocols. Some particularly useful ones are http, ftp,
+ sftp, smb, nfs, ssh (fish), man, tar and zip.
+ .
+ This package contains debug symbols for kio.
