@@ -6,5 +6,6 @@ sleep 5
 kdeinit5
 dh_auto_test
 ret=$?
+kquitapp5 kded5
 kdeinit5_shutdown
 exit $ret
