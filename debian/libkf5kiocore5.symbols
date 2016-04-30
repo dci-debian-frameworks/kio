@@ -931,12 +931,12 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO8UDSEntry6insertEjRK7QString@Base 4.96.0
  _ZN3KIO8UDSEntry6insertEjx@Base 4.96.0
  _ZN3KIO8UDSEntry7reserveEi@Base 5.5.0+git20141229.0049+15.04
- (arch=kfreebsd-any)_ZN3KIO8UDSEntryC1ERK4statRK7QString@Base 5.11.0
- (arch=!kfreebsd-any)_ZN3KIO8UDSEntryC1ERK6stat64RK7QString@Base 4.100.0
+ (arch=kfreebsd-any hurd-i386)_ZN3KIO8UDSEntryC1ERK4statRK7QString@Base 5.11.0
+ (arch=!kfreebsd-any !hurd-i386)_ZN3KIO8UDSEntryC1ERK6stat64RK7QString@Base 4.100.0
  _ZN3KIO8UDSEntryC1ERKS0_@Base 4.96.0
  _ZN3KIO8UDSEntryC1Ev@Base 4.96.0
- (arch=kfreebsd-any)_ZN3KIO8UDSEntryC2ERK4statRK7QString@Base 5.11.0
- (arch=!kfreebsd-any)_ZN3KIO8UDSEntryC2ERK6stat64RK7QString@Base 4.100.0
+ (arch=kfreebsd-any hurd-i386)_ZN3KIO8UDSEntryC2ERK4statRK7QString@Base 5.11.0
+ (arch=!kfreebsd-any !hurd-i386)_ZN3KIO8UDSEntryC2ERK6stat64RK7QString@Base 4.100.0
  _ZN3KIO8UDSEntryC2ERKS0_@Base 4.96.0
  _ZN3KIO8UDSEntryC2Ev@Base 4.96.0
  _ZN3KIO8UDSEntryD1Ev@Base 4.96.0
