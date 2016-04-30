@@ -7,31 +7,15 @@ kio (5.21.0-1~2.gbp977938) UNRELEASED; urgency=medium
     replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
-  * Refresh patches
-
-  [ Maximiliano Curia ]
   * Update acc test script
-  * UNRELEASED
-
-  [ Automatic packaging ]
-  * Update symbols files
-
-  [ Maximiliano Curia ]
   * Update testsuite script
   * lintian: changelog line too long
-
-  [ Automatic packaging ]
-  * uscan no longer handles two lines for the main tarball
-
-  [ Maximiliano Curia ]
   * uscan no longer supports more than one main upstream tarball being listed
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Refresh patches
+  * Update symbols files
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 10 Apr 2016 12:19:26 +0200
 
