@@ -1,0 +1,40 @@
+Description: fix FTBGS on hurd.
+ posix_fadvise64 is not available on hurd, will yield to an compiler warning and
+ aborting the build through --fatal-warnings
+Author: Tobias Frost <tobi@debian.org>
+Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=799619
+Forwarded: no
+Last-Update: 2016-04-26
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/src/ioslaves/file/file.cpp
++++ b/src/ioslaves/file/file.cpp
+@@ -333,7 +333,7 @@
+         return;
+     }
+ 
+-#if HAVE_FADVISE
++#if HAVE_FADVISE && !defined(__GNU__)
+     //TODO check return code
+     posix_fadvise(f.handle(), 0, 0, POSIX_FADV_SEQUENTIAL);
+ #endif
+--- a/src/ioslaves/file/file_unix.cpp
++++ b/src/ioslaves/file/file_unix.cpp
+@@ -128,7 +128,7 @@
+         return;
+     }
+ 
+-#if HAVE_FADVISE
++#if HAVE_FADVISE && !defined(__GNU__)
+     posix_fadvise(src_file.handle(), 0, 0, POSIX_FADV_SEQUENTIAL);
+ #endif
+ 
+@@ -144,7 +144,7 @@
+         return;
+     }
+ 
+-#if HAVE_FADVISE
++#if HAVE_FADVISE && !defined(__GNU__)
+     posix_fadvise(dest_file.handle(), 0, 0, POSIX_FADV_SEQUENTIAL);
+ #endif
+ 

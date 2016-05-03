@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.17.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.20.0 amd64
 libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4.96.0
  _ZN11KFileWidget10slotCancelEv@Base 4.96.0
@@ -474,6 +474,9 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN26KStatusBarOfflineIndicatorD0Ev@Base 4.96.0
  _ZN26KStatusBarOfflineIndicatorD1Ev@Base 4.96.0
  _ZN26KStatusBarOfflineIndicatorD2Ev@Base 4.96.0
+ _ZN3KIO18DefaultViewAdapter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.20.0
+ _ZN3KIO18DefaultViewAdapter11qt_metacastEPKc@Base 5.20.0
+ _ZN3KIO18DefaultViewAdapter16staticMetaObjectE@Base 5.20.0
  _ZN3KIO18DefaultViewAdapter7connectEN20KAbstractViewAdapter6SignalEP7QObjectPKc@Base 4.96.0
  _ZN3KIO18DefaultViewAdapterC1EP17QAbstractItemViewP7QObject@Base 4.96.0
  _ZN3KIO18DefaultViewAdapterC2EP17QAbstractItemViewP7QObject@Base 4.96.0
@@ -618,6 +621,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZNK24KDirSortFilterProxyModel16sortFoldersFirstEv@Base 4.96.0
  _ZNK24KDirSortFilterProxyModel20supportedDragOptionsEv@Base 4.96.0
  _ZNK26KStatusBarOfflineIndicator10metaObjectEv@Base 4.96.0
+ _ZNK3KIO18DefaultViewAdapter10metaObjectEv@Base 5.20.0
  _ZNK3KIO18DefaultViewAdapter10visualRectERK11QModelIndex@Base 4.96.0
  _ZNK3KIO18DefaultViewAdapter11visibleAreaEv@Base 4.96.0
  _ZNK3KIO18DefaultViewAdapter5modelEv@Base 4.96.0

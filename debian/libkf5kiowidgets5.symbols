@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.16.0 amd64
+# SymbolsHelper-Confirmed: 5.20.0 amd64
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -437,7 +437,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN3KIO11filePreviewERK13KFileItemListiiiibbPK11QStringList@Base 4.96.0
  _ZN3KIO11filePreviewERK5QListI4QUrlEiiiibbPK11QStringList@Base 4.96.0
  _ZN3KIO12RenameDialog10newDestUrlEv@Base 4.96.0
- _ZN3KIO12RenameDialog11createLabelEP7QWidgetRK7QStringb@Base 4.96.0
  _ZN3KIO12RenameDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN3KIO12RenameDialog11qt_metacastEPKc@Base 4.96.0
  _ZN3KIO12RenameDialog11showSrcIconERK9KFileItem@Base 4.96.0
@@ -456,7 +455,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN3KIO12RenameDialog16resumeAllPressedEv@Base 4.96.0
  _ZN3KIO12RenameDialog16staticMetaObjectE@Base 4.96.0
  _ZN3KIO12RenameDialog18enableRenameButtonERK7QString@Base 4.96.0
- _ZN3KIO12RenameDialog19createSqueezedLabelEP7QWidgetRK7QString@Base 4.96.0
  _ZN3KIO12RenameDialog19overwriteAllPressedEv@Base 4.96.0
  _ZN3KIO12RenameDialog21createContainerLayoutEP7QWidgetRK9KFileItemP6QLabel@Base 4.96.0
  _ZN3KIO12RenameDialog21suggestNewNamePressedEv@Base 4.96.0
@@ -994,6 +992,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTVN3KIO31KUriFilterSearchProviderActionsE@Base 5.16.0
  _ZTVN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTVN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
+ _ZZZN15KMimeTypeTrader16preferredServiceERK7QStringS2_Ed_NKUlvE_clEvE15qstring_literal@Base 5.20.0
  _ZZZNK13KUrlRequester20KUrlRequesterPrivate11kToQFiltersERK7QStringENKUlvE_clEvE15qstring_literal@Base 5.16.0
  (c++)"non-virtual thunk to KBuildSycocaProgressDialog::~KBuildSycocaProgressDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KIO::JobUiDelegate::askDeleteConfirmation(QList<QUrl> const&, KIO::JobUiDelegateExtension::DeletionType, KIO::JobUiDelegateExtension::ConfirmationType)@Base" 4.96.0
