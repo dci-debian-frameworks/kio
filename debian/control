@@ -36,7 +36,7 @@ Build-Depends: cmake (>= 2.8.12),
                qtbase5-dev (>= 5.4.0~),
                qtscript5-dev (>= 5.4.0~),
                zlib1g-dev
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/kio
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kio.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kio.git

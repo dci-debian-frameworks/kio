@@ -1,6 +1,6 @@
-kio (5.21.0-1~2.gbp977938) UNRELEASED; urgency=medium
+kio (5.21.0-1~3.gbpe72474) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @977938bbc447971b50c150fe1abbc60300b59704 **
+  ** SNAPSHOT build @e724748433982f6183c1cb775c496e43aee0ee46 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
@@ -16,8 +16,13 @@ kio (5.21.0-1~2.gbp977938) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * Refresh patches
   * Update symbols files
+  * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 10 Apr 2016 12:19:26 +0200
+  [ Tobias Frost ]
+  * Add patch for hurd, the warning caused by posix_fadvise is failing the build.
+    (Closes: #799619)
+
+ -- Tobias Frost <tobi@debian.org>  Sat, 30 Apr 2016 10:03:17 +0200
 
 kio (5.19.0-1) experimental; urgency=medium
 
