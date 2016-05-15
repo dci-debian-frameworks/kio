@@ -8,10 +8,10 @@ Subject: wait_for_a_bit_longer
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/autotests/kdirlistertest.cpp b/autotests/kdirlistertest.cpp
-index 15e9e52..63550e1 100644
+index a91988f..e0a616b 100644
 --- a/autotests/kdirlistertest.cpp
 +++ b/autotests/kdirlistertest.cpp
-@@ -1178,7 +1178,7 @@ void KDirListerTest::testRemoveWatchedDirectory()
+@@ -1186,7 +1186,7 @@ void KDirListerTest::testRemoveWatchedDirectory()
      QVERIFY(QDir().rmdir(path + "abc"));
  
      // This should trigger an update.
