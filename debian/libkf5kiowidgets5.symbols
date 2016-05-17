@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.20.0 amd64
+# SymbolsHelper-Confirmed: 5.22.0 amd64 armhf i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -75,6 +75,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN12ThumbCreatorD0Ev@Base 4.96.0
  _ZN12ThumbCreatorD1Ev@Base 4.96.0
  _ZN12ThumbCreatorD2Ev@Base 4.96.0
+ _ZN13KUrlRequester10textEditedERK7QString@Base 5.22.0
  _ZN13KUrlRequester11changeEventEP6QEvent@Base 4.96.0
  _ZN13KUrlRequester11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN13KUrlRequester11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
