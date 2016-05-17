@@ -2,7 +2,6 @@
 etc/xdg/accept-languages.codes
 etc/xdg/kshorturifilterrc
 usr/bin/kcookiejar5
-usr/bin/kmailservice5
 usr/bin/ktelnetservice5
 usr/bin/ktrash5
 usr/bin/protocoltojson
@@ -19,7 +18,6 @@ usr/lib/*/qt5/plugins/kf5/kded/proxyscout.so
 usr/lib/*/qt5/plugins/kf5/kio/
 usr/lib/*/qt5/plugins/kf5/kiod/
 usr/lib/*/qt5/plugins/kf5/urifilters/
-usr/share/applications/kmailservice5.desktop
 usr/share/applications/ktelnetservice5.desktop
 usr/share/dbus-1/services/org.kde.kcookiejar5.service
 usr/share/dbus-1/services/org.kde.kiod5.service
