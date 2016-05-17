@@ -1,6 +1,6 @@
-kio (5.22.0-1~1.gbpc642e8) UNRELEASED; urgency=medium
+kio (5.22.0-1~2.gbp53dc50) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @c642e8f8f54a3863c7dba187ab074e273b27aa83 **
+  ** SNAPSHOT build @53dc506bdad582de1a83eaf697ba5f921b66f64d **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
@@ -11,6 +11,7 @@ kio (5.22.0-1~1.gbpc642e8) UNRELEASED; urgency=medium
   * Update testsuite script
   * lintian: changelog line too long
   * uscan no longer supports more than one main upstream tarball being listed
+  * Update install files
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
@@ -27,7 +28,7 @@ kio (5.22.0-1~1.gbpc642e8) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * restore metadata from origin patch
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 16 May 2016 01:32:20 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 17 May 2016 11:02:09 +0200
 
 kio (5.19.0-1) experimental; urgency=medium
 
