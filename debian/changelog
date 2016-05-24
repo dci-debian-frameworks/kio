@@ -1,6 +1,4 @@
-kio (5.22.0-1~3.gbpc55ad5) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @c55ad553e41783cdc9230053c828a4abb6966a7f **
+kio (5.22.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
@@ -29,7 +27,7 @@ kio (5.22.0-1~3.gbpc55ad5) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * restore metadata from origin patch
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 17 May 2016 14:11:30 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 May 2016 15:09:12 +0200
 
 kio (5.19.0-1) experimental; urgency=medium
 
