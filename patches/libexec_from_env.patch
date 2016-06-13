@@ -1,0 +1,20 @@
+diff --git a/src/core/slave.cpp b/src/core/slave.cpp
+index 06596bd..aee7b6b 100644
+--- a/src/core/slave.cpp
++++ b/src/core/slave.cpp
+@@ -490,8 +490,13 @@ Slave *Slave::createSlave(const QString &protocol, const QUrl &url, int &error,
+         //qDebug() << "kioslave" << ", " << lib_path << ", " << protocol << ", " << QString() << ", " << slaveAddress;
+ 
+         // search paths
+-        const QStringList searchPaths = QStringList()
+-            << QCoreApplication::applicationDirPath() // then look where our application binary is located
++        QStringList searchPaths = QStringList();
++
++        if (qEnvironmentVariableIsSet("KF5_LIBEXEC_DIR")) {
++            searchPaths << qgetenv("KF5_LIBEXEC_DIR");
++        }
++
++        searchPaths << QCoreApplication::applicationDirPath() // then look where our application binary is located
+             << QLibraryInfo::location(QLibraryInfo::LibraryExecutablesPath) // look where libexec path is (can be set in qt.conf)
+             << QFile::decodeName(CMAKE_INSTALL_FULL_LIBEXECDIR_KF5); // look at our installation location
+         const QString kioslaveExecutable = QStandardPaths::findExecutable(QStringLiteral("kioslave"), searchPaths);
