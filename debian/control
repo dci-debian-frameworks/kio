@@ -42,6 +42,14 @@ Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kio.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kio.git
 
 Package: kio-dev
+Depends: libkf5kio-dev, ${misc:Depends}
+Architecture: all
+Priority: extra
+Section: oldlibs
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: libkf5kio-dev
 Section: libdevel
 Architecture: any
 Depends: kio (= ${binary:Version}),
@@ -59,6 +67,8 @@ Depends: kio (= ${binary:Version}),
          libkf5xmlgui-dev (>= 5.23.0~),
          qtbase5-dev (>= 5.4.0~),
          ${misc:Depends}
+Breaks: kio-dev (<< 5.23.0-2~)
+Replaces: kio-dev (<< 5.23.0-2~)
 Description: Resource and network access abstraction.
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
