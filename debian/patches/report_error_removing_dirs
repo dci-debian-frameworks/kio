@@ -8,10 +8,10 @@ Subject: report_error_removing_dirs
  1 file changed, 13 insertions(+), 4 deletions(-)
 
 diff --git a/src/core/copyjob.cpp b/src/core/copyjob.cpp
-index f6849fc..6b36cc6 100644
+index 8d6ab05..3d29d0b 100644
 --- a/src/core/copyjob.cpp
 +++ b/src/core/copyjob.cpp
-@@ -146,6 +146,7 @@ public:
+@@ -151,6 +151,7 @@ public:
          , m_bOverwriteAllFiles(false)
          , m_bOverwriteAllDirs(false)
          , m_conflictError(0)
@@ -19,7 +19,7 @@ index f6849fc..6b36cc6 100644
          , m_reportTimer(0)
      {
      }
-@@ -200,6 +201,8 @@ public:
+@@ -205,6 +206,8 @@ public:
      bool m_bOverwriteAllFiles;
      bool m_bOverwriteAllDirs;
      int m_conflictError;
@@ -28,7 +28,7 @@ index f6849fc..6b36cc6 100644
  
      QTimer *m_reportTimer;
  
-@@ -1704,6 +1707,10 @@ void CopyJobPrivate::setNextDirAttribute()
+@@ -1711,6 +1714,10 @@ void CopyJobPrivate::setNextDirAttribute()
          --m_processedFiles; // undo the "start at 1" hack
          slotReport(); // display final numbers, important if progress dialog stays up
  
@@ -39,7 +39,7 @@ index f6849fc..6b36cc6 100644
          q->emitResult();
      }
  }
-@@ -1773,12 +1780,14 @@ void CopyJobPrivate::slotTotalSize(KJob *, qulonglong size)
+@@ -1780,12 +1787,14 @@ void CopyJobPrivate::slotTotalSize(KJob *, qulonglong size)
  void CopyJobPrivate::slotResultDeletingDirs(KJob *job)
  {
      Q_Q(CopyJob);

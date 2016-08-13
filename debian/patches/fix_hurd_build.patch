@@ -13,7 +13,7 @@ Forwarded: no
  2 files changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/src/ioslaves/file/file.cpp b/src/ioslaves/file/file.cpp
-index 9a8ca32..06bce64 100644
+index 8b17d31..a871623 100644
 --- a/src/ioslaves/file/file.cpp
 +++ b/src/ioslaves/file/file.cpp
 @@ -340,7 +340,7 @@ void FileProtocol::get(const QUrl &url)
