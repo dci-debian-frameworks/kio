@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.22.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.24.0 amd64 armhf i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -543,6 +543,18 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN3KIO18DndPopupMenuPluginD2Ev@Base 5.5.0+git20141226.0011+15.04
  _ZN3KIO18isClipboardDataCutEPK9QMimeData@Base 5.2.0
  _ZN3KIO19setClipboardDataCutEP9QMimeDatab@Base 5.2.0
+ _ZN3KIO22highlightInFileManagerERK5QListI4QUrlERK10QByteArray@Base 5.24.0
+ _ZN3KIO24OpenFileManagerWindowJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.24.0
+ _ZN3KIO24OpenFileManagerWindowJob11qt_metacastEPKc@Base 5.24.0
+ _ZN3KIO24OpenFileManagerWindowJob12setStartupIdERK10QByteArray@Base 5.24.0
+ _ZN3KIO24OpenFileManagerWindowJob16setHighlightUrlsERK5QListI4QUrlE@Base 5.24.0
+ _ZN3KIO24OpenFileManagerWindowJob16staticMetaObjectE@Base 5.24.0
+ _ZN3KIO24OpenFileManagerWindowJob5startEv@Base 5.24.0
+ _ZN3KIO24OpenFileManagerWindowJobC1EP7QObject@Base 5.24.0
+ _ZN3KIO24OpenFileManagerWindowJobC2EP7QObject@Base 5.24.0
+ _ZN3KIO24OpenFileManagerWindowJobD0Ev@Base 5.24.0
+ _ZN3KIO24OpenFileManagerWindowJobD1Ev@Base 5.24.0
+ _ZN3KIO24OpenFileManagerWindowJobD2Ev@Base 5.24.0
  _ZN3KIO31KUriFilterSearchProviderActions11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.16.0
  _ZN3KIO31KUriFilterSearchProviderActions11qt_metacastEPKc@Base 5.16.0
  _ZN3KIO31KUriFilterSearchProviderActions15setSelectedTextERK7QString@Base 5.16.0
@@ -605,6 +617,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN4KRun13setAutoDeleteEb@Base 4.96.0
  _ZN4KRun13setDoScanFileEb@Base 4.96.0
  _ZN4KRun13setIsDirecoryEb@Base 4.96.0
+ _ZN4KRun14runApplicationERK8KServiceRK5QListI4QUrlEP7QWidget6QFlagsINS_7RunFlagEERK7QStringRK10QByteArray@Base 5.24.0
  _ZN4KRun14slotStatResultEP4KJob@Base 4.96.0
  _ZN4KRun15handleInitErrorEiRK7QString@Base 4.96.0
  _ZN4KRun15setProgressInfoEb@Base 4.96.0
@@ -841,6 +854,9 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZNK3KIO15FileUndoManager26currentCommandSerialNumberEv@Base 4.96.0
  _ZNK3KIO15FileUndoManager8undoTextEv@Base 4.96.0
  _ZNK3KIO18DndPopupMenuPlugin10metaObjectEv@Base 5.5.0+git20141226.0011+15.04
+ _ZNK3KIO24OpenFileManagerWindowJob10metaObjectEv@Base 5.24.0
+ _ZNK3KIO24OpenFileManagerWindowJob13highlightUrlsEv@Base 5.24.0
+ _ZNK3KIO24OpenFileManagerWindowJob9startupIdEv@Base 5.24.0
  _ZNK3KIO31KUriFilterSearchProviderActions10metaObjectEv@Base 5.16.0
  _ZNK3KIO31KUriFilterSearchProviderActions12selectedTextEv@Base 5.16.0
  _ZNK3KIO7DropJob10metaObjectEv@Base 5.5.0+git20141226.0011+15.04
@@ -912,6 +928,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTIN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTIN3KIO15FileUndoManagerE@Base 4.96.0
  _ZTIN3KIO18DndPopupMenuPluginE@Base 5.5.0+git20141226.0011+15.04
+ _ZTIN3KIO24OpenFileManagerWindowJobE@Base 5.24.0
  _ZTIN3KIO31KUriFilterSearchProviderActionsE@Base 5.16.0
  _ZTIN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTIN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
@@ -951,6 +968,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTSN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTSN3KIO15FileUndoManagerE@Base 4.96.0
  _ZTSN3KIO18DndPopupMenuPluginE@Base 5.5.0+git20141226.0011+15.04
+ _ZTSN3KIO24OpenFileManagerWindowJobE@Base 5.24.0
  _ZTSN3KIO31KUriFilterSearchProviderActionsE@Base 5.16.0
  _ZTSN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTSN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
@@ -990,6 +1008,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZTVN3KIO15FileUndoManager11UiInterfaceE@Base 4.96.0
  _ZTVN3KIO15FileUndoManagerE@Base 4.96.0
  _ZTVN3KIO18DndPopupMenuPluginE@Base 5.5.0+git20141226.0011+15.04
+ _ZTVN3KIO24OpenFileManagerWindowJobE@Base 5.24.0
  _ZTVN3KIO31KUriFilterSearchProviderActionsE@Base 5.16.0
  _ZTVN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTVN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
