@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.20.0 amd64
+# SymbolsHelper-Confirmed: 5.25.0 amd64
 libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4.96.0
  _ZN11KFileWidget10slotCancelEv@Base 4.96.0
@@ -613,6 +613,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
  _ZNK22KNameAndUrlInputDialog10metaObjectEv@Base 4.96.0
  _ZNK22KNameAndUrlInputDialog3urlEv@Base 4.96.0
  _ZNK22KNameAndUrlInputDialog4nameEv@Base 4.96.0
+ _ZNK22KNameAndUrlInputDialog7urlTextEv@Base 5.25.0
  _ZNK24KDirSortFilterProxyModel10metaObjectEv@Base 4.96.0
  _ZNK24KDirSortFilterProxyModel11hasChildrenERK11QModelIndex@Base 4.96.0
  _ZNK24KDirSortFilterProxyModel12canFetchMoreERK11QModelIndex@Base 4.96.0
