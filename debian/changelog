@@ -1,6 +1,6 @@
-kio (5.25.0-1~1.gbp2f86d5) UNRELEASED; urgency=medium
+kio (5.25.0-1~2.gbp49dc81) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @2f86d51f1a385022b5b2c3153dbef945a19dfea2 **
+  ** SNAPSHOT build @49dc81bc436d920ce3997ecccac0a92303e906b2 **
 
   [ Harald Sitter ]
   * Rename -dev package to align with the cmake package name for
@@ -13,8 +13,9 @@ kio (5.25.0-1~1.gbp2f86d5) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * Refresh patches
   * Update symbols files.
+  * Update symbols files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 21:03:37 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 16 Aug 2016 22:29:46 +0200
 
 kio (5.23.0-1) unstable; urgency=medium
 
