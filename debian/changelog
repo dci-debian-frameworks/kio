@@ -1,6 +1,4 @@
-kio (5.25.0-1~2.gbp49dc81) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @49dc81bc436d920ce3997ecccac0a92303e906b2 **
+kio (5.25.0-1) unstable; urgency=medium
 
   [ Harald Sitter ]
   * Rename -dev package to align with the cmake package name for
@@ -10,12 +8,12 @@ kio (5.25.0-1~2.gbp49dc81) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update symbols files.
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
   * Refresh patches
-  * Update symbols files.
-  * Update symbols files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 16 Aug 2016 22:29:46 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 16:47:47 +0200
 
 kio (5.23.0-1) unstable; urgency=medium
 
