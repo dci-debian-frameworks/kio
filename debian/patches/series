@@ -1,5 +1,4 @@
 libexec_from_env.patch
-kubuntu_failing-tests.diff
 return_on_ACCESS_DENIED
 report_error_removing_dirs
 wait_for_a_bit_longer
