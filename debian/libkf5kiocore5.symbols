@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.20.0 amd64
+# SymbolsHelper-Confirmed: 5.24.0 amd64 armhf i386
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -123,6 +123,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN13KProtocolInfo15isKnownProtocolERK4QUrl@Base 4.96.0
  _ZN13KProtocolInfo15isKnownProtocolERK7QString@Base 4.96.0
  _ZN13KProtocolInfo15showFilePreviewERK7QString@Base 4.96.0
+ _ZN13KProtocolInfo16archiveMimetypesERK7QString@Base 5.23.0
  _ZN13KProtocolInfo16isFilterProtocolERK4QUrl@Base 4.96.0
  _ZN13KProtocolInfo16isFilterProtocolERK7QString@Base 4.96.0
  _ZN13KProtocolInfo16isHelperProtocolERK4QUrl@Base 4.96.0
@@ -1066,6 +1067,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZN3KIO9SlaveBase19proxyConnectTimeoutEv@Base 4.96.0
  _ZN3KIO9SlaveBase19sendAndKeepMetaDataEv@Base 4.96.0
  _ZN3KIO9SlaveBase19setModificationTimeERK4QUrlRK9QDateTime@Base 4.96.0
+ _ZN3KIO9SlaveBase20openPasswordDialogV2ERNS_8AuthInfoERK7QString@Base 5.24.0
  _ZN3KIO9SlaveBase20reparseConfigurationEv@Base 4.96.0
  _ZN3KIO9SlaveBase24setTimeoutSpecialCommandEiRK10QByteArray@Base 4.96.0
  _ZN3KIO9SlaveBase25checkCachedAuthenticationERNS_8AuthInfoE@Base 4.96.0
@@ -1678,6 +1680,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#
  _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate16clearSslMetaDataEvENKUlvE0_clEvE15qstring_literal@Base 5.16.0
  _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate16clearSslMetaDataEvENKUlvE_clEvE15qstring_literal@Base 5.16.0
  _Zls6QDebugRK9KFileItem@Base 4.96.0
+ _Zls6QDebugRKN3KIO8UDSEntryE@Base 5.22.0
  _ZlsR11QDataStreamRK4KACL@Base 4.96.0
  _ZlsR11QDataStreamRK9KFileItem@Base 4.96.0
  _ZlsR11QDataStreamRKN3KIO8UDSEntryE@Base 4.96.0

@@ -1,17 +1,19 @@
-Description: add search paths for kdelibs4 docs
-Author: Jonathan Riddell
-Origin: me
+From: Jonathan Riddell <jr@jriddell.org>
+Date: Sun, 15 May 2016 21:03:09 +0200
+Subject: kubuntu_kdelibs4-docs-path
+
+add search paths for kdelibs4 docs
+
 Forwarded: no, kdelibs4 path was set in debian/kubuntu packages
-Applied-Upstream: nope
-Reviewed-by: Jonathan Riddell
-Last-Update: 2015-03-01
 ---
-This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
-Index: kio/src/ioslaves/help/kio_help.cpp
-===================================================================
---- kio.orig/src/ioslaves/help/kio_help.cpp
-+++ kio/src/ioslaves/help/kio_help.cpp
-@@ -50,7 +50,8 @@ QString HelpProtocol::langLookup(const Q
+ src/ioslaves/help/kio_help.cpp | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/src/ioslaves/help/kio_help.cpp b/src/ioslaves/help/kio_help.cpp
+index f555840..9a7b2fc 100644
+--- a/src/ioslaves/help/kio_help.cpp
++++ b/src/ioslaves/help/kio_help.cpp
+@@ -50,7 +50,8 @@ QString HelpProtocol::langLookup(const QString &fname)
      QStringList search;
  
      // assemble the local search paths

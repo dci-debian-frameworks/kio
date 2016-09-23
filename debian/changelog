@@ -4,6 +4,23 @@ kio (5.26.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 12 Sep 2016 08:32:19 +0000
 
+kio (5.25.0-1) unstable; urgency=medium
+
+  [ Harald Sitter ]
+  * Rename -dev package to align with the cmake package name for
+    greater discoverability and consistency across frameworks.
+    Add a transitional package to help with the name transition.
+
+  [ Automatic packaging ]
+  * Update symbols files.
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 16:47:47 +0200
+
 kio (5.25.0-0neon) xenial; urgency=medium
 
   * New release
@@ -16,11 +33,49 @@ kio (5.24.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 11 Jul 2016 07:43:19 +0000
 
+kio (5.23.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 13:14:11 +0200
+
 kio (5.23.0-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Mon, 13 Jun 2016 09:39:31 +0000
+
+kio (5.22.0-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
+    replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update acc test script
+  * Update testsuite script
+  * lintian: changelog line too long
+  * uscan no longer supports more than one main upstream tarball being listed
+  * Update install files
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+  * Update symbols files
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+  * Update symbols files.
+
+  [ Tobias Frost ]
+  * Add patch for hurd, the warning caused by posix_fadvise is failing the build.
+    (Closes: #799619)
+
+  [ Harald Sitter ]
+  * restore metadata from origin patch
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 May 2016 15:09:12 +0200
 
 kio (5.22.0-0neon) xenial; urgency=medium
 
@@ -33,27 +88,6 @@ kio (5.21.0-0neon) xenial; urgency=medium
   * New release
 
  -- Neon CI <neon@kde.org>  Mon, 11 Apr 2016 09:23:52 +0000
-
-kio (5.21.0-1~2.gbp977938) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @977938bbc447971b50c150fe1abbc60300b59704 **
-
-  [ Maximiliano Curia ]
-  * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
-    replacement dbgsym-migration.
-  * Add upstream metadata (DEP-12)
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * Update acc test script
-  * Update testsuite script
-  * lintian: changelog line too long
-  * uscan no longer supports more than one main upstream tarball being listed
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
-  * Refresh patches
-  * Update symbols files
-
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 10 Apr 2016 12:19:26 +0200
 
 kio (5.19.0-1) experimental; urgency=medium
 

@@ -1,15 +1,22 @@
-Description: fix FTBGS on hurd.
- posix_fadvise64 is not available on hurd, will yield to an compiler warning and
- aborting the build through --fatal-warnings
-Author: Tobias Frost <tobi@debian.org>
+From: Tobias Frost <tobi@debian.org>
+Date: Sun, 15 May 2016 21:03:09 +0200
+Subject: fix_hurd_build
+
+posix_fadvise64 is not available on hurd, will yield to an compiler warning and
+aborting the build through --fatal-warnings
+
 Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=799619
 Forwarded: no
-Last-Update: 2016-04-26
 ---
-This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+ src/ioslaves/file/file.cpp      | 2 +-
+ src/ioslaves/file/file_unix.cpp | 4 ++--
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/src/ioslaves/file/file.cpp b/src/ioslaves/file/file.cpp
+index 8b17d31..a871623 100644
 --- a/src/ioslaves/file/file.cpp
 +++ b/src/ioslaves/file/file.cpp
-@@ -333,7 +333,7 @@
+@@ -340,7 +340,7 @@ void FileProtocol::get(const QUrl &url)
          return;
      }
  
@@ -18,9 +25,11 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
      //TODO check return code
      posix_fadvise(f.handle(), 0, 0, POSIX_FADV_SEQUENTIAL);
  #endif
+diff --git a/src/ioslaves/file/file_unix.cpp b/src/ioslaves/file/file_unix.cpp
+index d901a63..ed86549 100644
 --- a/src/ioslaves/file/file_unix.cpp
 +++ b/src/ioslaves/file/file_unix.cpp
-@@ -128,7 +128,7 @@
+@@ -128,7 +128,7 @@ void FileProtocol::copy(const QUrl &srcUrl, const QUrl &destUrl,
          return;
      }
  
@@ -29,7 +38,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
      posix_fadvise(src_file.handle(), 0, 0, POSIX_FADV_SEQUENTIAL);
  #endif
  
-@@ -144,7 +144,7 @@
+@@ -144,7 +144,7 @@ void FileProtocol::copy(const QUrl &srcUrl, const QUrl &destUrl,
          return;
      }
  

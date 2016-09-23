@@ -5,60 +5,76 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.21.0~),
-               kdoctools-dev (>= 5.21.0~),
+               extra-cmake-modules (>= 5.25.0~),
+               kdoctools-dev (>= 5.25.0~),
                libacl1-dev,
-               libkf5archive-dev (>= 5.21.0~),
-               libkf5bookmarks-dev (>= 5.21.0~),
+               libkf5archive-dev (>= 5.25.0~),
+               libkf5bookmarks-dev (>= 5.25.0~),
                libkf5codecs-dev (>= 5.18.0~),
-               libkf5completion-dev (>= 5.21.0~),
-               libkf5config-dev (>= 5.21.0~),
-               libkf5configwidgets-dev (>= 5.21.0~),
-               libkf5coreaddons-dev (>= 5.21.0~),
-               libkf5dbusaddons-dev (>= 5.21.0~),
-               libkf5i18n-dev (>= 5.21.0~),
-               libkf5iconthemes-dev (>= 5.21.0~),
-               libkf5itemviews-dev (>= 5.21.0~),
-               libkf5jobwidgets-dev (>= 5.21.0~),
-               libkf5notifications-dev (>= 5.21.0~),
-               libkf5service-dev (>= 5.21.0~),
-               libkf5solid-dev (>= 5.21.0~),
-               libkf5textwidgets-dev (>= 5.21.0~),
-               libkf5wallet-dev (>= 5.21.0~),
-               libkf5widgetsaddons-dev (>= 5.21.0~),
-               libkf5windowsystem-dev (>= 5.21.0~),
-               libkf5xmlgui-dev (>= 5.21.0~),
+               libkf5completion-dev (>= 5.25.0~),
+               libkf5config-dev (>= 5.25.0~),
+               libkf5configwidgets-dev (>= 5.25.0~),
+               libkf5coreaddons-dev (>= 5.25.0~),
+               libkf5dbusaddons-dev (>= 5.25.0~),
+               libkf5i18n-dev (>= 5.25.0~),
+               libkf5iconthemes-dev (>= 5.25.0~),
+               libkf5itemviews-dev (>= 5.25.0~),
+               libkf5jobwidgets-dev (>= 5.25.0~),
+               libkf5notifications-dev (>= 5.25.0~),
+               libkf5service-dev (>= 5.25.0~),
+               libkf5solid-dev (>= 5.25.0~),
+               libkf5textwidgets-dev (>= 5.25.0~),
+               libkf5wallet-dev (>= 5.25.0~),
+               libkf5widgetsaddons-dev (>= 5.25.0~),
+               libkf5windowsystem-dev (>= 5.25.0~),
+               libkf5xmlgui-dev (>= 5.25.0~),
                libkrb5-dev,
-               libqt5x11extras5-dev (>= 5.4.0~),
+               libqt5x11extras5-dev (>= 5.5.0~),
                libxml2-dev,
                libxslt1-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4.0~),
-               qtscript5-dev (>= 5.4.0~),
+               qtbase5-dev (>= 5.5.0~),
+               qtscript5-dev (>= 5.5.0~),
                zlib1g-dev
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/kio
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kio.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kio.git
 
 Package: kio-dev
+Depends: libkf5kio-dev, ${misc:Depends}
+Architecture: all
+Priority: extra
+Section: oldlibs
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+Breaks: kross-dev (<< 5.25),
+        libkf5declarative-dev (<< 5.25),
+        libkf5khtml-dev (<< 5.25),
+        libkf5newstuff-dev (<< 5.25),
+        libkf5notifyconfig-dev (<< 5.25),
+        libkf5parts-dev (<< 5.25)
+
+Package: libkf5kio-dev
 Section: libdevel
 Architecture: any
 Depends: kio (= ${binary:Version}),
-         libkf5bookmarks-dev (>= 5.21.0~),
-         libkf5completion-dev (>= 5.21.0~),
-         libkf5itemviews-dev (>= 5.21.0~),
-         libkf5jobwidgets-dev (>= 5.21.0~),
+         libkf5bookmarks-dev (>= 5.25.0~),
+         libkf5completion-dev (>= 5.25.0~),
+         libkf5itemviews-dev (>= 5.25.0~),
+         libkf5jobwidgets-dev (>= 5.25.0~),
          libkf5kiocore5 (= ${binary:Version}),
          libkf5kiofilewidgets5 (= ${binary:Version}),
          libkf5kiogui5 (= ${binary:Version}),
          libkf5kiontlm5 (= ${binary:Version}),
          libkf5kiowidgets5 (= ${binary:Version}),
-         libkf5service-dev (>= 5.21.0~),
-         libkf5solid-dev (>= 5.21.0~),
-         libkf5xmlgui-dev (>= 5.21.0~),
-         qtbase5-dev (>= 5.4.0~),
+         libkf5service-dev (>= 5.25.0~),
+         libkf5solid-dev (>= 5.25.0~),
+         libkf5xmlgui-dev (>= 5.25.0~),
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
+Breaks: kio-dev (<< 5.23.0-2~)
+Replaces: kio-dev (<< 5.23.0-2~)
 Description: Resource and network access abstraction.
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
@@ -95,6 +111,21 @@ Description: Resource and network access abstraction.
  sftp, smb, nfs, ssh (fish), man, tar and zip.
  .
  This library contains the core classes.
+Breaks: baloo-kf5 (<< 5.25),
+        frameworkintegration (<< 5.25),
+        kinit (<< 5.25),
+        libkf5kdelibs4support5 (<< 5.25),
+        libkf5kdelibs4support5-bin (<< 5.25),
+        libkf5khtml-bin (<< 5.25),
+        libkf5khtml5 (<< 5.25),
+        libkf5newstuff5 (<< 5.25),
+        libkf5parts5 (<< 5.25),
+        libkf5runner5 (<< 5.25),
+        libkf5texteditor5 (<< 5.25),
+        libkf5webkit5 (<< 5.25),
+        libkf5xmlrpcclient5 (<< 5.25),
+        plasma-framework (<< 5.25),
+        qml-module-org-kde-extensionplugin (<< 5.25)
 
 Package: libkf5kiofilewidgets5
 Architecture: any
@@ -108,6 +139,10 @@ Description: Resource and network access abstraction.
  sftp, smb, nfs, ssh (fish), man, tar and zip.
  .
  This library contains some file dialog widgets.
+Breaks: frameworkintegration (<< 5.25),
+        kdesignerplugin (<< 5.25),
+        kross (<< 5.25),
+        libkf5kdelibs4support5 (<< 5.25)
 
 Package: libkf5kiogui5
 Architecture: any
@@ -147,3 +182,18 @@ Description: Resource and network access abstraction.
  sftp, smb, nfs, ssh (fish), man, tar and zip.
  .
  This library contains some UI widgets.
+Breaks: frameworkintegration (<< 5.25),
+        kdesignerplugin (<< 5.25),
+        kinit (<< 5.25),
+        libkf5declarative5 (<< 5.25),
+        libkf5kdelibs4support5 (<< 5.25),
+        libkf5kdelibs4support5-bin (<< 5.25),
+        libkf5khtml5 (<< 5.25),
+        libkf5krossui5 (<< 5.25),
+        libkf5newstuff5 (<< 5.25),
+        libkf5notifyconfig5 (<< 5.25),
+        libkf5parts5 (<< 5.25),
+        libkf5plasma5 (<< 5.25),
+        libkf5texteditor5 (<< 5.25),
+        libkf5webkit5 (<< 5.25),
+        qml-module-org-kde-kio (<< 5.25)
