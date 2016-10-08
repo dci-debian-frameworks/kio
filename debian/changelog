@@ -1,3 +1,13 @@
+kio (5.27.0-1~1.gbpac7824) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @ac7824de6f18287b1f6dfd2bd1572c5a0dc21675 **
+
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+  * Update symbols files with the buildds logs.
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 23:27:06 +0200
+
 kio (5.26.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
