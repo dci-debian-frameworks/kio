@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.25.0 amd64
+# SymbolsHelper-Confirmed: 5.25.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 mips mips64el mipsel powerpc ppc64el s390x x32
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -251,7 +251,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN17KPropertiesDialog10showDialogERK4QUrlP7QWidgetb@Base 4.96.0
  _ZN17KPropertiesDialog10showDialogERK5QListI4QUrlEP7QWidgetb@Base 5.10.0
  _ZN17KPropertiesDialog10showDialogERK9KFileItemP7QWidgetb@Base 4.96.0
- (optional=deprecated)_ZN17KPropertiesDialog10slotCancelEv@Base 4.96.0
+ (optional=deprecated|arch=amd64)_ZN17KPropertiesDialog10slotCancelEv@Base 4.96.0
  _ZN17KPropertiesDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN17KPropertiesDialog11qt_metacastEPKc@Base 4.96.0
  _ZN17KPropertiesDialog12insertPluginEP23KPropertiesDialogPlugin@Base 4.96.0
@@ -269,7 +269,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN17KPropertiesDialog6rejectEv@Base 5.25.0
  _ZN17KPropertiesDialog6renameERK7QString@Base 4.96.0
  _ZN17KPropertiesDialog6saveAsERK4QUrlRS0_@Base 4.96.0
- (optional=deprecated)_ZN17KPropertiesDialog6slotOkEv@Base 4.96.0
+ (optional=deprecated|arch=amd64)_ZN17KPropertiesDialog6slotOkEv@Base 4.96.0
  _ZN17KPropertiesDialog7appliedEv@Base 4.96.0
  _ZN17KPropertiesDialog8canceledEv@Base 4.96.0
  _ZN17KPropertiesDialog9updateUrlERK4QUrl@Base 4.96.0
