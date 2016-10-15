@@ -1,12 +1,15 @@
-kio (5.27.0-1~1.gbpac7824) UNRELEASED; urgency=medium
+kio (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @ac7824de6f18287b1f6dfd2bd1572c5a0dc21675 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Refresh patches
   * Update symbols files with the buildds logs.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 23:27:06 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Bump group breaks (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:05:34 +0200
 
 kio (5.26.0-1) unstable; urgency=medium
 
