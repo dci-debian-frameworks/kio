@@ -41,20 +41,6 @@ Homepage: https://projects.kde.org/projects/frameworks/kio
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kio.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kio.git
 
-Package: kio-dev
-Depends: libkf5kio-dev, ${misc:Depends}
-Architecture: any
-Priority: extra
-Section: oldlibs
-Description: transitional dummy package
- This is a transitional dummy package. It can safely be removed.
-Breaks: kross-dev (<< 5.27),
-        libkf5declarative-dev (<< 5.27),
-        libkf5khtml-dev (<< 5.27),
-        libkf5newstuff-dev (<< 5.27),
-        libkf5notifyconfig-dev (<< 5.27),
-        libkf5parts-dev (<< 5.27)
-
 Package: libkf5kio-dev
 Section: libdevel
 Architecture: any
@@ -75,7 +61,7 @@ Depends: kio (= ${binary:Version}),
          ${misc:Depends}
 Breaks: kio-dev (<< 5.23.0-2~)
 Replaces: kio-dev (<< 5.23.0-2~)
-Description: Resource and network access abstraction.
+Description: Resource and network access abstraction
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
  Additionally, KIO Slaves provide support for individual
@@ -91,7 +77,7 @@ Breaks: kio-extras (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6),
         kio-extras-data (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6)
 Replaces: kio-extras (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6),
           kio-extras-data (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6)
-Description: Resource and network access abstraction.
+Description: Resource and network access abstraction
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
  Additionally, KIO Slaves provide support for individual
@@ -102,7 +88,7 @@ Package: libkf5kiocore5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Description: Resource and network access abstraction.
+Description: Resource and network access abstraction
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
  Additionally, KIO Slaves provide support for individual
@@ -130,7 +116,7 @@ Package: libkf5kiofilewidgets5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Description: Resource and network access abstraction.
+Description: Resource and network access abstraction
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
  Additionally, KIO Slaves provide support for individual
@@ -147,7 +133,7 @@ Package: libkf5kiogui5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Description: Resource and network access abstraction.
+Description: Resource and network access abstraction
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
  Additionally, KIO Slaves provide support for individual
@@ -160,7 +146,7 @@ Package: libkf5kiontlm5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Description: Resource and network access abstraction.
+Description: Resource and network access abstraction
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
  Additionally, KIO Slaves provide support for individual
@@ -173,7 +159,7 @@ Package: libkf5kiowidgets5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Description: Resource and network access abstraction.
+Description: Resource and network access abstraction
  KDE Input/Output framework provides a single API for
  operating on files, whether local or on a remote server.
  Additionally, KIO Slaves provide support for individual
@@ -196,3 +182,17 @@ Breaks: frameworkintegration (<< 5.27),
         libkf5texteditor5 (<< 5.27),
         libkf5webkit5 (<< 5.27),
         qml-module-org-kde-kio (<< 5.27)
+
+Package: kio-dev
+Depends: libkf5kio-dev, ${misc:Depends}
+Architecture: any
+Priority: extra
+Section: oldlibs
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+Breaks: kross-dev (<< 5.27),
+        libkf5declarative-dev (<< 5.27),
+        libkf5khtml-dev (<< 5.27),
+        libkf5newstuff-dev (<< 5.27),
+        libkf5notifyconfig-dev (<< 5.27),
+        libkf5parts-dev (<< 5.27)
