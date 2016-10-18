@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.26.0 amd64
+# SymbolsHelper-Confirmed: 5.27.0 amd64 armhf i386
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -192,6 +192,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN16KFileItemActions11qt_metacastEPKc@Base 4.96.0
  _ZN16KFileItemActions15setParentWidgetEP7QWidget@Base 4.96.0
  _ZN16KFileItemActions16staticMetaObjectE@Base 4.96.0
+ _ZN16KFileItemActions18addPluginActionsToEP5QMenu@Base 5.27.0
  _ZN16KFileItemActions19addServiceActionsToEP5QMenu@Base 4.96.0
  _ZN16KFileItemActions20addOpenWithActionsToEP5QMenuRK7QString@Base 4.96.0
  _ZN16KFileItemActions21setItemListPropertiesERK23KFileItemListProperties@Base 4.96.0
@@ -251,6 +252,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN17KPropertiesDialog10showDialogERK4QUrlP7QWidgetb@Base 4.96.0
  _ZN17KPropertiesDialog10showDialogERK5QListI4QUrlEP7QWidgetb@Base 5.10.0
  _ZN17KPropertiesDialog10showDialogERK9KFileItemP7QWidgetb@Base 4.96.0
+ _ZN17KPropertiesDialog10slotCancelEv@Base 5.27.0
  _ZN17KPropertiesDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN17KPropertiesDialog11qt_metacastEPKc@Base 4.96.0
  _ZN17KPropertiesDialog12insertPluginEP23KPropertiesDialogPlugin@Base 4.96.0
@@ -268,6 +270,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
  _ZN17KPropertiesDialog6rejectEv@Base 5.25.0
  _ZN17KPropertiesDialog6renameERK7QString@Base 4.96.0
  _ZN17KPropertiesDialog6saveAsERK4QUrlRS0_@Base 4.96.0
+ _ZN17KPropertiesDialog6slotOkEv@Base 5.27.0
  _ZN17KPropertiesDialog7appliedEv@Base 4.96.0
  _ZN17KPropertiesDialog8canceledEv@Base 4.96.0
  _ZN17KPropertiesDialog9updateUrlERK4QUrl@Base 4.96.0
