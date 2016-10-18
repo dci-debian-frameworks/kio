@@ -43,7 +43,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kio.git
 
 Package: kio-dev
 Depends: libkf5kio-dev, ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: extra
 Section: oldlibs
 Description: transitional dummy package
