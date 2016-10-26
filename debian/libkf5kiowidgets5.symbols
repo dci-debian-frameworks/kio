@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 5.27.0 amd64 armhf i386
-libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#
+libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
  _ZN10KAutoMount16staticMetaObjectE@Base 4.96.0

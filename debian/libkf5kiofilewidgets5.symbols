@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 5.25.0 amd64
-libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#
+libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4.96.0
  _ZN11KFileWidget10slotCancelEv@Base 4.96.0
  _ZN11KFileWidget11clearFilterEv@Base 4.96.0

@@ -3,6 +3,10 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
+override_dh_shlibdeps:
+	$(overridden_command) $(patsubst %,-p%,$(filter lib%,$(shell dh_listpackages))) -- -xkio
+	$(overridden_command) --remaining-packages
+
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='kio-dbg (<= 5.19.0-1~~)'
 
