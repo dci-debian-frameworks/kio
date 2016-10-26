@@ -1,6 +1,4 @@
-kio (5.27.0-3~~1.gbpc44ab6) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @c44ab6d1c56e66b34b71a1084b7e27bdbb642839 **
+kio (5.27.0-2) unstable; urgency=medium
 
   [ Helmut Grohne ]
   * Switch transitional kio-dev to arch:any (Closes: 841114)
@@ -8,7 +6,10 @@ kio (5.27.0-3~~1.gbpc44ab6) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 18 Oct 2016 11:04:18 +0200
+  [ Maximiliano Curia ]
+  * Inject kio through the symbols files
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 26 Oct 2016 13:23:01 +0200
 
 kio (5.27.0-1) unstable; urgency=medium
 
