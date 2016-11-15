@@ -1,3 +1,12 @@
+kio (5.28.0-1~1.gbpc97812) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c978121a1c44502bbba76fea500b23889ec6f292 **
+
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 15:04:04 +0100
+
 kio (5.27.0-2) unstable; urgency=medium
 
   [ Helmut Grohne ]
