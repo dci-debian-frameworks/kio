@@ -1,8 +1,8 @@
 diff --git a/src/core/slave.cpp b/src/core/slave.cpp
-index 06596bd..aee7b6b 100644
+index 0454921..1e08604 100644
 --- a/src/core/slave.cpp
 +++ b/src/core/slave.cpp
-@@ -490,8 +490,13 @@ Slave *Slave::createSlave(const QString &protocol, const QUrl &url, int &error,
+@@ -496,8 +496,13 @@ Slave *Slave::createSlave(const QString &protocol, const QUrl &url, int &error,
          //qDebug() << "kioslave" << ", " << lib_path << ", " << protocol << ", " << QString() << ", " << slaveAddress;
  
          // search paths
