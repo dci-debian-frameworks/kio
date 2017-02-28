@@ -15,6 +15,7 @@ usr/lib/*/qt5/plugins/kcm_trash.so
 usr/lib/*/qt5/plugins/kcm_webshortcuts.so
 usr/lib/*/qt5/plugins/kf5/kded/kcookiejar.so
 usr/lib/*/qt5/plugins/kf5/kded/proxyscout.so
+usr/lib/*/qt5/plugins/kf5/kded/remotenotifier.so
 usr/lib/*/qt5/plugins/kf5/kio/
 usr/lib/*/qt5/plugins/kf5/kiod/
 usr/lib/*/qt5/plugins/kf5/urifilters/
