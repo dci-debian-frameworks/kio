@@ -4,3 +4,4 @@ wait_for_a_bit_longer
 kubuntu_kdelibs4-docs-path.diff
 fix_kfreebsd_build
 fix_hurd_build.patch
+advisory-20170228-1-Information-Leak.diff
