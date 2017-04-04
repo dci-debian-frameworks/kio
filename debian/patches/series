@@ -11,3 +11,4 @@ ForwardingSlaveBase-fix-passing-of-Overwrite-flag-to-kio_.patch
 Fix-another-clear-porting-bug-in-ForwardingSlaveBase.patch
 kssl-Ensure-user-certificate-directory-has-been-created-b.patch
 Fix-memleak-in-KDynamicJobTracker-KWidgetJobTracker-needs.patch
+Fix-parsing-of-directories-listing-on-a-specific-ftp-serv.patch
