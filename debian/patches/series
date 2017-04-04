@@ -14,3 +14,4 @@ Fix-memleak-in-KDynamicJobTracker-KWidgetJobTracker-needs.patch
 Fix-parsing-of-directories-listing-on-a-specific-ftp-serv.patch
 Sanitize-URLs-before-passing-them-to-FindProxyForURL.patch
 keep-query-encoding-when-HTTP-Proxy-is-used.patch
+kioexec-fix-support-for-suggestedfilename.patch
