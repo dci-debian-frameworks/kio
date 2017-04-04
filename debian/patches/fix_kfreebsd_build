@@ -8,7 +8,7 @@ Subject: fix_kfreebsd_build
  1 file changed, 5 insertions(+), 1 deletion(-)
 
 diff --git a/src/widgets/kpropertiesdialog.cpp b/src/widgets/kpropertiesdialog.cpp
-index 18c8479..d246b05 100644
+index 18c8479b..d246b056 100644
 --- a/src/widgets/kpropertiesdialog.cpp
 +++ b/src/widgets/kpropertiesdialog.cpp
 @@ -81,6 +81,10 @@
