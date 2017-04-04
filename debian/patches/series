@@ -6,3 +6,4 @@ fix_kfreebsd_build
 fix_hurd_build.patch
 Never-stretch-the-last-date-column-in-the-file-dialog.patch
 Also-change-the-resize-mode-the-other-way.patch
+Allow-uppercase-checksums-matching-in-Checksums-tab.patch
