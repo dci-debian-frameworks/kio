@@ -4,3 +4,5 @@ wait_for_a_bit_longer
 kubuntu_kdelibs4-docs-path.diff
 fix_kfreebsd_build
 fix_hurd_build.patch
+Never-stretch-the-last-date-column-in-the-file-dialog.patch
+Also-change-the-resize-mode-the-other-way.patch
