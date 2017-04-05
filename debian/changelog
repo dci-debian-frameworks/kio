@@ -19,6 +19,8 @@ kio (5.28.0-2~) UNRELEASED; urgency=medium
     Thanks to Salvatore Bonaccorso for reporting (Closes: 856889)
   * Add new upstream patch: keep-query-encoding-when-HTTP-Proxy-is-used.patch
   * Add new upstream patch: kioexec-fix-support-for-suggestedfilename.patch
+  * Add new upstream patch, to fix the testsuite:
+    Fix-KDynamicJobTrackerTest-for-linkers-dropping-linked-li.patch
 
  -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 04 Apr 2017 17:43:48 +0200
 
