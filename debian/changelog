@@ -1,4 +1,4 @@
-kio (5.28.0-2~) UNRELEASED; urgency=medium
+kio (5.28.0-2) unstable; urgency=medium
 
   * Add new upstream patches, to improve file dialog's list:
     Never-stretch-the-last-date-column-in-the-file-dialog.patch,
@@ -22,7 +22,7 @@ kio (5.28.0-2~) UNRELEASED; urgency=medium
   * Add new upstream patch, to fix the testsuite:
     Fix-KDynamicJobTrackerTest-for-linkers-dropping-linked-li.patch
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 04 Apr 2017 17:43:48 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 05 Apr 2017 10:10:59 +0200
 
 kio (5.28.0-1) unstable; urgency=medium
 
