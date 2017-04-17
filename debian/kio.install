@@ -22,6 +22,7 @@ usr/lib/*/qt5/plugins/kf5/urifilters/
 usr/share/applications/ktelnetservice5.desktop
 usr/share/dbus-1/services/org.kde.kcookiejar5.service
 usr/share/dbus-1/services/org.kde.kiod5.service
+usr/share/dbus-1/services/org.kde.kioexecd.service
 usr/share/dbus-1/services/org.kde.kpasswdserver.service
 usr/share/dbus-1/services/org.kde.kssld5.service
 usr/share/doc/HTML/*/kcontrol5/
