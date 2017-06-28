@@ -4,3 +4,15 @@ wait_for_a_bit_longer
 kubuntu_kdelibs4-docs-path.diff
 fix_kfreebsd_build
 fix_hurd_build.patch
+Never-stretch-the-last-date-column-in-the-file-dialog.patch
+Also-change-the-resize-mode-the-other-way.patch
+Allow-uppercase-checksums-matching-in-Checksums-tab.patch
+ForwardingSlaveBase-fix-passing-of-Overwrite-flag-to-kio_.patch
+Fix-another-clear-porting-bug-in-ForwardingSlaveBase.patch
+kssl-Ensure-user-certificate-directory-has-been-created-b.patch
+Fix-memleak-in-KDynamicJobTracker-KWidgetJobTracker-needs.patch
+Fix-parsing-of-directories-listing-on-a-specific-ftp-serv.patch
+Sanitize-URLs-before-passing-them-to-FindProxyForURL.patch
+keep-query-encoding-when-HTTP-Proxy-is-used.patch
+kioexec-fix-support-for-suggestedfilename.patch
+Fix-KDynamicJobTrackerTest-for-linkers-dropping-linked-li.patch

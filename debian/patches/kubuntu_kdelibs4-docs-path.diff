@@ -10,7 +10,7 @@ Forwarded: no, kdelibs4 path was set in debian/kubuntu packages
  1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/src/ioslaves/help/kio_help.cpp b/src/ioslaves/help/kio_help.cpp
-index f555840..9a7b2fc 100644
+index f5558405..9a7b2fc9 100644
 --- a/src/ioslaves/help/kio_help.cpp
 +++ b/src/ioslaves/help/kio_help.cpp
 @@ -50,7 +50,8 @@ QString HelpProtocol::langLookup(const QString &fname)
