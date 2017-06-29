@@ -7,19 +7,17 @@ Subject: report_error_removing_dirs
  src/core/copyjob.cpp | 17 +++++++++++++----
  1 file changed, 13 insertions(+), 4 deletions(-)
 
-diff --git a/src/core/copyjob.cpp b/src/core/copyjob.cpp
-index 12bf4092..7dbafee4 100644
 --- a/src/core/copyjob.cpp
 +++ b/src/core/copyjob.cpp
-@@ -151,6 +151,7 @@ public:
+@@ -154,6 +154,7 @@
          , m_bOverwriteAllFiles(false)
          , m_bOverwriteAllDirs(false)
          , m_conflictError(0)
 +        , m_dirsFailedError(0)
-         , m_reportTimer(0)
+         , m_reportTimer(nullptr)
      {
      }
-@@ -205,6 +206,8 @@ public:
+@@ -208,6 +209,8 @@
      bool m_bOverwriteAllFiles;
      bool m_bOverwriteAllDirs;
      int m_conflictError;
@@ -28,7 +26,7 @@ index 12bf4092..7dbafee4 100644
  
      QTimer *m_reportTimer;
  
-@@ -1716,6 +1719,10 @@ void CopyJobPrivate::setNextDirAttribute()
+@@ -1740,6 +1743,10 @@
          --m_processedFiles; // undo the "start at 1" hack
          slotReport(); // display final numbers, important if progress dialog stays up
  
@@ -39,7 +37,7 @@ index 12bf4092..7dbafee4 100644
          q->emitResult();
      }
  }
-@@ -1785,12 +1792,14 @@ void CopyJobPrivate::slotTotalSize(KJob *, qulonglong size)
+@@ -1809,12 +1816,14 @@
  void CopyJobPrivate::slotResultDeletingDirs(KJob *job)
  {
      Q_Q(CopyJob);

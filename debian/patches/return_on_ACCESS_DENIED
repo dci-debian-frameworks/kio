@@ -7,11 +7,9 @@ Subject: return_on_ACCESS_DENIED
  src/ioslaves/file/file_unix.cpp | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/src/ioslaves/file/file_unix.cpp b/src/ioslaves/file/file_unix.cpp
-index f2b67ce5..d901a63d 100644
 --- a/src/ioslaves/file/file_unix.cpp
 +++ b/src/ioslaves/file/file_unix.cpp
-@@ -536,8 +536,8 @@ void FileProtocol::del(const QUrl &url, bool isfile)
+@@ -552,8 +552,8 @@
              } else {
                  // qDebug() << "could not rmdir " << perror;
                  error(KIO::ERR_CANNOT_RMDIR, path);

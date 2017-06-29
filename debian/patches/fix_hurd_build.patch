@@ -12,11 +12,9 @@ Forwarded: no
  src/ioslaves/file/file_unix.cpp | 4 ++--
  2 files changed, 3 insertions(+), 3 deletions(-)
 
-diff --git a/src/ioslaves/file/file.cpp b/src/ioslaves/file/file.cpp
-index b4fd7f20..db48b295 100644
 --- a/src/ioslaves/file/file.cpp
 +++ b/src/ioslaves/file/file.cpp
-@@ -340,7 +340,7 @@ void FileProtocol::get(const QUrl &url)
+@@ -342,7 +342,7 @@
          return;
      }
  
@@ -25,11 +23,9 @@ index b4fd7f20..db48b295 100644
      //TODO check return code
      posix_fadvise(f.handle(), 0, 0, POSIX_FADV_SEQUENTIAL);
  #endif
-diff --git a/src/ioslaves/file/file_unix.cpp b/src/ioslaves/file/file_unix.cpp
-index d901a63d..ed86549f 100644
 --- a/src/ioslaves/file/file_unix.cpp
 +++ b/src/ioslaves/file/file_unix.cpp
-@@ -128,7 +128,7 @@ void FileProtocol::copy(const QUrl &srcUrl, const QUrl &destUrl,
+@@ -128,7 +128,7 @@
          return;
      }
  
@@ -38,9 +34,9 @@ index d901a63d..ed86549f 100644
      posix_fadvise(src_file.handle(), 0, 0, POSIX_FADV_SEQUENTIAL);
  #endif
  
-@@ -144,7 +144,7 @@ void FileProtocol::copy(const QUrl &srcUrl, const QUrl &destUrl,
-         return;
-     }
+@@ -147,7 +147,7 @@
+     // nobody shall be allowed to peek into the file during creation
+     dest_file.setPermissions(QFileDevice::ReadOwner | QFileDevice::WriteOwner);
  
 -#if HAVE_FADVISE
 +#if HAVE_FADVISE && !defined(__GNU__)
