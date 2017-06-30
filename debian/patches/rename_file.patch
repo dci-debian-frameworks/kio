@@ -1,0 +1,68 @@
+From 6ca0b93e6029dc53a09e9e498e509ba714c2a1d7 Mon Sep 17 00:00:00 2001
+From: Eike Hein <hein@kde.org>
+Date: Wed, 28 Jun 2017 07:30:40 +0900
+Subject: Use KIO::rename instead of KIO::moveAs in setData
+
+Summary:
+We've recently been plagued by issues where renaming via KDirModel would
+fail to call into the rename() implementation of kio_desktop (which is a
+KIO::ForwardingSlaveBase). Instead it would end up doing a copy job on
+its own, resulting in file removal + addition events, causing us to
+ultimately lose icon positions on the desktop.
+
+While I did work out why this happens through moveAs (it resolves to
+local URLs and then does a direct rename on them, bypassing SimpleJob
+calling into the slave), I failed to find anything wrong with it,
+leaving the reasons for the behavior change as a mystery for now: It's
+possible that fixes done to kio_desktop (e.g. 6911541421dc in plasma-
+workspace) or porting away from kdelibs4support (f81c843dcfb3, same
+repo) triggered it in some way in concert with KIO changes (super-
+ficial bisecting didn't yield anything, though).
+
+Meanwhile, this patch ports setData from moveAs to rename, which uses
+SimpleJob directly, successfully calling into the slave (which we
+really really want to do, as only the slave will trigger the right
+KDirNotify change signals, avoiding a row remove+insert transaction
+pair in the model).
+
+This makes sense to me regardless of the behavior issue with moveAs.
+While rename doesn't work across destination, setData operates on a
+single model index, and only on the file name, so this can't happen
+anyway, making rename the semantically correct call to make.
+BUG:380897
+BUG:380898
+
+Reviewers: #frameworks, dfaure, davidedmundson
+
+Tags: #frameworks
+
+Differential Revision: https://phabricator.kde.org/D6413
+---
+ src/widgets/kdirmodel.cpp | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/widgets/kdirmodel.cpp b/src/widgets/kdirmodel.cpp
+index 95c480c..b5e730d 100644
+--- a/src/widgets/kdirmodel.cpp
++++ b/src/widgets/kdirmodel.cpp
+@@ -24,7 +24,7 @@
+ #include <kiconloader.h>
+ #include <klocalizedstring.h>
+ #include <kjobuidelegate.h>
+-#include <kio/copyjob.h>
++#include <kio/simplejob.h>
+ #include <kio/fileundomanager.h>
+ #include "joburlcache_p.h"
+ #include <kurlmimedata.h>
+@@ -878,7 +878,7 @@ bool KDirModel::setData(const QModelIndex &index, const QVariant &value, int rol
+             }
+             QUrl newUrl = item.url().adjusted(QUrl::RemoveFilename);
+             newUrl.setPath(newUrl.path() + KIO::encodeFileName(newName));
+-            KIO::Job *job = KIO::moveAs(item.url(), newUrl, item.url().isLocalFile() ? KIO::HideProgressInfo : KIO::DefaultFlags);
++            KIO::Job *job = KIO::rename(item.url(), newUrl, item.url().isLocalFile() ? KIO::HideProgressInfo : KIO::DefaultFlags);
+             job->ui()->setAutoErrorHandlingEnabled(true);
+             // undo handling
+             KIO::FileUndoManager::self()->recordJob(KIO::FileUndoManager::Rename, QList<QUrl>() << item.url(), newUrl, job);
+-- 
+cgit v0.11.2
+

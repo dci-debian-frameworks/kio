@@ -1,3 +1,4 @@
+rename_file.patch
 libexec_from_env.patch
 return_on_ACCESS_DENIED
 wait_for_a_bit_longer
