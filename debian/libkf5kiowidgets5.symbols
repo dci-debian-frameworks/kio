@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.27.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.35.0 amd64
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -86,9 +86,11 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN13KUrlRequester12customEditorEv@Base 4.96.0
  _ZN13KUrlRequester13returnPressedERK7QString@Base 4.96.0
  _ZN13KUrlRequester13returnPressedEv@Base 4.96.0
+ _ZN13KUrlRequester13setAcceptModeEN11QFileDialog10AcceptModeE@Base 5.35.0
  _ZN13KUrlRequester14openFileDialogEPS_@Base 4.96.0
  _ZN13KUrlRequester15setClickMessageERK7QString@Base 4.96.0
  _ZN13KUrlRequester16staticMetaObjectE@Base 4.96.0
+ _ZN13KUrlRequester18setMimeTypeFiltersERK11QStringList@Base 5.35.0
  _ZN13KUrlRequester18setPlaceholderTextERK7QString@Base 4.96.0
  _ZN13KUrlRequester20KUrlRequesterPrivate16_k_slotUpdateUrlEv@Base 4.96.0
  _ZN13KUrlRequester20KUrlRequesterPrivate17_k_slotOpenDialogEv@Base 4.96.0
@@ -578,6 +580,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN3KIO7DropJob11itemCreatedERK4QUrl@Base 5.5.0+git20141226.0011+15.04
  _ZN3KIO7DropJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0+git20141226.0011+15.04
  _ZN3KIO7DropJob11qt_metacastEPKc@Base 5.5.0+git20141226.0011+15.04
+ _ZN3KIO7DropJob14copyJobStartedEPNS_7CopyJobE@Base 5.35.0
  _ZN3KIO7DropJob16staticMetaObjectE@Base 5.5.0+git20141226.0011+15.04
  _ZN3KIO7DropJob20popupMenuAboutToShowERK23KFileItemListProperties@Base 5.5.0+git20141226.0011+15.04
  _ZN3KIO7DropJob21setApplicationActionsERK5QListIP7QActionE@Base 5.5.0+git20141226.0011+15.04
@@ -645,6 +648,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN4KRun5abortEv@Base 4.96.0
  _ZN4KRun5errorEv@Base 4.96.0
  _ZN4KRun5timerEv@Base 4.96.0
+ _ZN4KRun6runUrlERK4QUrlRK7QStringP7QWidget6QFlagsINS_7RunFlagEES5_RK10QByteArray@Base 5.35.0
  _ZN4KRun6runUrlERK4QUrlRK7QStringP7QWidgetbbS5_RK10QByteArray@Base 4.96.0
  _ZN4KRun6setJobEPN3KIO3JobE@Base 4.96.0
  _ZN4KRun6setUrlERK4QUrl@Base 4.96.0
@@ -683,6 +687,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN9KDirModel13insertColumnsEiiRK11QModelIndex@Base 4.96.0
  _ZN9KDirModel13removeColumnsEiiRK11QModelIndex@Base 4.96.0
  _ZN9KDirModel15setDropsAllowedE6QFlagsINS_16DropsAllowedFlagEE@Base 4.96.0
+ _ZN9KDirModel16clearAllPreviewsEv@Base 5.35.0
  _ZN9KDirModel16needSequenceIconERK11QModelIndexi@Base 4.96.0
  _ZN9KDirModel16staticMetaObjectE@Base 4.96.0
  _ZN9KDirModel17simplifiedUrlListERK5QListI4QUrlE@Base 4.96.0
@@ -704,14 +709,16 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZNK12KAutoUnmount10metaObjectEv@Base 4.96.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIxEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst|arch=!amd64)_ZNK12KConfigGroup9readEntryIxEET_PKcRKS1_@Base 4.100.0
  _ZNK12KUrlComboBox10metaObjectEv@Base 4.96.0
  _ZNK12KUrlComboBox4urlsEv@Base 4.96.0
  _ZNK12KUrlComboBox8maxItemsEv@Base 4.96.0
  _ZNK12ThumbCreator5flagsEv@Base 4.96.0
+ _ZNK13KUrlRequester10acceptModeEv@Base 5.35.0
  _ZNK13KUrlRequester10fileDialogEv@Base 4.96.0
  _ZNK13KUrlRequester10metaObjectEv@Base 4.96.0
  _ZNK13KUrlRequester12clickMessageEv@Base 4.96.0
+ _ZNK13KUrlRequester15mimeTypeFiltersEv@Base 5.35.0
  _ZNK13KUrlRequester15placeholderTextEv@Base 4.96.0
  _ZNK13KUrlRequester16completionObjectEv@Base 4.96.0
  _ZNK13KUrlRequester18fileDialogModalityEv@Base 4.96.0

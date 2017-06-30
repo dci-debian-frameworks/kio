@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.24.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.35.0 amd64
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -321,6 +321,14 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZN18KLocalSocketServerD0Ev@Base 4.96.0
  _ZN18KLocalSocketServerD1Ev@Base 4.96.0
  _ZN18KLocalSocketServerD2Ev@Base 4.96.0
+ _ZN19KPasswdServerClient11addAuthInfoERKN3KIO8AuthInfoEx@Base 5.35.0
+ _ZN19KPasswdServerClient13checkAuthInfoEPN3KIO8AuthInfoExx@Base 5.35.0
+ _ZN19KPasswdServerClient13queryAuthInfoEPN3KIO8AuthInfoERK7QStringxx@Base 5.35.0
+ _ZN19KPasswdServerClient14removeAuthInfoERK7QStringS2_S2_@Base 5.35.0
+ _ZN19KPasswdServerClientC1Ev@Base 5.35.0
+ _ZN19KPasswdServerClientC2Ev@Base 5.35.0
+ _ZN19KPasswdServerClientD1Ev@Base 5.35.0
+ _ZN19KPasswdServerClientD2Ev@Base 5.35.0
  _ZN19KSslCertificateRule11setRejectedEb@Base 4.96.0
  _ZN19KSslCertificateRule16setIgnoredErrorsERK5QListI9KSslErrorE@Base 4.96.0
  _ZN19KSslCertificateRule16setIgnoredErrorsERK5QListIN9KSslError5ErrorEE@Base 4.96.0
@@ -828,6 +836,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZN3KIO7CopyJob7copyingEPNS_3JobERK4QUrlS5_@Base 4.96.0
  _ZN3KIO7CopyJob7linkingEPNS_3JobERK7QStringRK4QUrl@Base 4.96.0
  _ZN3KIO7CopyJob7renamedEPNS_3JobERK4QUrlS5_@Base 4.96.0
+ _ZN3KIO7CopyJob8doResumeEv@Base 5.35.0
  _ZN3KIO7CopyJob9doSuspendEv@Base 4.96.0
  _ZN3KIO7CopyJob9totalDirsEP4KJobm@Base 4.96.0
  _ZN3KIO7CopyJobC1ERNS_14CopyJobPrivateE@Base 4.96.0
