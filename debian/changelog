@@ -1,4 +1,4 @@
-kio (5.35.0-1~) UNRELEASED; urgency=medium
+kio (5.35.0-1~1) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -22,7 +22,7 @@ kio (5.35.0-1~) UNRELEASED; urgency=medium
   * Add signing key
   * also include signing-key
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 13:29:34 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 16:17:19 +0200
 
 kio (5.28.0-2) unstable; urgency=medium
 
