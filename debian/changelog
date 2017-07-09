@@ -1,4 +1,4 @@
-kio (5.36.0-1~) UNRELEASED; urgency=medium
+kio (5.36.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -12,6 +12,10 @@ kio (5.36.0-1~) UNRELEASED; urgency=medium
   * Update symbols files
   * watch: Use https uris
   * New upstream release (5.36.0).
+  * Bump group breaks (5.36)
+  * Update build-deps and deps with the info from cmake
+  * Drop obsolete patch
+  * Refresh patches
 
   [ Rik Mills ]
   * install extra kio dbus service
@@ -24,7 +28,7 @@ kio (5.36.0-1~) UNRELEASED; urgency=medium
   * Add signing key
   * also include signing-key
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:45:07 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:42:21 +0200
 
 kio (5.28.0-2) unstable; urgency=medium
 
