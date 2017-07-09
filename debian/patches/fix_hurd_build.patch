@@ -12,9 +12,11 @@ Forwarded: no
  src/ioslaves/file/file_unix.cpp | 4 ++--
  2 files changed, 3 insertions(+), 3 deletions(-)
 
+diff --git a/src/ioslaves/file/file.cpp b/src/ioslaves/file/file.cpp
+index 47fb0a5..cbffea6 100644
 --- a/src/ioslaves/file/file.cpp
 +++ b/src/ioslaves/file/file.cpp
-@@ -342,7 +342,7 @@
+@@ -342,7 +342,7 @@ void FileProtocol::get(const QUrl &url)
          return;
      }
  
@@ -23,9 +25,11 @@ Forwarded: no
      //TODO check return code
      posix_fadvise(f.handle(), 0, 0, POSIX_FADV_SEQUENTIAL);
  #endif
+diff --git a/src/ioslaves/file/file_unix.cpp b/src/ioslaves/file/file_unix.cpp
+index b89a090..2fc70ee 100644
 --- a/src/ioslaves/file/file_unix.cpp
 +++ b/src/ioslaves/file/file_unix.cpp
-@@ -128,7 +128,7 @@
+@@ -128,7 +128,7 @@ void FileProtocol::copy(const QUrl &srcUrl, const QUrl &destUrl,
          return;
      }
  
@@ -34,7 +38,7 @@ Forwarded: no
      posix_fadvise(src_file.handle(), 0, 0, POSIX_FADV_SEQUENTIAL);
  #endif
  
-@@ -147,7 +147,7 @@
+@@ -147,7 +147,7 @@ void FileProtocol::copy(const QUrl &srcUrl, const QUrl &destUrl,
      // nobody shall be allowed to peek into the file during creation
      dest_file.setPermissions(QFileDevice::ReadOwner | QFileDevice::WriteOwner);
  

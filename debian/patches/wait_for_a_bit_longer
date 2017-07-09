@@ -8,7 +8,7 @@ Subject: wait_for_a_bit_longer
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/autotests/kdirlistertest.cpp b/autotests/kdirlistertest.cpp
-index a91988f5..e0a616bf 100644
+index 36932a6..184ec85 100644
 --- a/autotests/kdirlistertest.cpp
 +++ b/autotests/kdirlistertest.cpp
 @@ -1186,7 +1186,7 @@ void KDirListerTest::testRemoveWatchedDirectory()

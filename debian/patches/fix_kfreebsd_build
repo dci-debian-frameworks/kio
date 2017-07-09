@@ -7,6 +7,8 @@ Subject: fix_kfreebsd_build
  src/widgets/kpropertiesdialog.cpp | 6 +++++-
  1 file changed, 5 insertions(+), 1 deletion(-)
 
+diff --git a/src/widgets/kpropertiesdialog.cpp b/src/widgets/kpropertiesdialog.cpp
+index 392958d..7aef442 100644
 --- a/src/widgets/kpropertiesdialog.cpp
 +++ b/src/widgets/kpropertiesdialog.cpp
 @@ -85,6 +85,10 @@
@@ -20,7 +22,7 @@ Subject: fix_kfreebsd_build
  }
  #endif
  
-@@ -1937,7 +1941,7 @@
+@@ -1937,7 +1941,7 @@ KFilePermissionsPropsPlugin::KFilePermissionsPropsPlugin(KPropertiesDialog *_pro
  static bool fileSystemSupportsACL(const QByteArray &path)
  {
      bool fileSystemSupportsACLs = false;
