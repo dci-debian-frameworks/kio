@@ -7,11 +7,11 @@ Subject: fix_kfreebsd_build
  src/widgets/kpropertiesdialog.cpp | 6 +++++-
  1 file changed, 5 insertions(+), 1 deletion(-)
 
-Index: kio/src/widgets/kpropertiesdialog.cpp
-===================================================================
---- kio.orig/src/widgets/kpropertiesdialog.cpp
-+++ kio/src/widgets/kpropertiesdialog.cpp
-@@ -85,6 +85,10 @@
+diff --git a/src/widgets/kpropertiesdialog.cpp b/src/widgets/kpropertiesdialog.cpp
+index 18c8479b..d246b056 100644
+--- a/src/widgets/kpropertiesdialog.cpp
++++ b/src/widgets/kpropertiesdialog.cpp
+@@ -81,6 +81,10 @@
  extern "C" {
  #  include <errno.h>
  #  include <sys/xattr.h>

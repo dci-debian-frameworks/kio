@@ -1,38 +1,40 @@
-kio (5.34.0-0neon) xenial; urgency=medium
+kio (5.36.0-0neon) xenial; urgency=medium
 
   * New release
 
- -- Neon CI <neon@kde.org>  Sun, 14 May 2017 17:36:32 +0000
+ -- Neon CI <neon@kde.org>  Mon, 10 Jul 2017 17:11:55 +0000
 
-kio (5.33.0-0neon) xenial; urgency=medium
+kio (5.35.0-0neon) UNRELEASED; urgency=medium
 
-  * New release
+  * neon build
 
- -- Neon CI <neon@kde.org>  Fri, 07 Apr 2017 16:23:27 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 28 Jun 2017 13:52:23 +0100
 
-kio (5.32.0-0neon) xenial; urgency=medium
+kio (5.28.0-2) unstable; urgency=medium
 
-  * New release
+  * Add new upstream patches, to improve file dialog's list:
+    Never-stretch-the-last-date-column-in-the-file-dialog.patch,
+    Also-change-the-resize-mode-the-other-way.patch and
+  * Add new upstream patch:
+    Allow-uppercase-checksums-matching-in-Checksums-tab.patch
+  * Add new upstream patchs to fix the way the flags are being passed:
+    ForwardingSlaveBase-fix-passing-of-Overwrite-flag-to-kio_.patch,
+    ForwardingSlaveBase-fix-passing-of-Overwrite-flag-to-kio_.patch
+  * Add new upstream patch:
+    kssl-Ensure-user-certificate-directory-has-been-created-b.patch
+  * Add new upstream patch:
+    Fix-memleak-in-KDynamicJobTracker-KWidgetJobTracker-needs.patch
+  * Add new upstream patch:
+    Fix-parsing-of-directories-listing-on-a-specific-ftp-serv.patch
+  * Add new upstream patch for CVE-2017-6410:
+    Sanitize-URLs-before-passing-them-to-FindProxyForURL.patch.
+    Thanks to Salvatore Bonaccorso for reporting (Closes: 856889)
+  * Add new upstream patch: keep-query-encoding-when-HTTP-Proxy-is-used.patch
+  * Add new upstream patch: kioexec-fix-support-for-suggestedfilename.patch
+  * Add new upstream patch, to fix the testsuite:
+    Fix-KDynamicJobTrackerTest-for-linkers-dropping-linked-li.patch
 
- -- Neon CI <neon@kde.org>  Sun, 12 Mar 2017 13:22:30 +0000
-
-kio (5.31.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Mon, 13 Feb 2017 14:39:05 +0000
-
-kio (5.30.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Mon, 16 Jan 2017 13:41:18 +0000
-
-kio (5.29.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:07:35 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 05 Apr 2017 10:10:59 +0200
 
 kio (5.28.0-1) unstable; urgency=medium
 

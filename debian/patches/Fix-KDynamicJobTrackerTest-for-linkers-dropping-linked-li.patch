@@ -1,0 +1,31 @@
+From: "Friedrich W. H. Kossebau" <kossebau@kde.org>
+Date: Fri, 13 Jan 2017 01:25:54 +0100
+Subject: Fix KDynamicJobTrackerTest for linkers dropping linked libs w/o used
+ symbols
+
+---
+ autotests/kdynamicjobtrackernowidgetstest.cpp | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/autotests/kdynamicjobtrackernowidgetstest.cpp b/autotests/kdynamicjobtrackernowidgetstest.cpp
+index a8dbee05..5f6b88e5 100644
+--- a/autotests/kdynamicjobtrackernowidgetstest.cpp
++++ b/autotests/kdynamicjobtrackernowidgetstest.cpp
+@@ -20,6 +20,7 @@
+ #include <KIO/JobTracker>
+ #include <KJobTrackerInterface>
+ #include <KJob>
++#include <KFile>
+ 
+ #include <QtTest>
+ #include <QEventLoop>
+@@ -48,6 +49,9 @@ private Q_SLOTS:
+ 
+ void KDynamicJobTrackerTest::testNoCrashWithoutQWidgetsPossible()
+ {
++    // dummy call: need to use some symbol from KIOWidgets so linkers do not drop linking to it
++    KFile::isDefaultView(KFile::Default);
++
+     // simply linking to KIOWidgets results in KDynamicJobTracker installing itself as KIO's jobtracker
+     KJobTrackerInterface* jobtracker = KIO::getJobTracker();
+     QCOMPARE(jobtracker->metaObject()->className(), "KDynamicJobTracker");

@@ -1,0 +1,69 @@
+From: Elvis Angelaccio <elvis.angelaccio@kde.org>
+Date: Wed, 16 Nov 2016 13:30:01 +0100
+Subject: Allow uppercase checksums matching in Checksums tab
+
+While the checksum in cache is always guaranteed to be lowercase, the
+one from the line edit may be uppercase. If we make it lowercase
+*before* processing it, we can also simplify the regexes.
+
+REVIEW: 129415
+BUG: 372518
+FIXED-IN: 5.29
+---
+ src/widgets/kpropertiesdialog.cpp | 11 +++++++----
+ src/widgets/kpropertiesdialog_p.h |  3 +++
+ 2 files changed, 10 insertions(+), 4 deletions(-)
+
+diff --git a/src/widgets/kpropertiesdialog.cpp b/src/widgets/kpropertiesdialog.cpp
+index d246b056..8e8861d2 100644
+--- a/src/widgets/kpropertiesdialog.cpp
++++ b/src/widgets/kpropertiesdialog.cpp
+@@ -2662,7 +2662,10 @@ KChecksumsPlugin::KChecksumsPlugin(KPropertiesDialog *dialog)
+     d->m_ui.sha1CopyButton->hide();
+     d->m_ui.sha256CopyButton->hide();
+ 
+-    connect(d->m_ui.lineEdit, &QLineEdit::textChanged, this, &KChecksumsPlugin::slotVerifyChecksum);
++    connect(d->m_ui.lineEdit, &QLineEdit::textChanged, this, [=](const QString &text) {
++        slotVerifyChecksum(text.toLower());
++    });
++
+     connect(d->m_ui.md5Button, &QPushButton::clicked, this, &KChecksumsPlugin::slotShowMd5);
+     connect(d->m_ui.sha1Button, &QPushButton::clicked, this, &KChecksumsPlugin::slotShowSha1);
+     connect(d->m_ui.sha256Button, &QPushButton::clicked, this, &KChecksumsPlugin::slotShowSha256);
+@@ -2813,19 +2816,19 @@ void KChecksumsPlugin::slotVerifyChecksum(const QString &input)
+ 
+ bool KChecksumsPlugin::isMd5(const QString &input)
+ {
+-    QRegularExpression regex(QStringLiteral("^[a-fA-F0-9]{32}$"));
++    QRegularExpression regex(QStringLiteral("^[a-f0-9]{32}$"));
+     return regex.match(input).hasMatch();
+ }
+ 
+ bool KChecksumsPlugin::isSha1(const QString &input)
+ {
+-    QRegularExpression regex(QStringLiteral("^[a-fA-F0-9]{40}$"));
++    QRegularExpression regex(QStringLiteral("^[a-f0-9]{40}$"));
+     return regex.match(input).hasMatch();
+ }
+ 
+ bool KChecksumsPlugin::isSha256(const QString &input)
+ {
+-    QRegularExpression regex(QStringLiteral("^[a-fA-F0-9]{64}$"));
++    QRegularExpression regex(QStringLiteral("^[a-f0-9]{64}$"));
+     return regex.match(input).hasMatch();
+ }
+ 
+diff --git a/src/widgets/kpropertiesdialog_p.h b/src/widgets/kpropertiesdialog_p.h
+index 8ad19e69..45df38c1 100644
+--- a/src/widgets/kpropertiesdialog_p.h
++++ b/src/widgets/kpropertiesdialog_p.h
+@@ -176,6 +176,9 @@ private Q_SLOTS:
+     void slotShowMd5();
+     void slotShowSha1();
+     void slotShowSha256();
++    /**
++     * Compare @p input (required to be lowercase) with the checksum in cache.
++     */
+     void slotVerifyChecksum(const QString &input);
+ 
+ private:

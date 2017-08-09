@@ -1,0 +1,24 @@
+From: Alexander Trufanov <trufanovan@gmail.com>
+Date: Tue, 21 Mar 2017 16:51:32 +0300
+Subject: keep query encoding when HTTP Proxy is used
+
+REVIEW:130040
+
+Otherwise some '%XX' parts of url query might be converted back to ASCII and this cause problems while passing info_hash to torrent trackers. Detailed description is in review.
+---
+ src/ioslaves/http/http.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/ioslaves/http/http.cpp b/src/ioslaves/http/http.cpp
+index 62eb09d2..0ea501d8 100644
+--- a/src/ioslaves/http/http.cpp
++++ b/src/ioslaves/http/http.cpp
+@@ -2322,7 +2322,7 @@ QString HTTPProtocol::formatRequestUri() const
+         u.setPort(m_request.url.port());
+         u.setPath(m_request.url.path(QUrl::FullyEncoded));
+         u.setQuery(m_request.url.query(QUrl::FullyEncoded));
+-        return u.toString();
++        return u.toString(QUrl::FullyEncoded);
+     } else {
+         QString result = m_request.url.path(QUrl::FullyEncoded);
+         if (m_request.url.hasQuery()) {
