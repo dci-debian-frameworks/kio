@@ -73,29 +73,29 @@ Description: Resource and network access abstraction
 Package: kio
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: baloo-kf5 (<< 5.36),
-        kdesignerplugin (<< 5.36),
-        kinit (<< 5.36),
+Breaks: baloo-kf5 (<< 5.37),
+        kdesignerplugin (<< 5.37),
+        kinit (<< 5.37),
         kio-extras (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6),
         kio-extras-data (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6),
-        kross (<< 5.36),
-        libkf5declarative5 (<< 5.36),
-        libkf5kdelibs4support5 (<< 5.36),
-        libkf5kdelibs4support5-bin (<< 5.36),
-        libkf5khtml-bin (<< 5.36),
-        libkf5khtml5 (<< 5.36),
-        libkf5krossui5 (<< 5.36),
-        libkf5newstuff5 (<< 5.36),
-        libkf5newstuffcore5 (<< 5.36),
-        libkf5notifyconfig5 (<< 5.36),
-        libkf5parts5 (<< 5.36),
-        libkf5plasma5 (<< 5.36),
-        libkf5runner5 (<< 5.36),
-        libkf5texteditor5 (<< 5.36),
-        libkf5webkit5 (<< 5.36),
-        libkf5xmlrpcclient5 (<< 5.36),
-        plasma-framework (<< 5.36),
-        qml-module-org-kde-kio (<< 5.36)
+        kross (<< 5.37),
+        libkf5declarative5 (<< 5.37),
+        libkf5kdelibs4support5 (<< 5.37),
+        libkf5kdelibs4support5-bin (<< 5.37),
+        libkf5khtml-bin (<< 5.37),
+        libkf5khtml5 (<< 5.37),
+        libkf5krossui5 (<< 5.37),
+        libkf5newstuff5 (<< 5.37),
+        libkf5newstuffcore5 (<< 5.37),
+        libkf5notifyconfig5 (<< 5.37),
+        libkf5parts5 (<< 5.37),
+        libkf5plasma5 (<< 5.37),
+        libkf5runner5 (<< 5.37),
+        libkf5texteditor5 (<< 5.37),
+        libkf5webkit5 (<< 5.37),
+        libkf5xmlrpcclient5 (<< 5.37),
+        plasma-framework (<< 5.37),
+        qml-module-org-kde-kio (<< 5.37)
 Replaces: kio-extras (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6),
           kio-extras-data (<< 4:5.0.95-0ubuntu1~ubuntu14.10~ppa6)
 Description: Resource and network access abstraction
@@ -117,20 +117,20 @@ Description: Resource and network access abstraction
  sftp, smb, nfs, ssh (fish), man, tar and zip.
  .
  This library contains the core classes.
-Breaks: baloo-kf5 (<< 5.36),
+Breaks: baloo-kf5 (<< 5.37),
         frameworkintegration (<< 5.28),
-        kinit (<< 5.36),
-        libkf5kdelibs4support5 (<< 5.36),
-        libkf5kdelibs4support5-bin (<< 5.36),
-        libkf5khtml-bin (<< 5.36),
-        libkf5khtml5 (<< 5.36),
-        libkf5newstuff5 (<< 5.36),
-        libkf5parts5 (<< 5.36),
-        libkf5runner5 (<< 5.36),
-        libkf5texteditor5 (<< 5.36),
-        libkf5webkit5 (<< 5.36),
-        libkf5xmlrpcclient5 (<< 5.36),
-        plasma-framework (<< 5.36),
+        kinit (<< 5.37),
+        libkf5kdelibs4support5 (<< 5.37),
+        libkf5kdelibs4support5-bin (<< 5.37),
+        libkf5khtml-bin (<< 5.37),
+        libkf5khtml5 (<< 5.37),
+        libkf5newstuff5 (<< 5.37),
+        libkf5parts5 (<< 5.37),
+        libkf5runner5 (<< 5.37),
+        libkf5texteditor5 (<< 5.37),
+        libkf5webkit5 (<< 5.37),
+        libkf5xmlrpcclient5 (<< 5.37),
+        plasma-framework (<< 5.37),
         qml-module-org-kde-extensionplugin (<< 5.28)
 
 Package: libkf5kiofilewidgets5
@@ -146,9 +146,9 @@ Description: Resource and network access abstraction
  .
  This library contains some file dialog widgets.
 Breaks: frameworkintegration (<< 5.28),
-        kdesignerplugin (<< 5.36),
-        kross (<< 5.36),
-        libkf5kdelibs4support5 (<< 5.36)
+        kdesignerplugin (<< 5.37),
+        kross (<< 5.37),
+        libkf5kdelibs4support5 (<< 5.37)
 
 Package: libkf5kiogui5
 Architecture: any
@@ -189,21 +189,21 @@ Description: Resource and network access abstraction
  .
  This library contains some UI widgets.
 Breaks: frameworkintegration (<< 5.28),
-        kdesignerplugin (<< 5.36),
-        kinit (<< 5.36),
-        libkf5declarative5 (<< 5.36),
-        libkf5kdelibs4support5 (<< 5.36),
-        libkf5kdelibs4support5-bin (<< 5.36),
-        libkf5khtml5 (<< 5.36),
-        libkf5krossui5 (<< 5.36),
-        libkf5newstuff5 (<< 5.36),
-        libkf5notifyconfig5 (<< 5.36),
-        libkf5parts5 (<< 5.36),
-        libkf5plasma5 (<< 5.36),
-        libkf5texteditor5 (<< 5.36),
-        libkf5webkit5 (<< 5.36),
-        plasma-framework (<< 5.36),
-        qml-module-org-kde-kio (<< 5.36)
+        kdesignerplugin (<< 5.37),
+        kinit (<< 5.37),
+        libkf5declarative5 (<< 5.37),
+        libkf5kdelibs4support5 (<< 5.37),
+        libkf5kdelibs4support5-bin (<< 5.37),
+        libkf5khtml5 (<< 5.37),
+        libkf5krossui5 (<< 5.37),
+        libkf5newstuff5 (<< 5.37),
+        libkf5notifyconfig5 (<< 5.37),
+        libkf5parts5 (<< 5.37),
+        libkf5plasma5 (<< 5.37),
+        libkf5texteditor5 (<< 5.37),
+        libkf5webkit5 (<< 5.37),
+        plasma-framework (<< 5.37),
+        qml-module-org-kde-kio (<< 5.37)
 
 Package: kio-dev
 Depends: libkf5kio-dev, ${misc:Depends}
@@ -212,9 +212,9 @@ Priority: extra
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
-Breaks: kross-dev (<< 5.36),
-        libkf5declarative-dev (<< 5.36),
-        libkf5khtml-dev (<< 5.36),
-        libkf5newstuff-dev (<< 5.36),
-        libkf5notifyconfig-dev (<< 5.36),
-        libkf5parts-dev (<< 5.36)
+Breaks: kross-dev (<< 5.37),
+        libkf5declarative-dev (<< 5.37),
+        libkf5khtml-dev (<< 5.37),
+        libkf5newstuff-dev (<< 5.37),
+        libkf5notifyconfig-dev (<< 5.37),
+        libkf5parts-dev (<< 5.37)
