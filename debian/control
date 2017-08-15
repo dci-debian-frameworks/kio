@@ -83,7 +83,7 @@ Description: Resource and network access abstraction
 Package: kio-dev
 Depends: libkf5kio-dev, ${misc:Depends}
 Architecture: any
-Priority: extra
+Priority: optional
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
