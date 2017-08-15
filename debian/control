@@ -136,6 +136,7 @@ Description: Resource and network access abstraction (documentation)
  sftp, smb, nfs, ssh (fish), man, tar and zip.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5kiocore5
 Architecture: any
