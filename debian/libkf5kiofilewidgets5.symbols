@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.35.0 amd64
+# SymbolsHelper-Confirmed: 5.37.0 amd64
 libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4.96.0
  _ZN11KFileWidget10slotCancelEv@Base 4.96.0
@@ -222,6 +222,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN13KUrlNavigator18setCustomProtocolsERK11QStringList@Base 4.96.0
  _ZN13KUrlNavigator19urlAboutToBeChangedERK4QUrl@Base 4.96.0
  _ZN13KUrlNavigator20editableStateChangedEb@Base 4.96.0
+ _ZN13KUrlNavigator21urlSelectionRequestedERK4QUrl@Base 5.37.0
  _ZN13KUrlNavigator24setPlacesSelectorVisibleEb@Base 4.96.0
  _ZN13KUrlNavigator4goUpEv@Base 4.96.0
  _ZN13KUrlNavigator6goBackEv@Base 4.96.0
@@ -539,6 +540,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZNK12KNewFileMenu10popupFilesEv@Base 4.96.0
  _ZNK12KNewFileMenu18supportedMimeTypesEv@Base 4.96.0
  _ZNK12KNewFileMenu7isModalEv@Base 4.96.0
+ _ZNK13KUrlNavigator10dropWidgetEv@Base 5.37.0
  _ZNK13KUrlNavigator10historyUrlEi@Base 4.96.0
  _ZNK13KUrlNavigator10metaObjectEv@Base 4.96.0
  _ZNK13KUrlNavigator11historySizeEv@Base 4.96.0

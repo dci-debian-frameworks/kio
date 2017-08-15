@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.35.0 amd64
+# SymbolsHelper-Confirmed: 5.37.0 amd64
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -702,6 +702,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN9KDirModelD0Ev@Base 4.96.0
  _ZN9KDirModelD1Ev@Base 4.96.0
  _ZN9KDirModelD2Ev@Base 4.96.0
+ (optional=templinst)_ZN9QtPrivate15ResultStoreBase5clearI7QStringEEvv@Base 5.37.0
  _ZNK10KAutoMount10metaObjectEv@Base 4.96.0
  _ZNK10KDirLister10metaObjectEv@Base 4.96.0
  _ZNK10KDirLister24autoErrorHandlingEnabledEv@Base 4.96.0
