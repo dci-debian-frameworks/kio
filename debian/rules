@@ -3,6 +3,9 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
+override_dh_auto_configure:
+	$(overridden_command) -- -DBUILD_QCH=ON
+
 override_dh_shlibdeps:
 	$(overridden_command) $(patsubst %,-p%,$(filter lib%,$(shell dh_listpackages))) -- -xkio
 	$(overridden_command) --remaining-packages
