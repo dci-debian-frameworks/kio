@@ -20,7 +20,7 @@ usr/lib/*/qt5/plugins/kf5/kded/remotenotifier.so
 usr/lib/*/qt5/plugins/kf5/kio/
 usr/lib/*/qt5/plugins/kf5/kiod/
 usr/lib/*/qt5/plugins/kf5/urifilters/
-usr/lib/libexec/kauth/file_helper
+usr/lib/*/libexec/kauth/file_helper
 usr/share/applications/ktelnetservice5.desktop
 usr/share/dbus-1/services/org.kde.kcookiejar5.service
 usr/share/dbus-1/services/org.kde.kiod5.service
