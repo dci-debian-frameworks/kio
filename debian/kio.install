@@ -1,5 +1,4 @@
 # Only used in KIO slaves
-etc/dbus-1/system.d/org.kde.kio.file.conf
 etc/xdg/accept-languages.codes
 etc/xdg/kshorturifilterrc
 usr/bin/kcookiejar5
@@ -20,14 +19,12 @@ usr/lib/*/qt5/plugins/kf5/kded/remotenotifier.so
 usr/lib/*/qt5/plugins/kf5/kio/
 usr/lib/*/qt5/plugins/kf5/kiod/
 usr/lib/*/qt5/plugins/kf5/urifilters/
-usr/lib/*/libexec/kauth/file_helper
 usr/share/applications/ktelnetservice5.desktop
 usr/share/dbus-1/services/org.kde.kcookiejar5.service
 usr/share/dbus-1/services/org.kde.kiod5.service
 usr/share/dbus-1/services/org.kde.kioexecd.service
 usr/share/dbus-1/services/org.kde.kpasswdserver.service
 usr/share/dbus-1/services/org.kde.kssld5.service
-usr/share/dbus-1/system-services/org.kde.kio.file.service
 usr/share/doc/HTML/*/kcontrol5/
 usr/share/doc/HTML/*/kioslave5/
 usr/share/kf5/kcookiejar/domain_info
@@ -37,4 +34,3 @@ usr/share/kservicetypes5/
 usr/share/locale/*/*/kio5.mo
 usr/share/man/*/man8/kcookiejar5.8
 usr/share/man/man8/kcookiejar5.8
-usr/share/polkit-1/actions/org.kde.kio.file.policy
