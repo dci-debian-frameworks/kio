@@ -72,7 +72,8 @@ Description: Resource and network access abstraction
 
 Package: kio
 Architecture: any
-Depends: kinit, ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: kinit
 Breaks: baloo-kf5 (<< 5.28),
         kdesignerplugin (<< 5.28),
         kinit (<< 5.28),
