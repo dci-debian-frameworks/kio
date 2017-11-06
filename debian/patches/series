@@ -1,4 +1,5 @@
 D8643.diff
+D8683.diff
 libexec_from_env.patch
 return_on_ACCESS_DENIED
 wait_for_a_bit_longer
