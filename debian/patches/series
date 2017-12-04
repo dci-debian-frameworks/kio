@@ -5,3 +5,4 @@ fix_kfreebsd_build
 fix_hurd_build.patch
 qtbase_behaviour_change.diff
 kio-desktop-ioslave.diff
+upstream_qlatin1string_patch.patch
