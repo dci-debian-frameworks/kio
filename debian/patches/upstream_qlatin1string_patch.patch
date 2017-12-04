@@ -17,19 +17,7 @@ Differential Revision: https://phabricator.kde.org/D8841
  src/core/mkpathjob.cpp | 4 ++--
  2 files changed, 3 insertions(+), 3 deletions(-)
 
-diff --git a/src/core/listjob.cpp b/src/core/listjob.cpp
-index 54a422a..d91ea4c 100644
---- a/src/core/listjob.cpp
-+++ b/src/core/listjob.cpp
-@@ -117,7 +117,7 @@ void ListJobPrivate::slotListEntries(const KIO::UDSEntryList &list)
-                 itemURL = q->url();
-                 filename = entry.stringValue(KIO::UDSEntry::UDS_NAME);
-                 Q_ASSERT(!filename.isEmpty()); // we'll recurse forever otherwise :)
--                if (itemURL.path() == QLatin1Char('/')) {
-+                if (itemURL.path() == QLatin1String("/")) {
-                     itemURL.setPath(itemURL.path() + filename);
-                 } else {
-                     itemURL.setPath(itemURL.path() + '/' + filename);
+
 diff --git a/src/core/mkpathjob.cpp b/src/core/mkpathjob.cpp
 index a177805..c77a9fe 100644
 --- a/src/core/mkpathjob.cpp
