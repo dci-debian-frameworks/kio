@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.37.0 amd64
+# SymbolsHelper-Confirmed: 5.41.0 amd64
 libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KAutoMount11qt_metacastEPKc@Base 4.96.0
@@ -92,10 +92,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN13KUrlRequester16staticMetaObjectE@Base 4.96.0
  _ZN13KUrlRequester18setMimeTypeFiltersERK11QStringList@Base 5.35.0
  _ZN13KUrlRequester18setPlaceholderTextERK7QString@Base 4.96.0
- _ZN13KUrlRequester20KUrlRequesterPrivate16_k_slotUpdateUrlEv@Base 4.96.0
- _ZN13KUrlRequester20KUrlRequesterPrivate17_k_slotOpenDialogEv@Base 4.96.0
- (optional)_ZN13KUrlRequester20KUrlRequesterPrivate25_k_slotFileDialogAcceptedEv@Base 5.0.0
- _ZN13KUrlRequester20KUrlRequesterPrivate4initEv@Base 4.96.0
  _ZN13KUrlRequester21setFileDialogModalityEN2Qt14WindowModalityE@Base 4.96.0
  _ZN13KUrlRequester5clearEv@Base 4.96.0
  _ZN13KUrlRequester6setUrlERK4QUrl@Base 4.96.0
@@ -155,6 +151,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN14KUrlCompletion14makeCompletionERK7QString@Base 4.96.0
  _ZN14KUrlCompletion14setReplaceHomeEb@Base 4.96.0
  _ZN14KUrlCompletion16staticMetaObjectE@Base 4.96.0
+ _ZN14KUrlCompletion18setMimeTypeFiltersERK11QStringList@Base 5.41.0
  _ZN14KUrlCompletion4stopEv@Base 4.96.0
  _ZN14KUrlCompletion6setDirERK4QUrl@Base 4.96.0
  _ZN14KUrlCompletion7setModeENS_4ModeE@Base 4.96.0
@@ -236,13 +233,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN17KFileItemDelegate22setJobTransfersVisibleEb@Base 4.96.0
  _ZN17KFileItemDelegate24setShowToolTipWhenElidedEb@Base 4.96.0
  _ZN17KFileItemDelegate5shapeERK20QStyleOptionViewItemRK11QModelIndex@Base 4.96.0
- _ZN17KFileItemDelegate7Private10gotNewIconERK11QModelIndex@Base 4.96.0
- _ZN17KFileItemDelegate7Private16restartAnimationEPN3KIO14AnimationStateE@Base 4.96.0
- _ZN17KFileItemDelegate7Private17paintJobTransfersEP8QPainterRKdRK6QPointRK20QStyleOptionViewItem@Base 4.96.0
- _ZN17KFileItemDelegate7Private17setVerticalMarginENS0_10MarginTypeEiiii@Base 4.96.0
- _ZN17KFileItemDelegate7Private19setHorizontalMarginENS0_10MarginTypeEiiii@Base 4.96.0
- _ZN17KFileItemDelegate7PrivateC1EPS_@Base 4.96.0
- _ZN17KFileItemDelegate7PrivateC2EPS_@Base 4.96.0
  _ZN17KFileItemDelegate9helpEventEP10QHelpEventP17QAbstractItemViewRK20QStyleOptionViewItemRK11QModelIndex@Base 4.96.0
  _ZN17KFileItemDelegateC1EP7QObject@Base 4.96.0
  _ZN17KFileItemDelegateC2EP7QObject@Base 4.96.0
@@ -265,8 +255,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN17KPropertiesDialog18setFileSharingPageEP7QWidget@Base 4.96.0
  _ZN17KPropertiesDialog19setFileNameReadOnlyEb@Base 4.96.0
  _ZN17KPropertiesDialog19showFileSharingPageEv@Base 4.96.0
- _ZN17KPropertiesDialog24KPropertiesDialogPrivate11insertPagesEv@Base 4.96.0
- _ZN17KPropertiesDialog24KPropertiesDialogPrivate4initEv@Base 4.96.0
  _ZN17KPropertiesDialog4itemEv@Base 4.96.0
  _ZN17KPropertiesDialog6acceptEv@Base 5.25.0
  _ZN17KPropertiesDialog6rejectEv@Base 5.25.0
@@ -396,6 +384,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN3KIO10PreviewJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN3KIO10PreviewJob11qt_metacastEPKc@Base 4.96.0
  _ZN3KIO10PreviewJob12setScaleTypeENS0_9ScaleTypeE@Base 4.96.0
+ _ZN3KIO10PreviewJob14defaultPluginsEv@Base 5.41.0
  _ZN3KIO10PreviewJob15maximumFileSizeEv@Base 4.96.0
  _ZN3KIO10PreviewJob16availablePluginsEv@Base 4.96.0
  _ZN3KIO10PreviewJob16setSequenceIndexEi@Base 4.96.0
@@ -477,7 +466,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN3KIO13AccessManager15requestMetaDataEv@Base 4.96.0
  _ZN3KIO13AccessManager15sessionMetaDataEv@Base 4.96.0
  _ZN3KIO13AccessManager16staticMetaObjectE@Base 4.96.0
- _ZN3KIO13AccessManager20AccessManagerPrivate21setMetaDataForRequestE15QNetworkRequestRNS_8MetaDataE@Base 4.96.0
  (subst)_ZN3KIO13AccessManager20setCookieJarWindowIdE{quintptr}@Base 4.96.0
  _ZN3KIO13AccessManager25setExternalContentAllowedEb@Base 4.96.0
  _ZN3KIO13AccessManager32setEmitReadyReadOnMetaDataChangeEb@Base 4.96.0
@@ -605,14 +593,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZN4KRun10runCommandERK7QStringS2_S2_P7QWidgetRK10QByteArrayS2_@Base 4.96.0
  _ZN4KRun10runServiceERK8KServiceRK5QListI4QUrlEP7QWidgetbRK7QStringRK10QByteArray@Base 5.5.0+git20150101.0309+15.04
  _ZN4KRun10shellQuoteER7QString@Base 4.96.0
- _ZN4KRun11KRunPrivate10showPromptEv@Base 5.3.0+git20141029.0314
- _ZN4KRun11KRunPrivate10startTimerEv@Base 4.96.0
- _ZN4KRun11KRunPrivate13runExecutableERK7QString@Base 4.96.0
- _ZN4KRun11KRunPrivate14isPromptNeededEv@Base 5.3.0+git20141029.0314
- _ZN4KRun11KRunPrivate16onDialogFinishedEib@Base 5.3.0+git20141029.0314
- _ZN4KRun11KRunPrivate4initERK4QUrlP7QWidgetbRK10QByteArray@Base 4.96.0
- _ZN4KRun11KRunPrivateC1EPS_@Base 4.96.0
- _ZN4KRun11KRunPrivateC2EPS_@Base 4.96.0
  _ZN4KRun11handleErrorEP4KJob@Base 4.96.0
  _ZN4KRun11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN4KRun11qt_metacastEPKc@Base 4.96.0
@@ -757,6 +737,7 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZNK14KUrlCompletion10replaceEnvEv@Base 4.96.0
  _ZNK14KUrlCompletion11replaceHomeEv@Base 4.96.0
  _ZNK14KUrlCompletion12replacedPathERK7QString@Base 4.96.0
+ _ZNK14KUrlCompletion15mimeTypeFiltersEv@Base 5.41.0
  _ZNK14KUrlCompletion16postProcessMatchEP7QString@Base 4.96.0
  _ZNK14KUrlCompletion18postProcessMatchesEP11QStringList@Base 4.96.0
  _ZNK14KUrlCompletion18postProcessMatchesEP18KCompletionMatches@Base 4.96.0
@@ -795,27 +776,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZNK17KFileItemDelegate20updateEditorGeometryEP7QWidgetRK20QStyleOptionViewItemRK11QModelIndex@Base 4.96.0
  _ZNK17KFileItemDelegate21showToolTipWhenElidedEv@Base 4.96.0
  _ZNK17KFileItemDelegate5paintEP8QPainterRK20QStyleOptionViewItemRK11QModelIndex@Base 4.96.0
- _ZNK17KFileItemDelegate7Private10decorationERK20QStyleOptionViewItemRK11QModelIndex@Base 4.96.0
- _ZNK17KFileItemDelegate7Private10elidedTextER11QTextLayoutRK20QStyleOptionViewItemRK5QSize@Base 4.96.0
- _ZNK17KFileItemDelegate7Private10isListViewERK20QStyleOptionViewItem@Base 4.96.0
- _ZNK17KFileItemDelegate7Private10layoutTextER11QTextLayoutRK20QStyleOptionViewItemRK7QStringRK5QSize@Base 4.96.0
- _ZNK17KFileItemDelegate7Private10layoutTextER11QTextLayoutRK7QStringi@Base 4.96.0
- _ZNK17KFileItemDelegate7Private10transitionERK7QPixmapS3_d@Base 4.96.0
- _ZNK17KFileItemDelegate7Private11informationERK20QStyleOptionViewItemRK11QModelIndexRK9KFileItem@Base 4.96.0
- _ZNK17KFileItemDelegate7Private12iconPositionERK20QStyleOptionViewItem@Base 4.96.0
- _ZNK17KFileItemDelegate7Private13drawFocusRectEP8QPainterRK20QStyleOptionViewItemRK5QRect@Base 4.96.0
- _ZNK17KFileItemDelegate7Private13drawTextItemsEP8QPainterRK11QTextLayoutS5_RK5QRect@Base 4.96.0
- _ZNK17KFileItemDelegate7Private14animationStateERK20QStyleOptionViewItemRK11QModelIndexPK17QAbstractItemView@Base 4.96.0
- _ZNK17KFileItemDelegate7Private14labelRectangleERK20QStyleOptionViewItem@Base 4.96.0
- _ZNK17KFileItemDelegate7Private15displaySizeHintERK20QStyleOptionViewItemRK11QModelIndex@Base 4.96.0
- _ZNK17KFileItemDelegate7Private15foregroundBrushERK20QStyleOptionViewItemRK11QModelIndex@Base 4.96.0
- _ZNK17KFileItemDelegate7Private15initStyleOptionEP20QStyleOptionViewItemRK11QModelIndex@Base 4.96.0
- _ZNK17KFileItemDelegate7Private15layoutTextItemsERK20QStyleOptionViewItemRK11QModelIndexP11QTextLayoutS8_P5QRect@Base 4.96.0
- _ZNK17KFileItemDelegate7Private15replaceNewlinesERK7QString@Base 4.96.0
- _ZNK17KFileItemDelegate7Private16applyHoverEffectERK7QPixmap@Base 4.96.0
- _ZNK17KFileItemDelegate7Private18decorationSizeHintERK20QStyleOptionViewItemRK11QModelIndex@Base 4.96.0
- _ZNK17KFileItemDelegate7Private7displayERK11QModelIndex@Base 4.96.0
- _ZNK17KFileItemDelegate7Private8itemSizeERK11QModelIndexRK9KFileItem@Base 4.96.0
  _ZNK17KFileItemDelegate8iconRectERK20QStyleOptionViewItemRK11QModelIndex@Base 4.96.0
  _ZNK17KFileItemDelegate8sizeHintERK20QStyleOptionViewItemRK11QModelIndex@Base 4.96.0
  _ZNK17KFileItemDelegate8wrapModeEv@Base 4.96.0
@@ -1024,7 +984,6 @@ libKF5KIOWidgets.so.5 libkf5kiowidgets5 #MINVER#, kio
  _ZTVN3KIO7DropJobE@Base 5.5.0+git20141226.0011+15.04
  _ZTVN3KIO8PasteJobE@Base 5.3.0+git20141101.0339
  _ZZZN15KMimeTypeTrader16preferredServiceERK7QStringS2_Ed_NKUlvE_clEvE15qstring_literal@Base 5.20.0
- _ZZZNK13KUrlRequester20KUrlRequesterPrivate11kToQFiltersERK7QStringENKUlvE_clEvE15qstring_literal@Base 5.16.0
  (c++)"non-virtual thunk to KBuildSycocaProgressDialog::~KBuildSycocaProgressDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KIO::JobUiDelegate::askDeleteConfirmation(QList<QUrl> const&, KIO::JobUiDelegateExtension::DeletionType, KIO::JobUiDelegateExtension::ConfirmationType)@Base" 4.96.0
  (c++)"non-virtual thunk to KIO::JobUiDelegate::askFileRename(KJob*, QString const&, QUrl const&, QUrl const&, QFlags<KIO::RenameDialog_Option>, QString&, unsigned long long, unsigned long long, QDateTime const&, QDateTime const&, QDateTime const&, QDateTime const&)@Base" 4.96.0

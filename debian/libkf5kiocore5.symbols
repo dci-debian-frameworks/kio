@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.35.0 amd64
+# SymbolsHelper-Confirmed: 5.41.0 amd64
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -71,8 +71,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZN11KMountPoint19possibleMountPointsE6QFlagsINS_17DetailsNeededFlagEE@Base 4.96.0
  _ZN11KMountPoint4ListC1Ev@Base 4.96.0
  _ZN11KMountPoint4ListC2Ev@Base 4.96.0
- _ZN11KMountPoint7Private25finalizeCurrentMountPointE6QFlagsINS_17DetailsNeededFlagEE@Base 4.96.0
- _ZN11KMountPoint7Private26finalizePossibleMountPointE6QFlagsINS_17DetailsNeededFlagEE@Base 4.96.0
  _ZN11KMountPointC1Ev@Base 4.96.0
  _ZN11KMountPointC2Ev@Base 4.96.0
  _ZN11KMountPointD1Ev@Base 4.96.0
@@ -168,28 +166,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZN14KCoreDirLister5clearERK4QUrl@Base 4.96.0
  _ZN14KCoreDirLister5clearEv@Base 4.96.0
  _ZN14KCoreDirLister5speedEi@Base 4.96.0
- _ZN14KCoreDirLister7Private10addNewItemERK4QUrlRK9KFileItem@Base 4.96.0
- _ZN14KCoreDirLister7Private10connectJobEPN3KIO7ListJobE@Base 4.96.0
- _ZN14KCoreDirLister7Private11addNewItemsERK4QUrlRK22NonMovableFileItemList@Base 5.0.0
- _ZN14KCoreDirLister7Private11emitChangesEv@Base 4.96.0
- _ZN14KCoreDirLister7Private12_k_slotSpeedEP4KJobm@Base 4.96.0
- _ZN14KCoreDirLister7Private14CachedItemsJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
- _ZN14KCoreDirLister7Private14CachedItemsJob11qt_metacastEPKc@Base 4.96.0
- _ZN14KCoreDirLister7Private14CachedItemsJob16staticMetaObjectE@Base 4.96.0
- _ZN14KCoreDirLister7Private14CachedItemsJob4doneEv@Base 4.96.0
- _ZN14KCoreDirLister7Private14CachedItemsJob6doKillEv@Base 4.96.0
- _ZN14KCoreDirLister7Private14CachedItemsJobC1EPS_RK4QUrlb@Base 4.96.0
- _ZN14KCoreDirLister7Private14CachedItemsJobC2EPS_RK4QUrlb@Base 4.96.0
- _ZN14KCoreDirLister7Private14_k_slotPercentEP4KJobm@Base 4.96.0
- _ZN14KCoreDirLister7Private14addRefreshItemERK4QUrlRK9KFileItemS6_@Base 4.96.0
- _ZN14KCoreDirLister7Private16_k_slotTotalSizeEP4KJoby@Base 4.96.0
- _ZN14KCoreDirLister7Private16emitItemsDeletedERK13KFileItemList@Base 4.96.0
- _ZN14KCoreDirLister7Private18_k_slotInfoMessageEP4KJobRK7QString@Base 4.96.0
- _ZN14KCoreDirLister7Private20_k_slotProcessedSizeEP4KJoby@Base 4.96.0
- _ZN14KCoreDirLister7Private7jobDoneEPN3KIO7ListJobE@Base 4.96.0
- _ZN14KCoreDirLister7Private7numJobsEv@Base 4.96.0
- _ZN14KCoreDirLister7Private8redirectERK4QUrlS3_b@Base 4.96.0
- _ZN14KCoreDirLister7Private9emitItemsEv@Base 4.96.0
  _ZN14KCoreDirLister7openUrlERK4QUrl6QFlagsINS_11OpenUrlFlagEE@Base 4.96.0
  _ZN14KCoreDirLister7percentEi@Base 4.96.0
  _ZN14KCoreDirLister7startedERK4QUrl@Base 4.96.0
@@ -508,7 +484,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZN3KIO12TCPSlaveBase13connectToHostERK7QStringtPS1_@Base 4.96.0
  _ZN3KIO12TCPSlaveBase15waitForResponseEi@Base 4.96.0
  _ZN3KIO12TCPSlaveBase18disconnectFromHostEv@Base 4.96.0
- _ZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate16startTLSInternalEN10KTcpSocket10SslVersionEi@Base 5.6.0+git20150118
  _ZN3KIO12TCPSlaveBase23selectClientCertificateEv@Base 4.96.0
  _ZN3KIO12TCPSlaveBase23verifyServerCertificateEv@Base 4.96.0
  (subst)_ZN3KIO12TCPSlaveBase4readEPc{ssize_t}@Base 4.96.0
@@ -740,9 +715,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZN3KIO4statERK4QUrl6QFlagsINS_7JobFlagEE@Base 4.96.0
  _ZN3KIO4statERK4QUrlNS_7StatJob8StatSideEs6QFlagsINS_7JobFlagEE@Base 4.96.0
  _ZN3KIO4statERK4QUrlbs6QFlagsINS_7JobFlagEE@Base 4.96.0
- _ZN3KIO5NetRC12NetRCPrivate13getMacdefPartERK7QString@Base 4.96.0
- _ZN3KIO5NetRC12NetRCPrivate14getMachinePartERK7QString@Base 4.96.0
- _ZN3KIO5NetRC12NetRCPrivate7extractERK7QStringS4_@Base 4.96.0
  _ZN3KIO5NetRC4selfEv@Base 4.96.0
  _ZN3KIO5NetRC5parseERK7QString@Base 4.96.0
  _ZN3KIO5NetRC6lookupERK4QUrlRNS0_9AutoLoginEbRK7QString6QFlagsINS0_14LookUpModeFlagEE@Base 4.96.0
@@ -758,6 +730,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZN3KIO5Slave11qt_metacastEPKc@Base 4.96.0
  _ZN3KIO5Slave11setProtocolERK7QString@Base 4.96.0
  _ZN3KIO5Slave12setConnectedEb@Base 4.96.0
+ _ZN3KIO5Slave13aboutToDeleteEv@Base 5.41.0
  _ZN3KIO5Slave13slaveProtocolEv@Base 4.96.0
  _ZN3KIO5Slave16staticMetaObjectE@Base 4.96.0
  _ZN3KIO5Slave17checkForHeldSlaveERK4QUrl@Base 4.96.0
@@ -1143,9 +1116,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZN3KIOlsER13QDBusArgumentRKNS_8AuthInfoE@Base 4.96.0
  _ZN3KIOrsER11QDataStreamRNS_8AuthInfoE@Base 4.96.0
  _ZN3KIOrsERK13QDBusArgumentRNS_8AuthInfoE@Base 4.96.0
- _ZN4KACL11KACLPrivate18setMaskPermissionsEt@Base 4.96.0
- _ZN4KACL11KACLPrivate19setAllUsersOrGroupsERK5QListI5QPairI7QStringtEEi@Base 4.96.0
- _ZN4KACL11KACLPrivate30setNamedUserOrGroupPermissionsERK7QStringti@Base 4.96.0
  _ZN4KACL12virtual_hookEiPv@Base 4.96.0
  _ZN4KACL18setMaskPermissionsEt@Base 4.96.0
  _ZN4KACL19setOwnerPermissionsEt@Base 4.96.0
@@ -1206,11 +1176,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZN9KFileItemaSERKS_@Base 4.96.0
  _ZN9KNFSShare11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN9KNFSShare11qt_metacastEPKc@Base 4.96.0
- _ZN9KNFSShare16KNFSSharePrivate15findExportsFileEv@Base 4.96.0
- _ZN9KNFSShare16KNFSSharePrivate15readExportsFileEv@Base 4.96.0
- _ZN9KNFSShare16KNFSSharePrivate17_k_slotFileChangeERK7QString@Base 4.96.0
- _ZN9KNFSShare16KNFSSharePrivateC1EPS_@Base 4.96.0
- _ZN9KNFSShare16KNFSSharePrivateC2EPS_@Base 4.96.0
  _ZN9KNFSShare16staticMetaObjectE@Base 4.96.0
  _ZN9KNFSShare7changedEv@Base 4.96.0
  _ZN9KNFSShare8instanceEv@Base 4.96.0
@@ -1319,10 +1284,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZNK14KCoreDirLister17matchesMimeFilterERK9KFileItem@Base 4.96.0
  _ZNK14KCoreDirLister3urlEv@Base 4.96.0
  _ZNK14KCoreDirLister5itemsENS_10WhichItemsE@Base 4.96.0
- _ZNK14KCoreDirLister7Private13isItemVisibleERK9KFileItem@Base 4.96.0
- _ZNK14KCoreDirLister7Private14CachedItemsJob10metaObjectEv@Base 4.96.0
- _ZNK14KCoreDirLister7Private19doMimeExcludeFilterERK7QStringRK11QStringList@Base 4.96.0
- _ZNK14KCoreDirLister7Private20cachedItemsJobForUrlERK4QUrl@Base 4.96.0
  _ZNK14KCoreDirLister8rootItemEv@Base 4.96.0
  _ZNK14KCoreDirLister9findByUrlERK4QUrl@Base 4.96.0
  _ZNK15KRemoteEncoding11encodingMibEv@Base 4.96.0
@@ -1468,8 +1429,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZNK3KIO9SlaveBase8metaDataERK7QString@Base 4.96.0
  _ZNK3KIO9SlaveBase9wasKilledEv@Base 4.96.0
  _ZNK4KACL10isExtendedEv@Base 4.96.0
- _ZNK4KACL11KACLPrivate11getUserNameEj@Base 4.96.0
- _ZNK4KACL11KACLPrivate12getGroupNameEj@Base 4.96.0
  _ZNK4KACL15basePermissionsEv@Base 4.96.0
  _ZNK4KACL15maskPermissionsERb@Base 4.96.0
  _ZNK4KACL16ownerPermissionsEv@Base 4.96.0
@@ -1550,7 +1509,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZTI25OrgKdeKDirNotifyInterface@Base 4.96.0
  _ZTI4KACL@Base 4.96.0
  _ZTI9KNFSShare@Base 4.96.0
- _ZTIN14KCoreDirLister7Private14CachedItemsJobE@Base 4.96.0
  _ZTIN3KIO10JobPrivateE@Base 5.20.0
  _ZTIN3KIO10RestoreJobE@Base 5.2.0
  _ZTIN3KIO10SpecialJobE@Base 4.96.0
@@ -1595,7 +1553,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZTS25OrgKdeKDirNotifyInterface@Base 4.96.0
  _ZTS4KACL@Base 4.96.0
  _ZTS9KNFSShare@Base 4.96.0
- _ZTSN14KCoreDirLister7Private14CachedItemsJobE@Base 4.96.0
  _ZTSN3KIO10JobPrivateE@Base 5.20.0
  _ZTSN3KIO10RestoreJobE@Base 5.2.0
  _ZTSN3KIO10SpecialJobE@Base 4.96.0
@@ -1640,7 +1597,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZTV25OrgKdeKDirNotifyInterface@Base 4.96.0
  _ZTV4KACL@Base 4.96.0
  _ZTV9KNFSShare@Base 4.96.0
- _ZTVN14KCoreDirLister7Private14CachedItemsJobE@Base 4.96.0
  _ZTVN3KIO10JobPrivateE@Base 5.20.0
  _ZTVN3KIO10RestoreJobE@Base 5.2.0
  _ZTVN3KIO10SpecialJobE@Base 4.96.0
@@ -1676,18 +1632,6 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZTVN3KIO9SimpleJobE@Base 4.96.0
  _ZTVN3KIO9SlaveBaseE@Base 4.96.0
  _ZZZN15KMimeTypeTrader16preferredServiceERK7QStringS2_Ed_NKUlvE_clEvE15qstring_literal@Base 5.20.0
- _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate14setSslMetaDataEvENKUlvE0_clEvE15qstring_literal@Base 5.16.0
- _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate14setSslMetaDataEvENKUlvE1_clEvE15qstring_literal@Base 5.16.0
- _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate14setSslMetaDataEvENKUlvE2_clEvE15qstring_literal@Base 5.16.0
- _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate14setSslMetaDataEvENKUlvE3_clEvE15qstring_literal@Base 5.16.0
- _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate14setSslMetaDataEvENKUlvE4_clEvE15qstring_literal@Base 5.16.0
- _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate14setSslMetaDataEvENKUlvE5_clEvE15qstring_literal@Base 5.16.0
- _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate14setSslMetaDataEvENKUlvE6_clEvE15qstring_literal@Base 5.16.0
- _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate14setSslMetaDataEvENKUlvE7_clEvE15qstring_literal@Base 5.16.0
- _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate14setSslMetaDataEvENKUlvE8_clEvE15qstring_literal@Base 5.16.0
- _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate14setSslMetaDataEvENKUlvE_clEvE15qstring_literal@Base 5.16.0
- _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate16clearSslMetaDataEvENKUlvE0_clEvE15qstring_literal@Base 5.16.0
- _ZZZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate16clearSslMetaDataEvENKUlvE_clEvE15qstring_literal@Base 5.16.0
  _Zls6QDebugRK9KFileItem@Base 4.96.0
  _Zls6QDebugRKN3KIO8UDSEntryE@Base 5.22.0
  _ZlsR11QDataStreamRK4KACL@Base 4.96.0

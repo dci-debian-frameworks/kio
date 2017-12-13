@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.37.0 amd64
+# SymbolsHelper-Confirmed: 5.41.0 amd64
 libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4.96.0
  _ZN11KFileWidget10slotCancelEv@Base 4.96.0
@@ -119,50 +119,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN12KDirOperator5mkdirEv@Base 4.96.0
  _ZN12KDirOperator5trashERK13KFileItemListP7QWidgetbb@Base 4.96.0
  _ZN12KDirOperator6setUrlERK4QUrlb@Base 4.96.0
- _ZN12KDirOperator7Private10isReadableERK4QUrl@Base 4.96.0
- _ZN12KDirOperator7Private13updateSortingE6QFlagsIN4QDir8SortFlagEE@Base 4.96.0
- _ZN12KDirOperator7Private14_k_showPreviewEv@Base 4.96.0
- _ZN12KDirOperator7Private14_k_slotStartedEv@Base 4.96.0
- _ZN12KDirOperator7Private15_k_slotCanceledEv@Base 4.96.0
- _ZN12KDirOperator7Private15_k_slotProgressEi@Base 4.96.0
- _ZN12KDirOperator7Private15_k_slotTreeViewEv@Base 4.96.0
- _ZN12KDirOperator7Private16_k_slotActivatedERK11QModelIndex@Base 4.96.0
- _ZN12KDirOperator7Private16_k_togglePreviewEb@Base 4.96.0
- _ZN12KDirOperator7Private17_k_slotIOFinishedEv@Base 4.96.0
- _ZN12KDirOperator7Private17_k_slotPropertiesEv@Base 4.96.0
- _ZN12KDirOperator7Private17_k_slotRedirectedERK4QUrl@Base 4.96.0
- _ZN12KDirOperator7Private17_k_slotSimpleViewEv@Base 4.96.0
- _ZN12KDirOperator7Private17_k_slotSortByDateEv@Base 4.96.0
- _ZN12KDirOperator7Private17_k_slotSortByNameEv@Base 4.96.0
- _ZN12KDirOperator7Private17_k_slotSortBySizeEv@Base 4.96.0
- _ZN12KDirOperator7Private17_k_slotSortByTypeEv@Base 4.96.0
- _ZN12KDirOperator7Private17_k_triggerPreviewERK11QModelIndex@Base 4.96.0
- _ZN12KDirOperator7Private18_k_openContextMenuERK6QPoint@Base 4.96.0
- _ZN12KDirOperator7Private18_k_slotExpandToUrlERK11QModelIndex@Base 4.96.0
- _ZN12KDirOperator7Private18updateListViewGridEv@Base 4.96.0
- _ZN12KDirOperator7Private19_k_slotDetailedViewEv@Base 4.96.0
- _ZN12KDirOperator7Private19_k_slotItemsChangedEv@Base 4.96.0
- _ZN12KDirOperator7Private19_k_slotShowProgressEv@Base 4.96.0
- _ZN12KDirOperator7Private19_k_slotSortReversedEb@Base 4.96.0
- _ZN12KDirOperator7Private19_k_slotToggleHiddenEb@Base 4.96.0
- _ZN12KDirOperator7Private20_k_slotSplitterMovedEii@Base 4.96.0
- _ZN12KDirOperator7Private22_k_slotOpenFileManagerEv@Base 4.96.0
- _ZN12KDirOperator7Private22_k_slotToggleDirsFirstEv@Base 4.96.0
- _ZN12KDirOperator7Private23_k_slotDetailedTreeViewEv@Base 4.96.0
- _ZN12KDirOperator7Private23_k_slotDirectoryCreatedERK4QUrl@Base 4.96.0
- _ZN12KDirOperator7Private23_k_slotSelectionChangedEv@Base 4.96.0
- _ZN12KDirOperator7Private23_k_slotToggleIgnoreCaseEv@Base 4.96.0
- _ZN12KDirOperator7Private23_k_toggleInlinePreviewsEb@Base 4.96.0
- _ZN12KDirOperator7Private25_k_assureVisibleSelectionEv@Base 4.96.0
- _ZN12KDirOperator7Private26_k_synchronizeSortingStateEiN2Qt9SortOrderE@Base 4.96.0
- _ZN12KDirOperator7Private31_k_slotChangeDecorationPositionEv@Base 4.96.0
- _ZN12KDirOperator7Private7openUrlERK4QUrl6QFlagsIN14KCoreDirLister11OpenUrlFlagEE@Base 4.96.0
- _ZN12KDirOperator7Private8allViewsEv@Base 4.96.0
- _ZN12KDirOperator7Private9checkPathERK7QStringb@Base 4.96.0
- _ZN12KDirOperator7PrivateC1EPS_@Base 4.96.0
- _ZN12KDirOperator7PrivateC2EPS_@Base 4.96.0
- _ZN12KDirOperator7PrivateD1Ev@Base 4.96.0
- _ZN12KDirOperator7PrivateD2Ev@Base 4.96.0
  _ZN12KDirOperator7droppedERK9KFileItemP10QDropEventRK5QListI4QUrlE@Base 4.96.0
  _ZN12KDirOperator7forwardEv@Base 4.96.0
  _ZN12KDirOperator7setModeE6QFlagsIN5KFile4ModeEE@Base 4.96.0
@@ -228,25 +184,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN13KUrlNavigator6goBackEv@Base 4.96.0
  _ZN13KUrlNavigator6goHomeEv@Base 4.96.0
  _ZN13KUrlNavigator6setUrlERK4QUrl@Base 4.96.0
- _ZN13KUrlNavigator7Private10initializeERK4QUrl@Base 4.96.0
- _ZN13KUrlNavigator7Private10switchViewEv@Base 4.96.0
- _ZN13KUrlNavigator7Private12appendWidgetEP7QWidgeti@Base 4.96.0
- _ZN13KUrlNavigator7Private13deleteButtonsEv@Base 4.96.0
- _ZN13KUrlNavigator7Private13updateButtonsEi@Base 4.96.0
- _ZN13KUrlNavigator7Private13updateContentEv@Base 4.96.0
- _ZN13KUrlNavigator7Private15openContextMenuEv@Base 4.96.0
- _ZN13KUrlNavigator7Private17slotReturnPressedEv@Base 4.96.0
- _ZN13KUrlNavigator7Private18slotPathBoxChangedERK7QString@Base 4.96.0
- _ZN13KUrlNavigator7Private19applyUncommittedUrlEv@Base 5.6.0+git20150123.0038+15.04
- _ZN13KUrlNavigator7Private19slotProtocolChangedERK7QString@Base 4.96.0
- _ZN13KUrlNavigator7Private20openPathSelectorMenuEv@Base 4.96.0
- _ZN13KUrlNavigator7Private22switchToBreadcrumbModeEv@Base 4.96.0
- _ZN13KUrlNavigator7Private22updateButtonVisibilityEv@Base 4.96.0
- _ZN13KUrlNavigator7Private26slotNavigatorButtonClickedERK4QUrlN2Qt11MouseButtonE@Base 4.96.0
- _ZN13KUrlNavigator7Private31slotToggleEditableButtonPressedEv@Base 5.6.0+git20150123.0038+15.04
- _ZN13KUrlNavigator7Private8dropUrlsERK4QUrlP10QDropEvent@Base 4.96.0
- _ZN13KUrlNavigator7PrivateC1EPS_P16KFilePlacesModel@Base 4.96.0
- _ZN13KUrlNavigator7PrivateC2EPS_P16KFilePlacesModel@Base 4.96.0
  _ZN13KUrlNavigator8setFocusEv@Base 4.96.0
  _ZN13KUrlNavigator9activatedEv@Base 4.96.0
  _ZN13KUrlNavigator9goForwardEv@Base 4.96.0
@@ -283,29 +220,17 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN15KFilePlacesView13keyPressEventEP9QKeyEvent@Base 4.96.0
  _ZN15KFilePlacesView14dragEnterEventEP15QDragEnterEvent@Base 4.96.0
  _ZN15KFilePlacesView14dragLeaveEventEP15QDragLeaveEvent@Base 4.96.0
+ _ZN15KFilePlacesView15mousePressEventEP11QMouseEvent@Base 5.41.0
  _ZN15KFilePlacesView16contextMenuEventEP17QContextMenuEvent@Base 4.96.0
  _ZN15KFilePlacesView16staticMetaObjectE@Base 4.96.0
  _ZN15KFilePlacesView21setDropOnPlaceEnabledEb@Base 4.96.0
  _ZN15KFilePlacesView25setAutoResizeItemsEnabledEb@Base 4.96.0
  _ZN15KFilePlacesView6setUrlERK4QUrl@Base 4.96.0
- _ZN15KFilePlacesView7Private12_k_placeLeftERK11QModelIndex@Base 4.96.0
- _ZN15KFilePlacesView7Private13adaptItemSizeEv@Base 4.96.0
- _ZN15KFilePlacesView7Private15_k_placeClickedERK11QModelIndex@Base 4.96.0
- _ZN15KFilePlacesView7Private15_k_placeEnteredERK11QModelIndex@Base 4.96.0
- _ZN15KFilePlacesView7Private15fadeCapacityBarERK11QModelIndexNS0_8FadeTypeE@Base 4.96.0
- _ZN15KFilePlacesView7Private15setCurrentIndexERK11QModelIndex@Base 4.96.0
- _ZN15KFilePlacesView7Private16updateHiddenRowsEv@Base 4.96.0
- _ZN15KFilePlacesView7Private19_k_adaptItemsUpdateEd@Base 4.96.0
- _ZN15KFilePlacesView7Private19_k_itemAppearUpdateEd@Base 4.96.0
- _ZN15KFilePlacesView7Private19_k_storageSetupDoneERK11QModelIndexb@Base 4.96.0
- _ZN15KFilePlacesView7Private22_k_itemDisappearUpdateEd@Base 4.96.0
- _ZN15KFilePlacesView7Private23_k_triggerDevicePollingEv@Base 4.96.0
- _ZN15KFilePlacesView7Private27_k_enableSmoothItemResizingEv@Base 4.96.0
- _ZN15KFilePlacesView7Private30_k_capacityBarFadeValueChangedEv@Base 4.96.0
  _ZN15KFilePlacesView8setModelEP18QAbstractItemModel@Base 4.96.0
  _ZN15KFilePlacesView9dropEventEP10QDropEvent@Base 4.96.0
  _ZN15KFilePlacesView9hideEventEP10QHideEvent@Base 4.96.0
  _ZN15KFilePlacesView9showEventEP10QShowEvent@Base 4.96.0
+ _ZN15KFilePlacesView9startDragE6QFlagsIN2Qt10DropActionEE@Base 5.41.0
  _ZN15KFilePlacesViewC1EP7QWidget@Base 4.96.0
  _ZN15KFilePlacesViewC2EP7QWidget@Base 4.96.0
  _ZN15KFilePlacesViewD0Ev@Base 4.96.0
@@ -319,7 +244,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN16KFileFilterCombo16setCurrentFilterERK7QString@Base 4.96.0
  _ZN16KFileFilterCombo16setDefaultFilterERK7QString@Base 4.96.0
  _ZN16KFileFilterCombo16staticMetaObjectE@Base 4.96.0
- _ZN16KFileFilterCombo7Private20_k_slotFilterChangedEv@Base 4.96.0
  _ZN16KFileFilterCombo9setFilterERK7QString@Base 4.96.0
  _ZN16KFileFilterComboC1EP7QWidget@Base 4.96.0
  _ZN16KFileFilterComboC2EP7QWidget@Base 4.96.0
@@ -344,6 +268,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN16KFileMetaPreviewD2Ev@Base 4.96.0
  _ZN16KFilePlacesModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN16KFilePlacesModel11qt_metacastEPKc@Base 4.96.0
+ _ZN16KFilePlacesModel12convertedUrlERK4QUrl@Base 5.41.0
  _ZN16KFilePlacesModel12dropMimeDataEPK9QMimeDataN2Qt10DropActionEiiRK11QModelIndex@Base 4.96.0
  _ZN16KFilePlacesModel12errorMessageERK7QString@Base 4.96.0
  _ZN16KFilePlacesModel12requestEjectERK11QModelIndex@Base 4.96.0
@@ -351,18 +276,10 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN16KFilePlacesModel14setPlaceHiddenERK11QModelIndexb@Base 4.96.0
  _ZN16KFilePlacesModel15requestTeardownERK11QModelIndex@Base 4.96.0
  _ZN16KFilePlacesModel16staticMetaObjectE@Base 4.96.0
- _ZN16KFilePlacesModel7Private14_k_deviceAddedERK7QString@Base 4.96.0
- _ZN16KFilePlacesModel7Private14_k_itemChangedERK7QString@Base 4.96.0
- _ZN16KFilePlacesModel7Private15reloadAndSignalEv@Base 4.96.0
- _ZN16KFilePlacesModel7Private16_k_deviceRemovedERK7QString@Base 4.96.0
- _ZN16KFilePlacesModel7Private16loadBookmarkListEv@Base 4.96.0
- _ZN16KFilePlacesModel7Private17_k_initDeviceListEv@Base 4.96.0
- _ZN16KFilePlacesModel7Private18_k_reloadBookmarksEv@Base 4.96.0
- _ZN16KFilePlacesModel7Private19_k_storageSetupDoneEN5Solid9ErrorTypeE8QVariant@Base 4.96.0
- _ZN16KFilePlacesModel7Private22_k_storageTeardownDoneEN5Solid9ErrorTypeE8QVariant@Base 4.96.0
  _ZN16KFilePlacesModel8addPlaceERK7QStringRK4QUrlS2_S2_@Base 4.96.0
  _ZN16KFilePlacesModel8addPlaceERK7QStringRK4QUrlS2_S2_RK11QModelIndex@Base 4.96.0
  _ZN16KFilePlacesModel9editPlaceERK11QModelIndexRK7QStringRK4QUrlS5_S5_@Base 4.96.0
+ _ZN16KFilePlacesModel9movePlaceEii@Base 5.41.0
  _ZN16KFilePlacesModel9setupDoneERK11QModelIndexb@Base 4.96.0
  _ZN16KFilePlacesModelC1EP7QObject@Base 4.96.0
  _ZN16KFilePlacesModelC2EP7QObject@Base 4.96.0
@@ -378,10 +295,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN17KImageFilePreview11showPreviewEv@Base 4.96.0
  _ZN17KImageFilePreview12clearPreviewEv@Base 4.96.0
  _ZN17KImageFilePreview16staticMetaObjectE@Base 4.96.0
- _ZN17KImageFilePreview24KImageFilePreviewPrivate13_k_slotFailedERK9KFileItem@Base 4.96.0
- _ZN17KImageFilePreview24KImageFilePreviewPrivate13_k_slotResultEP4KJob@Base 4.96.0
- _ZN17KImageFilePreview24KImageFilePreviewPrivate15_k_slotFinishedEv@Base 4.96.0
- _ZN17KImageFilePreview24KImageFilePreviewPrivate20_k_slotStepAnimationEi@Base 4.96.0
  _ZN17KImageFilePreview9createJobERK4QUrlii@Base 4.96.0
  _ZN17KImageFilePreviewC1EP7QWidget@Base 4.96.0
  _ZN17KImageFilePreviewC2EP7QWidget@Base 4.96.0
@@ -411,32 +324,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN21KFilePreviewGenerator15setPreviewShownEb@Base 4.96.0
  _ZN21KFilePreviewGenerator16staticMetaObjectE@Base 4.96.0
  _ZN21KFilePreviewGenerator17setEnabledPluginsERK11QStringList@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private10orderItemsER13KFileItemList@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private11limitToSizeER7QPixmapRK5QSize@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private11updateIconsERK11QModelIndexS3_@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private11updateIconsERK13KFileItemList@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private14addItemsToListERK11QModelIndexR13KFileItemList@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private14createPreviewsERK13KFileItemList@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private14updateCutItemsEv@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private15applyImageFrameER7QPixmap@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private15killPreviewJobsEv@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private15resolveMimeTypeEv@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private15startPreviewJobERK13KFileItemListii@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private16pauseIconUpdatesEv@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private17addToPreviewQueueERK9KFileItemRK7QPixmap@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private17delayedIconUpdateEv@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private17resumeIconUpdatesEv@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private18applyCutItemEffectERK13KFileItemList@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private18clearCutItemsCacheEv@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private19requestSequenceIconERK11QModelIndexi@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private20rowsAboutToBeRemovedERK11QModelIndexii@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private22slotPreviewJobFinishedEP4KJob@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private22startMimeTypeResolvingEv@Base 4.96.0
- _ZN21KFilePreviewGenerator7Private23dispatchIconUpdateQueueEv@Base 4.96.0
- _ZN21KFilePreviewGenerator7PrivateC1EPS_P20KAbstractViewAdapterP18QAbstractItemModel@Base 4.96.0
- _ZN21KFilePreviewGenerator7PrivateC2EPS_P20KAbstractViewAdapterP18QAbstractItemModel@Base 4.96.0
- _ZN21KFilePreviewGenerator7PrivateD1Ev@Base 4.96.0
- _ZN21KFilePreviewGenerator7PrivateD2Ev@Base 4.96.0
  _ZN21KFilePreviewGeneratorC1EP17QAbstractItemView@Base 4.96.0
  _ZN21KFilePreviewGeneratorC1EP20KAbstractViewAdapterP19QAbstractProxyModel@Base 4.96.0
  _ZN21KFilePreviewGeneratorC2EP17QAbstractItemView@Base 4.96.0
@@ -459,10 +346,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN24KDirSortFilterProxyModel16staticMetaObjectE@Base 4.96.0
  _ZN24KDirSortFilterProxyModel19setSortFoldersFirstEb@Base 4.96.0
  _ZN24KDirSortFilterProxyModel20pointsForPermissionsERK9QFileInfo@Base 4.96.0
- _ZN24KDirSortFilterProxyModel31KDirSortFilterProxyModelPrivate25slotNaturalSortingChangedEv@Base 4.96.0
- _ZN24KDirSortFilterProxyModel31KDirSortFilterProxyModelPrivate7compareERK7QStringS3_N2Qt15CaseSensitivityE@Base 4.96.0
- _ZN24KDirSortFilterProxyModel31KDirSortFilterProxyModelPrivateC1Ev@Base 4.96.0
- _ZN24KDirSortFilterProxyModel31KDirSortFilterProxyModelPrivateC2Ev@Base 4.96.0
  _ZN24KDirSortFilterProxyModelC1EP7QObject@Base 4.96.0
  _ZN24KDirSortFilterProxyModelC2EP7QObject@Base 4.96.0
  _ZN24KDirSortFilterProxyModelD0Ev@Base 4.96.0
@@ -525,10 +408,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZNK12KDirOperator4modeEv@Base 4.96.0
  _ZNK12KDirOperator4viewEv@Base 4.96.0
  _ZNK12KDirOperator6isRootEv@Base 4.96.0
- _ZNK12KDirOperator7Private10sortColumnEv@Base 4.96.0
- _ZNK12KDirOperator7Private19iconSizeForViewTypeEP17QAbstractItemView@Base 4.96.0
- _ZNK12KDirOperator7Private20checkPreviewInternalEv@Base 4.96.0
- _ZNK12KDirOperator7Private9sortOrderEv@Base 4.96.0
  _ZNK12KDirOperator7numDirsEv@Base 4.96.0
  _ZNK12KDirOperator7sortingEv@Base 4.96.0
  _ZNK12KDirOperator8isSavingEv@Base 4.96.0
@@ -557,12 +436,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZNK13KUrlNavigator3urlEi@Base 4.96.0
  _ZNK13KUrlNavigator3urlEv@Base 4.96.0
  _ZNK13KUrlNavigator6editorEv@Base 4.96.0
- _ZNK13KUrlNavigator7Private15firstButtonTextEv@Base 4.96.0
- _ZNK13KUrlNavigator7Private16isCompressedPathERK4QUrl@Base 4.96.0
- _ZNK13KUrlNavigator7Private16retrievePlaceUrlEv@Base 5.18.0
- _ZNK13KUrlNavigator7Private19removeTrailingSlashER7QString@Base 4.96.0
- _ZNK13KUrlNavigator7Private20adjustedHistoryIndexEi@Base 4.96.0
- _ZNK13KUrlNavigator7Private9buttonUrlEi@Base 4.96.0
  _ZNK13KUrlNavigator7homeUrlEv@Base 4.96.0
  _ZNK13KUrlNavigator8isActiveEv@Base 4.96.0
  _ZNK15KFileCopyToMenu10metaObjectEv@Base 5.6.0+git20150116.0016+15.04
@@ -570,9 +443,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZNK15KFilePlacesView10metaObjectEv@Base 4.96.0
  _ZNK15KFilePlacesView20isDropOnPlaceEnabledEv@Base 4.96.0
  _ZNK15KFilePlacesView24isAutoResizeItemsEnabledEv@Base 4.96.0
- _ZNK15KFilePlacesView7Private11insertAboveERK5QRectRK6QPoint@Base 4.96.0
- _ZNK15KFilePlacesView7Private11insertBelowERK5QRectRK6QPoint@Base 4.96.0
- _ZNK15KFilePlacesView7Private21insertIndicatorHeightEi@Base 4.96.0
  _ZNK15KFilePlacesView8sizeHintEv@Base 4.96.0
  _ZNK16KFileFilterCombo10metaObjectEv@Base 4.96.0
  _ZNK16KFileFilterCombo12isMimeFilterEv@Base 4.96.0
@@ -600,6 +470,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZNK16KFilePlacesModel5flagsERK11QModelIndex@Base 4.96.0
  _ZNK16KFilePlacesModel5indexEiiRK11QModelIndex@Base 4.96.0
  _ZNK16KFilePlacesModel6parentERK11QModelIndex@Base 4.96.0
+ _ZNK16KFilePlacesModel7refreshEv@Base 5.41.0
  _ZNK16KFilePlacesModel8isDeviceERK11QModelIndex@Base 4.96.0
  _ZNK16KFilePlacesModel8isHiddenERK11QModelIndex@Base 4.96.0
  _ZNK16KFilePlacesModel8mimeDataERK5QListI11QModelIndexE@Base 4.96.0
@@ -612,7 +483,6 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZNK21KFilePreviewGenerator10metaObjectEv@Base 4.96.0
  _ZNK21KFilePreviewGenerator14enabledPluginsEv@Base 4.96.0
  _ZNK21KFilePreviewGenerator14isPreviewShownEv@Base 4.96.0
- _ZNK21KFilePreviewGenerator7Private9isCutItemERK9KFileItem@Base 4.96.0
  _ZNK22KNameAndUrlInputDialog10metaObjectEv@Base 4.96.0
  _ZNK22KNameAndUrlInputDialog3urlEv@Base 4.96.0
  _ZNK22KNameAndUrlInputDialog4nameEv@Base 4.96.0
