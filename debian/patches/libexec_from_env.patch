@@ -1,8 +1,8 @@
-diff --git a/src/core/slave.cpp b/src/core/slave.cpp
-index 0454921..1e08604 100644
---- a/src/core/slave.cpp
-+++ b/src/core/slave.cpp
-@@ -496,8 +496,13 @@ Slave *Slave::createSlave(const QString &protocol, const QUrl &url, int &error,
+Index: kio-5.42.0/src/core/slave.cpp
+===================================================================
+--- kio-5.42.0.orig/src/core/slave.cpp
++++ kio-5.42.0/src/core/slave.cpp
+@@ -503,8 +503,13 @@ Slave *Slave::createSlave(const QString
          //qDebug() << "kioslave" << ", " << lib_path << ", " << protocol << ", " << QString() << ", " << slaveAddress;
  
          // search paths
