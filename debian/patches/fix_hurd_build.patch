@@ -12,12 +12,12 @@ Forwarded: no
  src/ioslaves/file/file_unix.cpp | 4 ++--
  2 files changed, 3 insertions(+), 3 deletions(-)
 
-Index: kio-5.42.0/src/ioslaves/file/file.cpp
+Index: b/src/ioslaves/file/file.cpp
 ===================================================================
---- kio-5.42.0.orig/src/ioslaves/file/file.cpp
-+++ kio-5.42.0/src/ioslaves/file/file.cpp
-@@ -347,7 +347,7 @@ void FileProtocol::get(const QUrl &url)
-         return;
+--- a/src/ioslaves/file/file.cpp
++++ b/src/ioslaves/file/file.cpp
+@@ -369,7 +369,7 @@
+         }
      }
  
 -#if HAVE_FADVISE
@@ -25,12 +25,12 @@ Index: kio-5.42.0/src/ioslaves/file/file.cpp
      //TODO check return code
      posix_fadvise(f.handle(), 0, 0, POSIX_FADV_SEQUENTIAL);
  #endif
-Index: kio-5.42.0/src/ioslaves/file/file_unix.cpp
+Index: b/src/ioslaves/file/file_unix.cpp
 ===================================================================
---- kio-5.42.0.orig/src/ioslaves/file/file_unix.cpp
-+++ kio-5.42.0/src/ioslaves/file/file_unix.cpp
-@@ -128,7 +128,7 @@ void FileProtocol::copy(const QUrl &srcU
-         return;
+--- a/src/ioslaves/file/file_unix.cpp
++++ b/src/ioslaves/file/file_unix.cpp
+@@ -205,7 +205,7 @@
+         }
      }
  
 -#if HAVE_FADVISE
@@ -38,9 +38,9 @@ Index: kio-5.42.0/src/ioslaves/file/file_unix.cpp
      posix_fadvise(src_file.handle(), 0, 0, POSIX_FADV_SEQUENTIAL);
  #endif
  
-@@ -147,7 +147,7 @@ void FileProtocol::copy(const QUrl &srcU
-     // nobody shall be allowed to peek into the file during creation
-     dest_file.setPermissions(QFileDevice::ReadOwner | QFileDevice::WriteOwner);
+@@ -239,7 +239,7 @@
+         }
+     }
  
 -#if HAVE_FADVISE
 +#if HAVE_FADVISE && !defined(__GNU__)
