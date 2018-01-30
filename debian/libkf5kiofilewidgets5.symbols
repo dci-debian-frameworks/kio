@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.41.0 amd64
+# SymbolsHelper-Confirmed: 5.42.0 amd64
 libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4.96.0
  _ZN11KFileWidget10slotCancelEv@Base 4.96.0
@@ -273,9 +273,11 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN16KFilePlacesModel12errorMessageERK7QString@Base 4.96.0
  _ZN16KFilePlacesModel12requestEjectERK11QModelIndex@Base 4.96.0
  _ZN16KFilePlacesModel12requestSetupERK11QModelIndex@Base 4.96.0
+ _ZN16KFilePlacesModel14setGroupHiddenENS_9GroupTypeEb@Base 5.42.0
  _ZN16KFilePlacesModel14setPlaceHiddenERK11QModelIndexb@Base 4.96.0
  _ZN16KFilePlacesModel15requestTeardownERK11QModelIndex@Base 4.96.0
  _ZN16KFilePlacesModel16staticMetaObjectE@Base 4.96.0
+ _ZN16KFilePlacesModel18groupHiddenChangedENS_9GroupTypeEb@Base 5.42.0
  _ZN16KFilePlacesModel8addPlaceERK7QStringRK4QUrlS2_S2_@Base 4.96.0
  _ZN16KFilePlacesModel8addPlaceERK7QStringRK4QUrlS2_S2_RK11QModelIndex@Base 4.96.0
  _ZN16KFilePlacesModel9editPlaceERK11QModelIndexRK7QStringRK4QUrlS5_S5_@Base 4.96.0
@@ -286,6 +288,18 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZN16KFilePlacesModelD0Ev@Base 4.96.0
  _ZN16KFilePlacesModelD1Ev@Base 4.96.0
  _ZN16KFilePlacesModelD2Ev@Base 4.96.0
+ _ZN17KFileCustomDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.42.0
+ _ZN17KFileCustomDialog11qt_metacastEPKc@Base 5.42.0
+ _ZN17KFileCustomDialog15setCustomWidgetEP7QWidget@Base 5.42.0
+ _ZN17KFileCustomDialog16setOperationModeEN11KFileWidget13OperationModeE@Base 5.42.0
+ _ZN17KFileCustomDialog16staticMetaObjectE@Base 5.42.0
+ _ZN17KFileCustomDialog6acceptEv@Base 5.42.0
+ _ZN17KFileCustomDialog6setUrlERK4QUrl@Base 5.42.0
+ _ZN17KFileCustomDialogC1EP7QWidget@Base 5.42.0
+ _ZN17KFileCustomDialogC2EP7QWidget@Base 5.42.0
+ _ZN17KFileCustomDialogD0Ev@Base 5.42.0
+ _ZN17KFileCustomDialogD1Ev@Base 5.42.0
+ _ZN17KFileCustomDialogD2Ev@Base 5.42.0
  _ZN17KImageFilePreview10gotPreviewERK9KFileItemRK7QPixmap@Base 4.96.0
  _ZN17KImageFilePreview11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN17KImageFilePreview11qt_metacastEPKc@Base 4.96.0
@@ -458,6 +472,9 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZNK16KFilePlacesModel11hiddenCountEv@Base 4.96.0
  _ZNK16KFilePlacesModel11removePlaceERK11QModelIndex@Base 4.96.0
  _ZNK16KFilePlacesModel11setupNeededERK11QModelIndex@Base 4.96.0
+ _ZNK16KFilePlacesModel12groupIndexesENS_9GroupTypeE@Base 5.42.0
+ _ZNK16KFilePlacesModel13isGroupHiddenENS_9GroupTypeE@Base 5.42.0
+ _ZNK16KFilePlacesModel13isGroupHiddenERK11QModelIndex@Base 5.42.0
  _ZNK16KFilePlacesModel14deviceForIndexERK11QModelIndex@Base 4.96.0
  _ZNK16KFilePlacesModel16bookmarkForIndexERK11QModelIndex@Base 4.96.0
  _ZNK16KFilePlacesModel19ejectActionForIndexERK11QModelIndex@Base 4.96.0
@@ -475,7 +492,10 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZNK16KFilePlacesModel8isHiddenERK11QModelIndex@Base 4.96.0
  _ZNK16KFilePlacesModel8mimeDataERK5QListI11QModelIndexE@Base 4.96.0
  _ZNK16KFilePlacesModel8rowCountERK11QModelIndex@Base 4.96.0
+ _ZNK16KFilePlacesModel9groupTypeERK11QModelIndex@Base 5.42.0
  _ZNK16KFilePlacesModel9mimeTypesEv@Base 4.96.0
+ _ZNK17KFileCustomDialog10fileWidgetEv@Base 5.42.0
+ _ZNK17KFileCustomDialog10metaObjectEv@Base 5.42.0
  _ZNK17KImageFilePreview10metaObjectEv@Base 4.96.0
  _ZNK17KImageFilePreview8sizeHintEv@Base 4.96.0
  _ZNK18KPreviewWidgetBase10metaObjectEv@Base 4.96.0
@@ -509,6 +529,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZTI16KFileFilterCombo@Base 4.96.0
  _ZTI16KFileMetaPreview@Base 4.96.0
  _ZTI16KFilePlacesModel@Base 4.96.0
+ _ZTI17KFileCustomDialog@Base 5.42.0
  _ZTI17KImageFilePreview@Base 4.96.0
  _ZTI18KPreviewWidgetBase@Base 4.96.0
  _ZTI20KAbstractViewAdapter@Base 4.96.0
@@ -526,6 +547,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZTS16KFileFilterCombo@Base 4.96.0
  _ZTS16KFileMetaPreview@Base 4.96.0
  _ZTS16KFilePlacesModel@Base 4.96.0
+ _ZTS17KFileCustomDialog@Base 5.42.0
  _ZTS17KImageFilePreview@Base 4.96.0
  _ZTS18KPreviewWidgetBase@Base 4.96.0
  _ZTS20KAbstractViewAdapter@Base 4.96.0
@@ -543,6 +565,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZTV16KFileFilterCombo@Base 4.96.0
  _ZTV16KFileMetaPreview@Base 4.96.0
  _ZTV16KFilePlacesModel@Base 4.96.0
+ _ZTV17KFileCustomDialog@Base 5.42.0
  _ZTV17KImageFilePreview@Base 4.96.0
  _ZTV18KPreviewWidgetBase@Base 4.96.0
  _ZTV20KAbstractViewAdapter@Base 4.96.0
@@ -552,6 +575,7 @@ libKF5KIOFileWidgets.so.5 libkf5kiofilewidgets5 #MINVER#, kio
  _ZTV26KStatusBarOfflineIndicator@Base 4.96.0
  _ZTVN3KIO18DefaultViewAdapterE@Base 4.96.0
  (c++)"non-virtual thunk to KDirOperator::~KDirOperator()@Base" 4.96.0
+ (c++)"non-virtual thunk to KFileCustomDialog::~KFileCustomDialog()@Base" 5.42.0
  (c++)"non-virtual thunk to KFileFilterCombo::~KFileFilterCombo()@Base" 4.96.0
  (c++)"non-virtual thunk to KFileMetaPreview::~KFileMetaPreview()@Base" 4.96.0
  (c++)"non-virtual thunk to KFilePlacesView::~KFilePlacesView()@Base" 4.96.0

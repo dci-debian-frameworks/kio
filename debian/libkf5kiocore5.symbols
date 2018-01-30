@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.41.0 amd64
+# SymbolsHelper-Confirmed: 5.42.0 amd64
 libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _Z22_allKsslCaCertificatesP22KSslCertificateManager@Base 4.96.0
  _Z25_setAllKsslCaCertificatesP22KSslCertificateManagerRK5QListI17KSslCaCertificateE@Base 4.96.0
@@ -473,6 +473,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZN3KIO11TransferJobD0Ev@Base 4.96.0
  _ZN3KIO11TransferJobD1Ev@Base 4.96.0
  _ZN3KIO11TransferJobD2Ev@Base 4.96.0
+ _ZN3KIO11batchRenameERK5QListI4QUrlERK7QStringi5QChar6QFlagsINS_7JobFlagEE@Base 5.42.0
  _ZN3KIO11convertSizeEy@Base 4.96.0
  _ZN3KIO11davPropFindERK4QUrlRK12QDomDocumentRK7QString6QFlagsINS_7JobFlagEE@Base 4.96.0
  _ZN3KIO11file_deleteERK4QUrl6QFlagsINS_7JobFlagEE@Base 4.96.0
@@ -527,6 +528,16 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZN3KIO13getJobTrackerEv@Base 4.96.0
  _ZN3KIO13listRecursiveERK4QUrl6QFlagsINS_7JobFlagEEb@Base 4.96.0
  _ZN3KIO13setJobTrackerEP20KJobTrackerInterface@Base 4.96.0
+ _ZN3KIO14BatchRenameJob10slotResultEP4KJob@Base 5.42.0
+ _ZN3KIO14BatchRenameJob11fileRenamedERK4QUrlS3_@Base 5.42.0
+ _ZN3KIO14BatchRenameJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.42.0
+ _ZN3KIO14BatchRenameJob11qt_metacastEPKc@Base 5.42.0
+ _ZN3KIO14BatchRenameJob16staticMetaObjectE@Base 5.42.0
+ _ZN3KIO14BatchRenameJobC1ERNS_21BatchRenameJobPrivateE@Base 5.42.0
+ _ZN3KIO14BatchRenameJobC2ERNS_21BatchRenameJobPrivateE@Base 5.42.0
+ _ZN3KIO14BatchRenameJobD0Ev@Base 5.42.0
+ _ZN3KIO14BatchRenameJobD1Ev@Base 5.42.0
+ _ZN3KIO14BatchRenameJobD2Ev@Base 5.42.0
  _ZN3KIO14SlaveInterface10messageBoxEiRK7QStringS3_S3_S3_@Base 4.96.0
  _ZN3KIO14SlaveInterface10messageBoxEiRK7QStringS3_S3_S3_S3_@Base 4.96.0
  _ZN3KIO14SlaveInterface11dropNetworkERK7QStringS3_@Base 4.96.0
@@ -1358,6 +1369,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZNK3KIO13FavIconsCache10metaObjectEv@Base 5.19.0
  _ZNK3KIO13FavIconsCache16isFailedDownloadERK4QUrl@Base 5.19.0
  _ZNK3KIO13FavIconsCache19cachePathForIconUrlERK4QUrl@Base 5.19.0
+ _ZNK3KIO14BatchRenameJob10metaObjectEv@Base 5.42.0
  _ZNK3KIO14SlaveInterface10connectionEv@Base 4.96.0
  _ZNK3KIO14SlaveInterface10metaObjectEv@Base 4.96.0
  _ZNK3KIO14SlaveInterface6offsetEv@Base 4.96.0
@@ -1520,6 +1532,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZTIN3KIO12TCPSlaveBaseE@Base 4.96.0
  _ZTIN3KIO13EmptyTrashJobE@Base 5.2.0
  _ZTIN3KIO13FavIconsCacheE@Base 5.19.0
+ _ZTIN3KIO14BatchRenameJobE@Base 5.42.0
  _ZTIN3KIO14SlaveInterfaceE@Base 4.96.0
  _ZTIN3KIO16ConnectionServerE@Base 4.96.0
  _ZTIN3KIO16DirectorySizeJobE@Base 4.96.0
@@ -1564,6 +1577,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZTSN3KIO12TCPSlaveBaseE@Base 4.96.0
  _ZTSN3KIO13EmptyTrashJobE@Base 5.2.0
  _ZTSN3KIO13FavIconsCacheE@Base 5.19.0
+ _ZTSN3KIO14BatchRenameJobE@Base 5.42.0
  _ZTSN3KIO14SlaveInterfaceE@Base 4.96.0
  _ZTSN3KIO16ConnectionServerE@Base 4.96.0
  _ZTSN3KIO16DirectorySizeJobE@Base 4.96.0
@@ -1608,6 +1622,7 @@ libKF5KIOCore.so.5 libkf5kiocore5 #MINVER#, kio
  _ZTVN3KIO12TCPSlaveBaseE@Base 4.96.0
  _ZTVN3KIO13EmptyTrashJobE@Base 5.2.0
  _ZTVN3KIO13FavIconsCacheE@Base 5.19.0
+ _ZTVN3KIO14BatchRenameJobE@Base 5.42.0
  _ZTVN3KIO14SlaveInterfaceE@Base 4.96.0
  _ZTVN3KIO16ConnectionServerE@Base 4.96.0
  _ZTVN3KIO16DirectorySizeJobE@Base 4.96.0
